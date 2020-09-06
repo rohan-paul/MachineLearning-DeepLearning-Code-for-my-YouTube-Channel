@@ -1,4 +1,4 @@
-The Algorithm / Steps
+#### The Algorithm / Steps
 
 1> I start the divisor to be the smallest prime number, which is 2. Divide by 2 as many times as I can, until I can no longer divide by 2. (And during this process, record the number of times I can successfully divide.)
 
@@ -10,11 +10,11 @@ So, to solve the above problem, I keep dividing the larger factor of a pair by t
 
 2> So with each successive while loop I am dividing the number by successively larger primes until I find one that is a factor of the number.
 
-That is after the first division by 2 (assuming I found 2 to be a factor of the initial number), take the result from (1) i.e. the adjusted number after dividion by 2, and divide by 3 as many times as I can.
+That is after the first division by 2 (assuming I found 2 to be a factor of the initial number), take the result from (1) i.e. the adjusted number after division by 2, and divide by 3 as many times as I can.
 
 Then go to the next prime number, 5. Take the result from (2), and divide by 5 as many times as I can.
 
-And during this successive divisions, as soon as I have found a factor or divisor, p , I can replace n with m=n/p and continue the process of trial division with primes greater than or equal to p up to (n/p)^1/2
+And during this successive divisions, as soon as I have found a factor or divisor, say p , I can replace n with m=n/p and continue the process of trial division with primes greater than or equal to 'p' but up to (n/p)^1/2
 
 Repeat the process, until final result is 1.
 
