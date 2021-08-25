@@ -27,7 +27,7 @@ def get_prime_factors(number):
         # ANS to that is - in my first for-loop I am dividing n with the prime number if that prime is a factor of n.
         # Meaning, after this first for-loop gets executed completely, the adjusted initial n should become
         # either 1 or greater than 1
-        # And if n has NOT become 1 after the previous for-loop, that means that
+        # And if n has NOT become 1 after the previous 2 while-loop, that means that
         # The remaining n is that prime factor which is greater that the square root of initial n.
         # And that's why in the next part of my algorithm, I need to check whether n becomes 1 or not,
         prime_factors.append(int(number))
@@ -36,5 +36,3 @@ def get_prime_factors(number):
 
 
 print(get_prime_factors(84))
-
-
