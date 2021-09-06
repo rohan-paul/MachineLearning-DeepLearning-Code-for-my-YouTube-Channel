@@ -1,3 +1,5 @@
+# My Youtube Link => https://youtu.be/w2WrskWX60o
+
 ### A classic use case - Remove Outliers Using Normal Distribution and S.D.
 
 Say, we have millions of data points with significant degree of outliers. The outlier portion of the data are the ones with very high or very low values.
