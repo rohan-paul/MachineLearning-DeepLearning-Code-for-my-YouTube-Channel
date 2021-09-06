@@ -2,10 +2,13 @@
 
 # dependencies
 /node_modules
+**/node_modules
+**/node_modules/**
 
 /YT_Scripts
 /YT_Scripts/*
 */YT_Scripts/*
+**/YT_Scripts/*
 
 /YouTube_Experiments_Scripts
 /YouTube_Experiments_Scripts/*
@@ -15,6 +18,7 @@
 /Others_Code_gitignore
 /Others_Code_gitignore/*
 */Others_Code_gitignore/*
+**/Others_Code_gitignore/*
 
 # Ignoring specifically for Kaggle-Gravitational Waves Challenge (Large .npy files)
 
@@ -26,6 +30,7 @@
 
 # *** START OF FILES SPECIFIC TO AML Course ASSIGNMENTS ****
 
+**/dchad-Clever-Solution-AML-Advised-to-Refer
 */dchad-Clever-Solution-AML-Advised-to-Refer
 /dchad-Clever-Solution-AML-Advised-to-Refer
 dchad-Clever-Solution-AML-Advised-to-Refer
@@ -77,8 +82,6 @@ LARGE_Datasets
 */*glove_vectors
 **/*glove_vectors
 /glove_vectors
-
-
 
 *.zip
 /*.zip
