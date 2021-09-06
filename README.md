@@ -1,4 +1,4 @@
-### This Repo has the full collection of all codes for Youtube Channel
+### This Repo has the full collection of all codes for my Youtube Channel
 
 **[My YouTube Channel Link](https://www.youtube.com/channel/UC0_a8SNpTFkmVv5SLMs1CIA)**
 
