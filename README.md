@@ -1,6 +1,11 @@
 ### This Repo has the full collection of all codes for my Youtube Channel
 
-**[My YouTube Channel Link](https://www.youtube.com/channel/UC0_a8SNpTFkmVv5SLMs1CIA)**
+
+[yt_cover]: /assets/Youtube_Cover_3.jpg
+
+[![Youtube Link][yt_cover]](https://www.youtube.com/channel/UC0_a8SNpTFkmVv5SLMs1CIA/videos) &nbsp; **All Videos**
+
+---
 
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
