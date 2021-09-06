@@ -2,6 +2,7 @@
 
 **[My YouTube Channel Link](https://www.youtube.com/channel/UC0_a8SNpTFkmVv5SLMs1CIA)**
 
+[logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
 
 ## Neural Network
