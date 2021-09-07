@@ -13,6 +13,9 @@
 * [![Youtube Link][logo]](https://youtu.be/arm9wLAk44A) &nbsp; [Chain Rule Math in Backpropagation](https://medium.com/mlearning-ai/neural-network-implementing-backpropagation-using-the-chain-rule-51c500d2f00d)
 
 
+* [![Youtube Link][logo]](https://youtu.be/QQkrIlISzP0) &nbsp; [Neural Network Implementation From Scratch in Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Neural_Network/Neural_Network_Forward_and_Back_Propagation_Implementation_From_Scratch_Sept_2021/neural_network_from_scratch.py)
+
+
 
 ## Tensorflow
 
