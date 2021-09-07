@@ -9,7 +9,6 @@
 
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
-
 ## Neural Network
 * [![Youtube Link][logo]](https://youtu.be/arm9wLAk44A) &nbsp; [Chain Rule Math in Backpropagation](https://medium.com/mlearning-ai/neural-network-implementing-backpropagation-using-the-chain-rule-51c500d2f00d)
 

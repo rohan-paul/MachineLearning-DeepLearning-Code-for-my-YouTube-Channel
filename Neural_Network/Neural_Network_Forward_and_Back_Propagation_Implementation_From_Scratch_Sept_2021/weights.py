@@ -10,10 +10,25 @@ weights = [
 ]
 
 # [print(w) for w in weights]
-print(weights[0])  # weight values connection input layers to hidden layers
 
-print(weights[1])  # Bias terms associated with the hidden layers node
+# weight values connection input layers to hidden layers
+print(weights[0])
 
-print(weights[2])  # weights connecting the hidden layer to the output layer
+# Bias terms associated with the connections between input and hidden layers node
+print(weights[1])
 
-print(weights[3])  # Bias associated with the Final output layer value
+# weights connecting the hidden layer to the output layer
+print(weights[2])
+
+# Bias associated with the with the connections between hidden layer and Final output layer value
+print(weights[3])
+
+
+"""
+There are a total of four lists of parameters within our neural network
+
+- two lists for the weight and bias parameters that connect the input to the hidden layer and
+
+- another two lists for the weight and bias parameters that connect the hidden layer to the output layer.
+
+"""
