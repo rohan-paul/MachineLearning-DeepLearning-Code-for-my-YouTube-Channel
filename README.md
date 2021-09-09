@@ -57,10 +57,15 @@
 * [![Youtube Link][logo]](https://youtu.be/vQ3Bpgeo7Ik) &nbsp; Bayes Theorem in Probability implementation - simple Data Science Interview question
 
 
+## Paper Discussion
 
+* [![Youtube Link][logo]](https://youtu.be/d9ggCKl7sNQ) &nbsp; GFP GAN Paper with Python code to restore resolution of old Photos
 
 ## NLP
 
 
 ## Computer Vision
+
+
+
 
