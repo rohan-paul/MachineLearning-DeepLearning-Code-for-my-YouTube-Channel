@@ -61,10 +61,14 @@
 
 * [![Youtube Link][logo]](https://youtu.be/d9ggCKl7sNQ) &nbsp; GFP GAN Paper with Python code to restore resolution of old Photos
 
+## Computer Vision
+
+* [![Youtube Link][logo]](https://youtu.be/csQj1e6Oj38) &nbsp; [DCGAN from Scratch with Tensorflow Keras - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
+
 ## NLP
 
 
-## Computer Vision
+
 
 
 
