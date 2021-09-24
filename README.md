@@ -29,7 +29,7 @@
 * [![Youtube Link][logo]](https://youtu.be/UeI4-kyuAwI) &nbsp; [Kaggle - Gravitational Wave Detection EDA and Baseline Keras Model](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Kaggle_Competition/Gravitational_Waves/EDA_CQT_Keras_Baseline.ipynb)
 
 
-* [![Youtube Link][logo]](https://youtu.be/UeI4-kyuAwI) &nbsp; [Kaggle - Gravitational Wave Detection EDA and Baseline Keras Model](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Kaggle_Competition/Gravitational_Waves/EDA_CQT_Keras_Baseline.ipynb)
+* [![Youtube Link][logo]](https://youtu.be/UeI4-kyuAwI) &nbsp; [Kaggle - Gravitational Wave Detection EDA and Baseline Keras Model](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Kaggle_Competition/Gravitational_Waves/EDA_CQT_Keras_Baseline.ipynb).
 
 
 ## Python_Challenges
