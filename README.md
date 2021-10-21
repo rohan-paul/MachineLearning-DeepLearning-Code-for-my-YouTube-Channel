@@ -24,12 +24,15 @@
 * [![Youtube Link][logo]](https://youtu.be/Kvy65eGF2Bs) &nbsp; [Tensorflow Mixed Precision Training - CIFAR10 dataset Implementation](https://github.com/rohan-paul/Numpy-Tensorflow-ScikitLearn_Exercises/blob/master/Tensorflow/mixed-precision_training.py)
 
 
-## Kaggle Competitions
+## Kaggle Competitions / Data Science Project
 
 * [![Youtube Link][logo]](https://youtu.be/UeI4-kyuAwI) &nbsp; [Kaggle - Gravitational Wave Detection EDA and Baseline Keras Model](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Kaggle_Competition/Gravitational_Waves/EDA_CQT_Keras_Baseline.ipynb)
 
 
 * [![Youtube Link][logo]](https://youtu.be/QI0qjDfMtAw) &nbsp; [Kaggle - Microsoft Malware Detection-BIG 2015](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Kaggle_Competition/Microsoft_Malware_Classification_BIG_2015/Microsoft_Malware_BIG_2015_Kaggle.ipynb).
+
+
+* [![Youtube Link][logo]](https://bit.ly/2Z2PUXl) &nbsp; [Predict Transaction Value of Bank Customer - Kaggle Santander Challenge](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Kaggle_Competition/Santander-Kg-Value-Prediction-Challenge/NoteBooks/Santender_v3.ipynb).
 
 
 ## Python_Challenges
