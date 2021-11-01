@@ -50,8 +50,10 @@
 * [![Youtube Link][logo]](https://youtu.be/41scxhCAs08) &nbsp; [Codewars Python Solution - 6kyu - Format words into Sentence](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Python_Challenges/Codewar-solutions/6kyu/format_words_into_a_sentence.py)
 
 
-## Pytorch
+## Stock Market / Crypto / Trading / Finance
 
+
+* [![Youtube Link][logo]](https://bit.ly/3mwv2kJ) &nbsp; [Get BitCoin and other Cryptocurrency Historic Data For Free with Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Stock_Market_with_Python/Historic_Crypto.ipynb)
 
 ## Statistics
 
