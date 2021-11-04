@@ -55,6 +55,9 @@
 
 * [![Youtube Link][logo]](https://bit.ly/3mwv2kJ) &nbsp; [Get BitCoin and other Cryptocurrency Historic Data For Free with Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Stock_Market_with_Python/Historic_Crypto.ipynb)
 
+
+* [![Youtube Link][logo]](https://youtu.be/_3rIOGR-jh0?list=PLxqBkZuBynVR0Tw4dRwhpBcVBwePdLv8y) &nbsp; [Extract Stock Market Data with yfinance for free and Tesla Stock Prediction](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Stock_Market_with_Python/yfinance_stock_data_pulling_TESLA_price_prediction_with_Time_Series.ipynb)
+
 ## Statistics
 
 * [![Youtube Link][logo]](https://youtu.be/w2WrskWX60o) &nbsp; [Standard Deviation in Python, Numpy and Pandas](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/tree/master/Statistics/Standard-Deviation)
