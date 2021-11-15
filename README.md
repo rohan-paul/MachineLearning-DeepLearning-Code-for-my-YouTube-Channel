@@ -64,7 +64,7 @@
 
 * [![Youtube Link][logo]](https://youtu.be/w2WrskWX60o) &nbsp; [Standard Deviation in Python, Numpy and Pandas](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/tree/master/Statistics/Standard-Deviation)
 
-* [![Youtube Link][logo]](https://youtu.be/s1pgr_XHCkM) &nbsp; [Probability Density Function for Discrete and Continuous Random Variable in context of Data Science](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Statistics/Discrete-vs-Continuous-Prob-Distributions/continuous-rv-pdf-interpretation.ipynb)
+* [![Youtube Link][logo]](https://youtu.be/s1pgr_XHCkM) &nbsp; [Probability Density Function for Discrete and Continuous Random Variable in context of Data Science](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Statistics/Discrete-vs-Continuous-Prob-Distributions/continuous-random_variable-pdf-interpretation.ipynb)
 
 * [![Youtube Link][logo]](https://youtu.be/vQ3Bpgeo7Ik) &nbsp; Bayes Theorem in Probability implementation - simple Data Science Interview question
 
