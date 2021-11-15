@@ -5,7 +5,7 @@
 
 [![Youtube Link][yt_cover]](https://www.youtube.com/channel/UC0_a8SNpTFkmVv5SLMs1CIA/videos) &nbsp; **All Videos**
 
----
+----------------------------------------------------------
 
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
@@ -15,14 +15,16 @@
 
 * [![Youtube Link][logo]](https://youtu.be/QQkrIlISzP0) &nbsp; [Neural Network Implementation From Scratch in Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Neural_Network/Neural_Network_Forward_and_Back_Propagation_Implementation_From_Scratch_Sept_2021/neural_network_from_scratch.py)
 
-
+----------------------------------------------------------
 
 ## Tensorflow
 
 * [![Youtube Link][logo]](https://youtu.be/UNfxShN6vp4) &nbsp; [Tensorflow Fundamentals in 45 minutes](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/TensorFlow/TF_Fundaments_YT/Fundamentals_TF_v1_YT.ipynb)
 
-* [![Youtube Link][logo]](https://youtu.be/Kvy65eGF2Bs) &nbsp; [Tensorflow Mixed Precision Training - CIFAR10 dataset Implementation](https://github.com/rohan-paul/Numpy-Tensorflow-ScikitLearn_Exercises/blob/master/Tensorflow/mixed-precision_training.py)
+* [![Youtube Link][logo]](https://youtu.be/Kvy65eGF2Bs) &nbsp; [Tensorflow Mixed Precision Training - CIFAR10 dataset Implementation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/TensorFlow/mixed-precision_training.py)
 
+
+----------------------------------------------------------
 
 ## Kaggle Competitions / Data Science Project
 
@@ -34,6 +36,8 @@
 
 * [![Youtube Link][logo]](https://bit.ly/2Z2PUXl) &nbsp; [Predict Transaction Value of Bank Customer - Kaggle Santander Challenge](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Kaggle_Competition/Santander-Kg-Value-Prediction-Challenge/NoteBooks/Santender_v3.ipynb).
 
+
+----------------------------------------------------------
 
 ## Python_Challenges
 
@@ -50,6 +54,8 @@
 * [![Youtube Link][logo]](https://youtu.be/41scxhCAs08) &nbsp; [Codewars Python Solution - 6kyu - Format words into Sentence](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Python_Challenges/Codewar-solutions/6kyu/format_words_into_a_sentence.py)
 
 
+----------------------------------------------------------
+
 ## Stock Market / Crypto / Trading / Finance
 
 
@@ -60,6 +66,9 @@
 
 * [![Youtube Link][logo]](https://youtu.be/_3rIOGR-jh0?list=PLxqBkZuBynVR0Tw4dRwhpBcVBwePdLv8y) &nbsp; [Extract Stock Market Data with yfinance for free and Tesla Stock Prediction](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/yfinance_stock_data_pulling_TESLA_price_prediction_with_Time_Series.ipynb)
 
+
+----------------------------------------------------------
+
 ## Statistics
 
 * [![Youtube Link][logo]](https://youtu.be/w2WrskWX60o) &nbsp; [Standard Deviation in Python, Numpy and Pandas](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/tree/master/Statistics/Standard-Deviation)
@@ -69,13 +78,20 @@
 * [![Youtube Link][logo]](https://youtu.be/vQ3Bpgeo7Ik) &nbsp; Bayes Theorem in Probability implementation - simple Data Science Interview question
 
 
+----------------------------------------------------------
+
 ## Paper Discussion
 
 * [![Youtube Link][logo]](https://youtu.be/d9ggCKl7sNQ) &nbsp; GFP GAN Paper with Python code to restore resolution of old Photos
 
+----------------------------------------------------------
+
 ## Computer Vision
 
 * [![Youtube Link][logo]](https://youtu.be/csQj1e6Oj38) &nbsp; [DCGAN from Scratch with Tensorflow Keras - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
+
+
+----------------------------------------------------------
 
 ## NLP
 
