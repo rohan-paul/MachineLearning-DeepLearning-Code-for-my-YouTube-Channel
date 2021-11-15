@@ -84,6 +84,10 @@
 
 * [![Youtube Link][logo]](https://youtu.be/d9ggCKl7sNQ) &nbsp; GFP GAN Paper with Python code to restore resolution of old Photos
 
+* [![Youtube Link][logo]](https://youtu.be/clkFRyecQFw?list=PLxqBkZuBynVRRf6STJ4A2Rrd-qo6oMleO) &nbsp; 𝗣𝗮𝗽𝗲𝗿 𝗘𝘅𝗽𝗹𝗮𝗶𝗻𝗲𝗱 - 𝗘𝘆𝗲𝘀 𝗧𝗲𝗹𝗹 𝗔𝗹𝗹 - 𝗗𝗲𝘁𝗲𝗰𝘁 𝗙𝗮𝗸𝗲 𝗔𝗜 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗳𝗮𝗰𝗲𝘀 ( 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗩𝗶𝘀𝗶𝗼𝗻 / 𝗚𝗔𝗡𝘀 )
+
+
+
 ----------------------------------------------------------
 
 ## Computer Vision
