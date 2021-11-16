@@ -19,6 +19,8 @@
 
 ## Tensorflow
 
+* [![Youtube Link][logo]](https://youtu.be/DNjqRL4NYTU?list=PLxqBkZuBynVQLW_TF7iIUKsWVCG-hCQFz) &nbsp; [Keras Custom Layers and Fundamental Building Blocks For Training Model](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/TensorFlow/Keras_Custom_Layers_Building_Blocks/Keras_Custom_Layers_Building_Blocks.ipynb)
+
 * [![Youtube Link][logo]](https://youtu.be/UNfxShN6vp4) &nbsp; [Tensorflow Fundamentals in 45 minutes](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/TensorFlow/TF_Fundaments_YT/Fundamentals_TF_v1_YT.ipynb)
 
 * [![Youtube Link][logo]](https://youtu.be/Kvy65eGF2Bs) &nbsp; [Tensorflow Mixed Precision Training - CIFAR10 dataset Implementation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/TensorFlow/mixed-precision_training.py)
