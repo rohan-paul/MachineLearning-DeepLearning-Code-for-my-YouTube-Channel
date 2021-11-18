@@ -60,8 +60,10 @@
 
 ## Stock Market / Crypto / Trading / Finance
 
+* [![Youtube Link][logo]](https://youtu.be/r2Ee1HGs41I) &nbsp; [Bitcoin Price Prediction with LSTM (Tensorflow and Keras)- PART-2](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
 
-* [![Youtube Link][logo]](https://youtu.be/blOLAVz9UhQ) &nbsp; [Bitcoin Price Prediction with Deep Learning LSTM (Tensorflow and Keras)](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
+
+* [![Youtube Link][logo]](https://youtu.be/blOLAVz9UhQ) &nbsp; [Bitcoin Price Prediction with LSTM (Tensorflow and Keras)- PART-1](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
 
 * [![Youtube Link][logo]](https://bit.ly/3mwv2kJ) &nbsp; [Get BitCoin and other Cryptocurrency Historic Data For Free with Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Historic_Crypto.ipynb)
 
