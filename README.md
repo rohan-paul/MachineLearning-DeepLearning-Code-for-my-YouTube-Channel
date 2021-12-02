@@ -9,13 +9,26 @@
 
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
-## Neural Network
-* [![Youtube Link][logo]](https://youtu.be/arm9wLAk44A) &nbsp; [Chain Rule Math in Backpropagation](https://medium.com/mlearning-ai/neural-network-implementing-backpropagation-using-the-chain-rule-51c500d2f00d)
+
+## Image Processing with Python
+
+* [![Youtube Link][logo]](https://youtu.be/I8kwtcVSEDk) &nbsp; [Python Image Processing - Grayscale Conversion and Brightness Increase from Scratch Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/Image_Processing_Fundamentals/GrayScale_Brightness.ipynb)
+
+----------------------------------
+
+## Computer Vision and related Algorithms
+
+* [![Youtube Link][logo]](https://youtu.be/csQj1e6Oj38) &nbsp; [DCGAN from Scratch with Tensorflow Keras - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
 
 
-* [![Youtube Link][logo]](https://youtu.be/QQkrIlISzP0) &nbsp; [Neural Network Implementation From Scratch in Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Neural_Network/Neural_Network_Forward_and_Back_Propagation_Implementation_From_Scratch_Sept_2021/neural_network_from_scratch.py)
+----------------------------------
 
-----------------------------------------------------------
+## Paper Discussion
+
+* [![Youtube Link][logo]](https://youtu.be/d9ggCKl7sNQ) &nbsp; GFP GAN Paper with Python code to restore resolution of old Photos
+
+* [![Youtube Link][logo]](https://youtu.be/clkFRyecQFw?list=PLxqBkZuBynVRRf6STJ4A2Rrd-qo6oMleO) &nbsp; 𝗣𝗮𝗽𝗲𝗿 𝗘𝘅𝗽𝗹𝗮𝗶𝗻𝗲𝗱 - 𝗘𝘆𝗲𝘀 𝗧𝗲𝗹𝗹 𝗔𝗹𝗹 - 𝗗𝗲𝘁𝗲𝗰𝘁 𝗙𝗮𝗸𝗲 𝗔𝗜 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗳𝗮𝗰𝗲𝘀 ( 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗩𝗶𝘀𝗶𝗼𝗻 / 𝗚𝗔𝗡𝘀 )
+
 
 ## Tensorflow
 
@@ -38,6 +51,12 @@
 
 * [![Youtube Link][logo]](https://bit.ly/2Z2PUXl) &nbsp; [Predict Transaction Value of Bank Customer - Kaggle Santander Challenge](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Kaggle_Competition/Santander-Kg-Value-Prediction-Challenge/NoteBooks/Santender_v3.ipynb).
 
+
+## Neural Network
+* [![Youtube Link][logo]](https://youtu.be/arm9wLAk44A) &nbsp; [Chain Rule Math in Backpropagation](https://medium.com/mlearning-ai/neural-network-implementing-backpropagation-using-the-chain-rule-51c500d2f00d)
+
+
+* [![Youtube Link][logo]](https://youtu.be/QQkrIlISzP0) &nbsp; [Neural Network Implementation From Scratch in Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Neural_Network/Neural_Network_Forward_and_Back_Propagation_Implementation_From_Scratch_Sept_2021/neural_network_from_scratch.py)
 
 ----------------------------------------------------------
 
@@ -84,27 +103,10 @@
 
 ----------------------------------------------------------
 
-## Paper Discussion
-
-* [![Youtube Link][logo]](https://youtu.be/d9ggCKl7sNQ) &nbsp; GFP GAN Paper with Python code to restore resolution of old Photos
-
-* [![Youtube Link][logo]](https://youtu.be/clkFRyecQFw?list=PLxqBkZuBynVRRf6STJ4A2Rrd-qo6oMleO) &nbsp; 𝗣𝗮𝗽𝗲𝗿 𝗘𝘅𝗽𝗹𝗮𝗶𝗻𝗲𝗱 - 𝗘𝘆𝗲𝘀 𝗧𝗲𝗹𝗹 𝗔𝗹𝗹 - 𝗗𝗲𝘁𝗲𝗰𝘁 𝗙𝗮𝗸𝗲 𝗔𝗜 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗳𝗮𝗰𝗲𝘀 ( 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗩𝗶𝘀𝗶𝗼𝗻 / 𝗚𝗔𝗡𝘀 )
 
 
 
 ----------------------------------------------------------
-
-## Computer Vision
-
-* [![Youtube Link][logo]](https://youtu.be/csQj1e6Oj38) &nbsp; [DCGAN from Scratch with Tensorflow Keras - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
-
-
-----------------------------------------------------------
-
-## NLP
-
-
-
 
 
 
