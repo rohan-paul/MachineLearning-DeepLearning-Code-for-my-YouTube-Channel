@@ -1,4 +1,4 @@
-## This Repo has the full collection of all codes for my [YouTube Channel](https://www.youtube.com/channel/UC0_a8SNpTFkmVv5SLMs1CIA/featured)
+## This Repo has all the codes for my [YouTube Channel](https://www.youtube.com/channel/UC0_a8SNpTFkmVv5SLMs1CIA/featured)
 
 
 [yt_cover]: /assets/Youtube_Cover_3.jpg
@@ -10,7 +10,7 @@
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
 
-## Image Processing with Python
+## Image Processing and OpenCV with Python
 
 * [![Youtube Link][logo]](https://youtu.be/I8kwtcVSEDk) &nbsp; [Python Image Processing - Grayscale Conversion and Brightness Increase from Scratch Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/Image_Processing_Fundamentals/GrayScale_Brightness.ipynb)
 
@@ -23,7 +23,7 @@
 
 ----------------------------------
 
-## Paper Discussion
+## Computer Vision Paper Discussion
 
 * [![Youtube Link][logo]](https://youtu.be/d9ggCKl7sNQ) &nbsp; GFP GAN Paper with Python code to restore resolution of old Photos
 
