@@ -12,7 +12,10 @@
 
 ## Image Processing and OpenCV with Python
 
-* [![Youtube Link][logo]](https://youtu.be/I8kwtcVSEDk) &nbsp; [Python Image Processing - Grayscale Conversion and Brightness Increase from Scratch Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/Image_Processing_Fundamentals/GrayScale_Brightness.ipynb)
+* [![Youtube Link][logo]](https://youtu.be/I8kwtcVSEDk) &nbsp; [Python Image Processing - Grayscale Conversion and Brightness Increase from Scratch Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/OpenCV_Image_Processing/GrayScale_Brightness/GrayScale_Brightness.ipynb)
+
+
+* [![Youtube Link][logo]](https://youtu.be/dybSaVseFoM) &nbsp; [Understanding Harris Corner Detection Algorithm with OpenCV Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/OpenCV_Image_Processing/Harris_Corner_Detection/Harris_Corner_Detection.ipynb)
 
 ----------------------------------
 
@@ -102,12 +105,3 @@
 
 
 ----------------------------------------------------------
-
-
-
-
-----------------------------------------------------------
-
-
-
-
