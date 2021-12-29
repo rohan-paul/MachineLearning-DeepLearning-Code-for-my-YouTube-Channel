@@ -12,6 +12,9 @@
 
 ## Image Processing and OpenCV with Python
 
+
+* [![Youtube Link][logo]](https://youtu.be/DfsC4JNhsPA) &nbsp; [Understanding Shi-Tomasi Corner Detection Algorithm with OpenCV and Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/OpenCV_Image_Processing/Shi-Tomasi-Corner-Detection/ShiTomasiCornerDetection_GoodFeaturesToTrack.ipynb)
+
 * [![Youtube Link][logo]](https://youtu.be/I8kwtcVSEDk) &nbsp; [Python Image Processing - Grayscale Conversion and Brightness Increase from Scratch Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/OpenCV_Image_Processing/GrayScale_Brightness/GrayScale_Brightness.ipynb)
 
 
