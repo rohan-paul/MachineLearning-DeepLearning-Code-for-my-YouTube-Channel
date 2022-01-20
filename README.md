@@ -10,6 +10,19 @@
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
 
+## Computer Vision and related Algorithms
+
+
+* [![Youtube Link][logo]](https://youtu.be/D0MWQ8J8lZc) &nbsp; [Deep Neural Network with PyTorch - FMNIST-Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/FMNIST_Deep_Neural_Netork_Base_Pytorch_Model/Deep-Neural-Network-with-PyTorch-FMNIST-Dataset.ipynb)
+
+* [![Youtube Link][logo]](https://youtu.be/csQj1e6Oj38) &nbsp; [DCGAN from Scratch with Tensorflow Keras - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
+
+
+* [![Youtube Link][logo]](https://youtu.be/CqnvNgr5050) &nbsp; [Why We Scale images for Neural Network](https://bit.ly/3IoZkxG)
+
+
+----------------------------------
+
 ## Image Processing and OpenCV with Python
 
 
@@ -22,12 +35,6 @@
 
 ----------------------------------
 
-## Computer Vision and related Algorithms
-
-* [![Youtube Link][logo]](https://youtu.be/csQj1e6Oj38) &nbsp; [DCGAN from Scratch with Tensorflow Keras - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
-
-
-----------------------------------
 
 ## Computer Vision Paper Discussion
 
