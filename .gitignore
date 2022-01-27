@@ -131,6 +131,21 @@ build/
 **/*.7z
 /.7z
 
+# BELOW ONLY FOR YT-VID DIRECTORY
+
+*.mov
+/*.mov
+*/*.mov
+**/*.mov
+/.mov
+
+
+*.mp4
+/*.mp4
+*/*.mp4
+**/*.mp4
+/.mp4
+
 LARGE_Datasets
 */LARGE_Datasets
 */LARGE_Datasets/**
