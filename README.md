@@ -114,7 +114,7 @@
 
 * [![Youtube Link][logo]](https://youtu.be/s1pgr_XHCkM) **3** [Probability Density Function for Discrete and Continuous Random Variable in context of Data Science](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Statistics/Discrete-vs-Continuous-Prob-Distributions/continuous-random_variable-pdf-interpretation.ipynb)
 
-* [![Youtube Link][logo]](https://youtu.be/vQ3Bpgeo7Ik)  Bayes Theorem in Probability implementation - simple Data Science Interview question
+* [![Youtube Link][logo]](https://youtu.be/vQ3Bpgeo7Ik) **5** Bayes Theorem in Probability implementation - simple Data Science Interview question
 
 
 ----------------------------------------------------------
