@@ -17,10 +17,13 @@
 
 * [![Youtube Link][logo]](https://youtu.be/D0MWQ8J8lZc) **37.** [Deep Neural Network with PyTorch - FMNIST-Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/FMNIST_Deep_Neural_Netork_Base_Pytorch_Model/Deep-Neural-Network-with-PyTorch-FMNIST-Dataset.ipynb)
 
+
+* [![Youtube Link][logo]](https://youtu.be/CqnvNgr5050) **36.** [Why We Scale images for Neural Network](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/Why_We_Scale_images_for_Neural_Network/Why_We_Scale_images_for_Neural_Network.ipynb)
+
+
 * [![Youtube Link][logo]](https://youtu.be/csQj1e6Oj38) **16.** [DCGAN from Scratch with Tensorflow Keras - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
 
 
-* [![Youtube Link][logo]](https://youtu.be/CqnvNgr5050) **36.** [Why We Scale images for Neural Network](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/Why_We_Scale_images_for_Neural_Network/Why_We_Scale_images_for_Neural_Network.ipynb)
 
 
 ----------------------------------
@@ -50,22 +53,26 @@
 
 * [![Youtube Link][logo]](https://youtu.be/DNjqRL4NYTU?list=PLxqBkZuBynVQLW_TF7iIUKsWVCG-hCQFz) **15** [Keras Custom Layers and Fundamental Building Blocks For Training Model](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/TensorFlow/Keras_Custom_Layers_Building_Blocks/Keras_Custom_Layers_Building_Blocks.ipynb)
 
+* [![Youtube Link][logo]](https://youtu.be/Kvy65eGF2Bs) **11.** [Tensorflow Mixed Precision Training - CIFAR10 dataset Implementation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/TensorFlow/mixed-precision_training.py)
+
 * [![Youtube Link][logo]](https://youtu.be/UNfxShN6vp4) **8.** [Tensorflow Fundamentals in 45 minutes](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/TensorFlow/TF_Fundaments_YT/Fundamentals_TF_v1_YT.ipynb)
 
-* [![Youtube Link][logo]](https://youtu.be/Kvy65eGF2Bs) **11.** [Tensorflow Mixed Precision Training - CIFAR10 dataset Implementation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/TensorFlow/mixed-precision_training.py)
 
 
 ----------------------------------------------------------
 
 ## Kaggle Competitions / Data Science Project
 
-* [![Youtube Link][logo]](https://youtu.be/UeI4-kyuAwI) **7.** [Kaggle - Gravitational Wave Detection EDA and Baseline Keras Model](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Kaggle_Competition/Gravitational_Waves/EDA_CQT_Keras_Baseline.ipynb)
 
+* [![Youtube Link][logo]](https://bit.ly/2Z2PUXl) **22.** [Predict Transaction Value of Bank Customer - Kaggle Santander Challenge](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Kaggle_Competition/Santander-Kg-Value-Prediction-Challenge/NoteBooks/Santender_v3.ipynb).
 
 * [![Youtube Link][logo]](https://youtu.be/QI0qjDfMtAw) **17.** [Kaggle - Microsoft Malware Detection-BIG 2015](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Kaggle_Competition/Microsoft_Malware_Classification_BIG_2015/Microsoft_Malware_BIG_2015_Kaggle.ipynb).
 
 
-* [![Youtube Link][logo]](https://bit.ly/2Z2PUXl) **22.** [Predict Transaction Value of Bank Customer - Kaggle Santander Challenge](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Kaggle_Competition/Santander-Kg-Value-Prediction-Challenge/NoteBooks/Santender_v3.ipynb).
+* [![Youtube Link][logo]](https://youtu.be/UeI4-kyuAwI) **7.** [Kaggle - Gravitational Wave Detection EDA and Baseline Keras Model](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Kaggle_Competition/Gravitational_Waves/EDA_CQT_Keras_Baseline.ipynb)
+
+
+----------------------------------------------------------
 
 
 ## Neural Network
@@ -78,17 +85,16 @@
 
 ## Python_Challenges
 
-* [![Youtube Link][logo]](https://youtu.be/ys2-9rMLesc) **6.** [Find Prime Factors of a Number in Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/tree/master/Python_Challenges/Prime-Numbers)
-
-* [![Youtube Link][logo]](https://youtu.be/W2afuQ1-cNs) **2.** [Python - Replace string in File and Directory names recursively](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Python_Challenges/File_System/Python-Replace-String-in-File-Directory/python-Replace-String-in-File-Directory-Recursively.py)
-
-* [![Youtube Link][logo]](https://youtu.be/XI1FA1dehxk) **4.** [Useful Python Script - remove special character from files and folder names](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Python_Challenges/File_System/remove-special-character-with-isalpha.py)
-
+* [![Youtube Link][logo]](https://youtu.be/41scxhCAs08) **12.** [Codewars Python Solution - 6kyu - Format words into Sentence](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Python_Challenges/Codewar-solutions/6kyu/format_words_into_a_sentence.py)
 
 * [![Youtube Link][logo]](https://youtu.be/dO0g081YOxw) **10.** [High Precision Timestamp in Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Python_Challenges/Python_Best_Practices/high-precision-clock-in-python.py)
 
 
-* [![Youtube Link][logo]](https://youtu.be/41scxhCAs08) **12.** [Codewars Python Solution - 6kyu - Format words into Sentence](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Python_Challenges/Codewar-solutions/6kyu/format_words_into_a_sentence.py)
+* [![Youtube Link][logo]](https://youtu.be/ys2-9rMLesc) **6.** [Find Prime Factors of a Number in Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/tree/master/Python_Challenges/Prime-Numbers)
+
+* [![Youtube Link][logo]](https://youtu.be/XI1FA1dehxk) **4.** [Useful Python Script - remove special character from files and folder names](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Python_Challenges/File_System/remove-special-character-with-isalpha.py)
+
+* [![Youtube Link][logo]](https://youtu.be/W2afuQ1-cNs) **2.** [Python - Replace string in File and Directory names recursively](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Python_Challenges/File_System/Python-Replace-String-in-File-Directory/python-Replace-String-in-File-Directory-Recursively.py)
 
 
 ----------------------------------------------------------
@@ -110,11 +116,11 @@
 
 ## Statistics
 
-* [![Youtube Link][logo]](https://youtu.be/w2WrskWX60o) **1.** [Standard Deviation in Python, Numpy and Pandas](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/tree/master/Statistics/Standard-Deviation)
+* [![Youtube Link][logo]](https://youtu.be/vQ3Bpgeo7Ik) **5.** Bayes Theorem in Probability implementation - simple Data Science Interview question
 
 * [![Youtube Link][logo]](https://youtu.be/s1pgr_XHCkM) **3.** [Probability Density Function for Discrete and Continuous Random Variable in context of Data Science](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Statistics/Discrete-vs-Continuous-Prob-Distributions/continuous-random_variable-pdf-interpretation.ipynb)
 
-* [![Youtube Link][logo]](https://youtu.be/vQ3Bpgeo7Ik) **5.** Bayes Theorem in Probability implementation - simple Data Science Interview question
 
+* [![Youtube Link][logo]](https://youtu.be/w2WrskWX60o) **1.** [Standard Deviation in Python, Numpy and Pandas](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/tree/master/Statistics/Standard-Deviation)
 
 ----------------------------------------------------------
