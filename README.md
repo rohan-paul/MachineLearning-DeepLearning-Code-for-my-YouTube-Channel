@@ -7,7 +7,7 @@
 
 ### Author: Rohan Paul
 
-#### find me here..
+#### Find me here..
 
 * 🐦 TWITTER: https://twitter.com/paulr_rohan
 * ​👨‍🔧​ Kaggle: https://www.kaggle.com/paulrohan2020
