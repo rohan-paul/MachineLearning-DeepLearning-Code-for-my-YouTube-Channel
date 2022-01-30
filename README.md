@@ -12,6 +12,8 @@
 
 ## Computer Vision and related Algorithms
 
+* [![Youtube Link][logo]](https://www.youtube.com/watch?v=cFld9T5xZqo) **38.** [DCGAN's Generator Function - Understanding Filter Size and Input Shape](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset/DCGAN_Generator_Function_Understanding_Filter_Size_and_Input_Shape.ipynb)
+
 
 * [![Youtube Link][logo]](https://youtu.be/D0MWQ8J8lZc) &nbsp; [Deep Neural Network with PyTorch - FMNIST-Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/FMNIST_Deep_Neural_Netork_Base_Pytorch_Model/Deep-Neural-Network-with-PyTorch-FMNIST-Dataset.ipynb)
 
