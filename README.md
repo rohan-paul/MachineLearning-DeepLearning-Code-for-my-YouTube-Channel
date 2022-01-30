@@ -53,7 +53,7 @@
 
 * [![Youtube Link][logo]](https://youtu.be/DNjqRL4NYTU?list=PLxqBkZuBynVQLW_TF7iIUKsWVCG-hCQFz) **15** [Keras Custom Layers and Fundamental Building Blocks For Training Model](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/TensorFlow/Keras_Custom_Layers_Building_Blocks/Keras_Custom_Layers_Building_Blocks.ipynb)
 
-* [![Youtube Link][logo]](https://youtu.be/Kvy65eGF2Bs) **11.** [Tensorflow Mixed Precision Training - CIFAR10 dataset Implementation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/TensorFlow/mixed-precision_training.py)
+* [![Youtube Link][logo]](https://youtu.be/Kvy65eGF2Bs) **11.** [Tensorflow Mixed Precision Training - CIFAR10 dataset Implementation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/TensorFlow/mixed-precision_training/mixed-precision_training.py)
 
 * [![Youtube Link][logo]](https://youtu.be/UNfxShN6vp4) **8.** [Tensorflow Fundamentals in 45 minutes](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/TensorFlow/TF_Fundaments_YT/Fundamentals_TF_v1_YT.ipynb)
 
@@ -76,7 +76,7 @@
 
 
 ## Neural Network
-* [![Youtube Link][logo]](https://youtu.be/arm9wLAk44A) **9.** [Chain Rule Math in Backpropagation](https://medium.com/mlearning-ai/neural-network-implementing-backpropagation-using-the-chain-rule-51c500d2f00d)
+* [![Youtube Link][logo]](https://youtu.be/arm9wLAk44A) **9.** [Chain Rule Math in Backpropagation](https://rohan-paul-ai.netlify.app/blog/post/neural-networkimplementing-backpropagation-using-the-chain-rule)
 
 
 * [![Youtube Link][logo]](https://youtu.be/QQkrIlISzP0) **13.** [Neural Network Implementation From Scratch in Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Neural_Network/Neural_Network_Forward_and_Back_Propagation_Implementation_From_Scratch_Sept_2021/neural_network_from_scratch.py)
