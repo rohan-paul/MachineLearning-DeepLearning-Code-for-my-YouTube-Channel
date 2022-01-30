@@ -21,7 +21,7 @@
 * [![Youtube Link][logo]](https://youtu.be/CqnvNgr5050) **36.** [Why We Scale images for Neural Network](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/Why_We_Scale_images_for_Neural_Network/Why_We_Scale_images_for_Neural_Network.ipynb)
 
 
-* [![Youtube Link][logo]](https://youtu.be/csQj1e6Oj38) **16.** [DCGAN from Scratch with Tensorflow Keras - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset/DCGAN_Generator_Function_Understanding_Filter_Size_and_Input_Shape.ipynb)
+* [![Youtube Link][logo]](https://youtu.be/csQj1e6Oj38) **16.** [DCGAN from Scratch with Tensorflow Keras - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
 
 
 
