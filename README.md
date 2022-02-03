@@ -3,7 +3,7 @@
 
 [yt_cover]: /assets/Youtube_Cover_3.jpg
 
-[![Youtube Link][yt_cover]](https://www.youtube.com/channel/UC0_a8SNpTFkmVv5SLMs1CIA/videos)  **All Videos**
+[![Youtube Link][yt_cover]](https://www.youtube.com/channel/UC0_a8SNpTFkmVv5SLMs1CIA/videos)
 
 ### Author: Rohan Paul
 
