@@ -40,8 +40,10 @@
 
 ----------------------------------
 
-## Image Processing and OpenCV with Python
+## Image Processing, Image Augmentation and OpenCV
 
+
+* [![Youtube Link][logo]](https://youtu.be/YLzhTG1ILaY) **40.** [Image Augmentation with Albumentation - Kaggle TensorFlow Great Barrier Reef Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/40_Image_Augmentation_with_Albumentation_TensorFlow_Great_Barrier_Reef.ipynb)
 
 * [![Youtube Link][logo]](https://youtu.be/DfsC4JNhsPA) **31.** [Understanding Shi-Tomasi Corner Detection Algorithm with OpenCV and Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/OpenCV_Image_Processing/Shi-Tomasi-Corner-Detection/ShiTomasiCornerDetection_GoodFeaturesToTrack.ipynb)
 
