@@ -24,6 +24,7 @@
 
 ## Computer Vision and related Algorithms
 
+
 * [![Youtube Link][logo]](https://www.youtube.com/watch?v=cFld9T5xZqo) **38.** [DCGAN's Generator Function - Understanding Filter Size and Input Shape](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset/DCGAN_Generator_Function_Understanding_Filter_Size_and_Input_Shape.ipynb)
 
 
@@ -94,6 +95,9 @@
 
 
 * [![Youtube Link][logo]](https://youtu.be/QQkrIlISzP0) **13.** [Neural Network Implementation From Scratch in Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Neural_Network/Neural_Network_Forward_and_Back_Propagation_Implementation_From_Scratch_Sept_2021/neural_network_from_scratch.py)
+
+
+* [![Youtube Link][logo]](https://youtu.be/AIK6Gi3NUhI?list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR) **41.** [Understanding the Mathematics of Gram Matrix and Why its needed for Neural Style Transfer](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/41-GramMatrixForNeuralStyleTransfer.ipynb)
 
 ----------------------------------------------------------
 
