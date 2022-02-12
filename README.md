@@ -22,7 +22,9 @@
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
 
-## Computer Vision and related Algorithms
+## Computer Vision & Deep Learning Algorithms
+
+* [![Youtube Link][logo]](https://www.youtube.com/watch?v=cFld9T5xZqo) **42.** [EfficientNet Pre-Trained with PyTorch - Covid-19 X-Ray Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/42-EfficientNet_Pretrained_Pytorch_Covid_19_X_Rays.ipynb)
 
 
 * [![Youtube Link][logo]](https://www.youtube.com/watch?v=cFld9T5xZqo) **38.** [DCGAN's Generator Function - Understanding Filter Size and Input Shape](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset/DCGAN_Generator_Function_Understanding_Filter_Size_and_Input_Shape.ipynb)
