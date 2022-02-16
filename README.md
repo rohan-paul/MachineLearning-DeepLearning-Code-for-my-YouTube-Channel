@@ -24,7 +24,7 @@
 
 ## Computer Vision & Deep Learning Algorithms
 
-* [![Youtube Link][logo]](https://www.youtube.com/watch?v=Uq5sQUoLXpA) **43.** [LeNet5 Implementation From Scratch in PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/43_LeNet5_Colab_From_Scratch_PyTorch.ipynb)
+* [![Youtube Link][logo]](https://youtu.be/Uq5sQUoLXpA) **43.** [LeNet5 Implementation From Scratch in PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/43_LeNet5_Colab_From_Scratch_PyTorch.ipynb)
 
 * [![Youtube Link][logo]](https://youtu.be/WJh3diVLUcY) **42.** [EfficientNet Pre-Trained with PyTorch - Covid-19 X-Ray Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/42-EfficientNet_Pretrained_Pytorch_Covid_19_X_Rays.ipynb)
 
