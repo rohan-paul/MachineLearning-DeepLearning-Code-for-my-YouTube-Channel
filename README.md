@@ -23,7 +23,7 @@
 
 ## PyTorch Techniques for Deep Learning
 
-* [![Youtube Link][logo]](https://youtu.be/hZE4Nja5zKA) **44.** [Control Weight Decay in a PyTorch Neural Network](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/44-Weight-Decay-PyTorch.ipynb)
+* [![Youtube Link][logo]](https://youtu.be/hZE4Nja5zKA) **44.** [Control Weight Decay in a PyTorch Neural Network](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/44-Weight-Decay-PyTorch.ipynb)
 
 ----------------------------------
 
