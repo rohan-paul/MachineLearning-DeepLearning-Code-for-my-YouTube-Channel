@@ -23,6 +23,9 @@
 
 ## PyTorch Techniques for Deep Learning
 
+* [![Youtube Link][logo]](https://youtu.be/hZE4Nja5zKA) **46.** [Label Smoothing Cross-Entropy-Loss from Scratch with PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/46-Label-Smoothing-CrossEntropyLoss-Scratch.ipynb)
+
+
 * [![Youtube Link][logo]](https://youtu.be/hZE4Nja5zKA) **44.** [Control Weight Decay in a PyTorch Neural Network](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/44-Weight-Decay-PyTorch.ipynb)
 
 ----------------------------------
