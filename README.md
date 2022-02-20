@@ -23,6 +23,8 @@
 
 ## PyTorch Techniques for Deep Learning
 
+* [![Youtube Link][logo]](https://www.youtube.com/watch?v=ae8Iz6wDKek&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=3) **47.** [Dropout Layer in PyTorch Neural Network ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/47-Dropout-Layer.ipynb)
+
 * [![Youtube Link][logo]](https://www.youtube.com/watch?v=PIpJn8TZJO8&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=2) **46.** [Label Smoothing Cross-Entropy-Loss from Scratch with PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/46-Label-Smoothing-CrossEntropyLoss-Scratch.ipynb)
 
 
