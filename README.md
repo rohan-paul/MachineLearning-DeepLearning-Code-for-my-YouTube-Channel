@@ -22,6 +22,8 @@
 
 ## PyTorch Techniques for Deep Learning
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=h3M3Ob0zgkc&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y&index=7) **50.** [Cross Entropy Loss in PyTorch and its relation with Softmax](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/50-Cross-Entropy-Loss-from-Scratch-PyTorch.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=ae8Iz6wDKek&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=3) **48.** [Get Total Number of Parameters in a PyTorch Neural Network Model ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/48-get_total_number_of_parameters_of_a_neural_network_mode_pytorch.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=ae8Iz6wDKek&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=3) **47.** [Dropout Layer in PyTorch Neural Network ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/47-Dropout-Layer.ipynb)
