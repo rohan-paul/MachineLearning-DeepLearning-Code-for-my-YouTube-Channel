@@ -22,6 +22,8 @@
 
 ## PyTorch Techniques for Deep Learning
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=SWqDVkYnSYQ&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=9) **53.** [Plotting Activation Functions PyTorch | Sigmoid | ReLU | Tanh](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/53-Visualizing-Activation-Functions-PyTorch.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=qQ6xbv5kPxE&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=8) **52.** [Input Shape of Tensor for PyTorch Neural-Network - Conv-Layer and-Linear-Layer](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/52-Input-Shape-of-Conv-Layer-and-Linear-Layer-of-PyTorch-Neural-Network.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=h3M3Ob0zgkc&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y&index=7) **50.** [Cross Entropy Loss in PyTorch and its relation with Softmax](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/50-Cross-Entropy-Loss-from-Scratch-PyTorch.ipynb)
