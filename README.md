@@ -22,6 +22,8 @@
 
 ## PyTorch Techniques for Deep Learning
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=RPvx3yZ2fc8&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=10) **54.** [Quantization in PyTorch | Mixed Precision Training ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/54-Quantization-Mixed-Precision.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=SWqDVkYnSYQ&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=9) **53.** [Plotting Activation Functions PyTorch | Sigmoid | ReLU | Tanh](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/53-Visualizing-Activation-Functions-PyTorch.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=qQ6xbv5kPxE&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=8) **52.** [Input Shape of Tensor for PyTorch Neural-Network - Conv-Layer and-Linear-Layer](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/52-Input-Shape-of-Conv-Layer-and-Linear-Layer-of-PyTorch-Neural-Network.ipynb)
