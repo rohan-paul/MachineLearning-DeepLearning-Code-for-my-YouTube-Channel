@@ -22,7 +22,7 @@
 
 ## PyTorch Techniques for Deep Learning
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=ys3VRBW4qx8&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=10) **55.** [LeNet from Scratch - Shape Calculation @ each Layer](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/54-Quantization-Mixed-Precision.ipynb)
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=ys3VRBW4qx8&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=10) **55.** [LeNet from Scratch - Shape Calculation @ each Layer](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/55-LeNet5-Shape-Calculation.ipynb)
 
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=RPvx3yZ2fc8&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=10) **54.** [Quantization in PyTorch | Mixed Precision Training ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/54-Quantization-Mixed-Precision.ipynb)
