@@ -131,6 +131,19 @@ build/
 **/*.7z
 /.7z
 
+*.tar.gz
+/*.tar.gz
+*/*.tar.gz
+**/*.tar.gz
+/.tar.gz
+
+
+*.gz
+/*.gz
+*/*.gz
+**/*.gz
+/.gz
+
 # BELOW ONLY FOR YT-VID DIRECTORY
 
 *.mov
