@@ -20,6 +20,26 @@
 
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
+
+## Computer Vision & Deep Learning Algorithms Implementations
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=P8U1VL93jzA&list=PLxqBkZuBynVRX6QExfPyzRGj5Ap_zmcAJ&index=6) **56.** [ResNet Paper Implementation From Scratch with PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/56-ResNet56_From_Scratch_PyTorch.ipynb)
+
+- [![Youtube Link][logo]](https://youtu.be/Uq5sQUoLXpA) **43.** [LeNet5 Implementation From Scratch in PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/43_LeNet5_Colab_From_Scratch_PyTorch.ipynb)
+
+- [![Youtube Link][logo]](https://youtu.be/WJh3diVLUcY) **42.** [EfficientNet Pre-Trained with PyTorch - Covid-19 X-Ray Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/42-EfficientNet_Pretrained_Pytorch_Covid_19_X_Rays.ipynb)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=cFld9T5xZqo) **38.** [DCGAN's Generator Function - Understanding Filter Size and Input Shape](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset/DCGAN_Generator_Function_Understanding_Filter_Size_and_Input_Shape.ipynb)
+
+- [![Youtube Link][logo]](https://youtu.be/D0MWQ8J8lZc) **37.** [Deep Neural Network with PyTorch - FMNIST-Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/FMNIST_Deep_Neural_Netork_Base_Pytorch_Model/Deep-Neural-Network-with-PyTorch-FMNIST-Dataset.ipynb)
+
+- [![Youtube Link][logo]](https://youtu.be/CqnvNgr5050) **36.** [Why We Scale images for Neural Network](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/Why_We_Scale_images_for_Neural_Network/Why_We_Scale_images_for_Neural_Network.ipynb)
+
+- [![Youtube Link][logo]](https://youtu.be/csQj1e6Oj38) **16.** [DCGAN from Scratch with Tensorflow Keras - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
+
+---
+
+
 ## PyTorch Techniques for Deep Learning
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=ys3VRBW4qx8&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=10) **55.** [LeNet from Scratch - Shape Calculation @ each Layer](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/55-LeNet5-Shape-Calculation.ipynb)
@@ -40,24 +60,6 @@
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=PIpJn8TZJO8&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=2) **46.** [Label Smoothing Cross-Entropy-Loss from Scratch with PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/46-Label-Smoothing-CrossEntropyLoss-Scratch.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=hZE4Nja5zKA&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=1) **44.** [Control Weight Decay in a PyTorch Neural Network](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/44-Weight-Decay-PyTorch.ipynb)
-
----
-
-## Computer Vision & Deep Learning Algorithms Implementations
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=P8U1VL93jzA&list=PLxqBkZuBynVRX6QExfPyzRGj5Ap_zmcAJ&index=6) **56.** [ResNet Paper Implementation From Scratch with PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/56-ResNet56_From_Scratch_PyTorch.ipynb)
-
-- [![Youtube Link][logo]](https://youtu.be/Uq5sQUoLXpA) **43.** [LeNet5 Implementation From Scratch in PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/43_LeNet5_Colab_From_Scratch_PyTorch.ipynb)
-
-- [![Youtube Link][logo]](https://youtu.be/WJh3diVLUcY) **42.** [EfficientNet Pre-Trained with PyTorch - Covid-19 X-Ray Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/42-EfficientNet_Pretrained_Pytorch_Covid_19_X_Rays.ipynb)
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=cFld9T5xZqo) **38.** [DCGAN's Generator Function - Understanding Filter Size and Input Shape](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset/DCGAN_Generator_Function_Understanding_Filter_Size_and_Input_Shape.ipynb)
-
-- [![Youtube Link][logo]](https://youtu.be/D0MWQ8J8lZc) **37.** [Deep Neural Network with PyTorch - FMNIST-Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/FMNIST_Deep_Neural_Netork_Base_Pytorch_Model/Deep-Neural-Network-with-PyTorch-FMNIST-Dataset.ipynb)
-
-- [![Youtube Link][logo]](https://youtu.be/CqnvNgr5050) **36.** [Why We Scale images for Neural Network](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/Why_We_Scale_images_for_Neural_Network/Why_We_Scale_images_for_Neural_Network.ipynb)
-
-- [![Youtube Link][logo]](https://youtu.be/csQj1e6Oj38) **16.** [DCGAN from Scratch with Tensorflow Keras - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
 
 ---
 
