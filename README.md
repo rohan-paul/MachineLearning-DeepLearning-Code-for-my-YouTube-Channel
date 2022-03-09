@@ -23,6 +23,8 @@
 
 ## Computer Vision & Deep Learning Algorithms Implementations
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=CZNYrkdDrmQ&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=12) **57.** [GoogLeNet / Inception v1 Paper Implementation From Scratch with PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/57-GoogLeNet_Inception-v1_From_Scratch_PyTorch)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=P8U1VL93jzA&list=PLxqBkZuBynVRX6QExfPyzRGj5Ap_zmcAJ&index=6) **56.** [ResNet Paper Implementation From Scratch with PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/56-ResNet56_From_Scratch_PyTorch.ipynb)
 
 - [![Youtube Link][logo]](https://youtu.be/Uq5sQUoLXpA) **43.** [LeNet5 Implementation From Scratch in PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/43_LeNet5_Colab_From_Scratch_PyTorch.ipynb)
