@@ -101,6 +101,8 @@ class Auxiliary(nn.Module):
 
         out = self.conv(out)
         out = self.activation(out)
+        print('out shape is  ', out.shape)
+        # out shape is  torch.Size([2, 128, 4, 4])
 
         out = torch.flatten(out, 1)
 
@@ -245,3 +247,39 @@ class GoogLeNet(nn.Module):
         out = self.fc(out)
 
         return out, aux1, aux2
+
+
+
+''' Reason for using `2048` in line `nn.Linear(2048, 1024)` inside the Auxiliary() class's forward() method
+
+### First note the Rule about Linear Layer input-shape calculation inside a CNN — When transitioning from a convolutional layer output to a linear layer input - I must resize Conv Layer output which is a 4d-Tensor to a 2d-Tensor using view.
+
+A. So, a conv output of `[batch_size, num_channel, height, width]` should be “flattened” to become a `[batch_size, num_channel x height x width]` tensor.
+
+B. And the in_`features` of the linear layer should be set to `[num_channel * height * width]`
+
+===========================================================================
+
+So in this case for GoogLeNet with CIFAR-10 Dataset first check the shape of the 4-D Tensor (i.e. the output tensor from the last Conv Layer) before flattening by doing this -
+
+inside the `forward()` method of the `Auxiliary()` class. put a print statement after the last Conv Layer's activation, like below
+
+```py
+
+out = self .activation(out)
+print('out shape is  ', out.shape)
+# out shape is  torch.Size([2, 128, 4, 4])
+# So that means for the next Linear Layer's
+# in_features should be of shape 128 * 4 * 4 i.e. 2048
+
+out = torch.flatten(out, 1)
+
+```
+
+It would give me `torch.Size([2, 128, 4, 4])` - And so, as per the above rule, for the immediately following Linear Layer's `in_features` would need to be (128 * 4 * 4) which is 2048.
+
+So what I am doing is that, converting or flattening the last conv layer output of [2, 128, 4, 4] shape, which is a 4-D Tensor - to a 2-D Tensor of size
+
+[2, 128 * 4 * 4] tensor. And so the `in_features` of the immediately following linear layer should  be set to [128 * 4 * 4 ] i.e. 2048.
+
+Checkout my video specifically discussing this concept - https://www.youtube.com/watch?v=qQ6xbv5kPxE '''
