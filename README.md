@@ -48,7 +48,7 @@
 
 ## PyTorch Techniques for Deep Learning
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=ys3VRBW4qx8&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=10) **61.** [Learning Rate Scheduler | PyTorch | Implementing Custom Scheduler for CycleGAN](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/61-Learning-Rate-Scheduler-PyTorch-including-Custom.ipynb)
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=gbA9M4Ix6xw&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=12) **61.** [Learning Rate Scheduler | PyTorch | Implementing Custom Scheduler for CycleGAN](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/61-Learning-Rate-Scheduler-PyTorch-including-Custom.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=ys3VRBW4qx8&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=10) **55.** [LeNet from Scratch - Shape Calculation @ each Layer](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/55-LeNet5-Shape-Calculation.ipynb)
 
