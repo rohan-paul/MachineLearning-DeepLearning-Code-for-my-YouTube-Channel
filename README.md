@@ -144,6 +144,14 @@
 
 ---
 
+## Classical Machine Learning
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=8YJRtyx10vw&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y) **21.** [RandomizedSearchCV From Scratch without scikit-learn](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/ML_Algos_From_Scratch/RandomSearchCV_From_Scratch.ipynb)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=8YJRtyx10vw&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y) **20.** [GridSearchCV from Scratch without using Sckit-Learn](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/ML_Algos_From_Scratch/GridSearchCV_with_KNN_From_Scratch.ipynb)
+
+---
+
 ## Statistics
 
 - [![Youtube Link][logo]](https://youtu.be/vQ3Bpgeo7Ik) **5.** Bayes Theorem in Probability implementation - simple Data Science Interview question
