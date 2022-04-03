@@ -14,15 +14,15 @@ class Generator(nn.Module):
         self.z_dim = z_dim
 
         self.generator = nn.Sequential(
-            self.make_gen_block(z_dim, hidden_dim * 4),
-            self.make_gen_block(
+            self.build_gen_block(z_dim, hidden_dim * 4),
+            self.build_gen_block(
                 hidden_dim * 4, hidden_dim * 2, kernel_size=4, stride=1
             ),
-            self.make_gen_block(hidden_dim * 2, hidden_dim),
-            self.make_gen_block(hidden_dim, im_chan, kernel_size=4, final_layer=True),
+            self.build_gen_block(hidden_dim * 2, hidden_dim),
+            self.build_gen_block(hidden_dim, im_chan, kernel_size=4, final_layer=True),
         )
 
-    def make_gen_block(
+    def build_gen_block(
         self,
         input_channels,
         output_channels,
@@ -34,8 +34,8 @@ class Generator(nn.Module):
         Returns a sequence of operations corresponding to a generator block;
         a transposed convolution, a batchnorm (except in the final layer), and an activation.
         Parameters:
-            input_channels: Number of channels the input feature representation has
-            output_channels: Number of channels the output feature representation should have
+            input_channels: Number of channels in the input image
+            output_channels: Number of channels produced by the convolution.
             kernel_size: the size of each convolutional filter
             stride: the stride of the convolution
             final_layer: a boolean, true if it is the final layer and false otherwise
