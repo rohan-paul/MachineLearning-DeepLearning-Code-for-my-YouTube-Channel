@@ -31,12 +31,12 @@ class Generator(nn.Module):
         final_layer=False,
     ):
         """
-        Function to return a sequence of operations corresponding to a generator block of DCGAN;
+        Returns a sequence of operations corresponding to a generator block;
         a transposed convolution, a batchnorm (except in the final layer), and an activation.
         Parameters:
             input_channels: Number of channels the input feature representation has
             output_channels: Number of channels the output feature representation should have
-            kernel_size: the size of each convolutional filter, equivalent to (kernel_size, kernel_size)
+            kernel_size: the size of each convolutional filter
             stride: the stride of the convolution
             final_layer: a boolean, true if it is the final layer and false otherwise
                       (affects activation and batchnorm)
