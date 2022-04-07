@@ -118,7 +118,7 @@
 
 - [![Youtube Link][logo]](https://youtu.be/arm9wLAk44A) **9.** [Chain Rule Math in Backpropagation](https://rohan-paul-ai.netlify.app/blog/post/neural-networkimplementing-backpropagation-using-the-chain-rule)
 
-- [![Youtube Link][logo]](https://youtu.be/QQkrIlISzP0) **13.** [Neural Network Implementation From Scratch in Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Neural_Network/Neural_Network_Forward_and_Back_Propagation_Implementation_From_Scratch_Sept_2021/neural_network_from_scratch.py)
+- [![Youtube Link][logo]](https://youtu.be/QQkrIlISzP0) **13.** [Neural Network Implementation From Scratch in Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Neural_Network/13-Neural_Network_Forward_and_Back_Propagation_Implementation_From_Scratch_Sept_2021/neural_network_from_scratch.py)
 
 - [![Youtube Link][logo]](https://youtu.be/AIK6Gi3NUhI?list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR) **41.** [Understanding the Mathematics of Gram Matrix and Why its needed for Neural Style Transfer](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/41-GramMatrixForNeuralStyleTransfer.ipynb)
 
