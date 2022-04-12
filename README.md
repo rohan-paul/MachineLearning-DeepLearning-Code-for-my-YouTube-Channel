@@ -23,6 +23,8 @@
 
 ## Computer Vision & Deep Learning Algorithms Implementations
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=iCXruj3slIk&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=17) [PyTorch BiCycleGAN from scratch - Toward Multimodal Image to Image Translation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/BiCycleGAN_Toward_Multimodal_Image-to-Image_Translation.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=Snqb7Usrauw&list=PLxqBkZuBynVRLzYA6TYNMAXsrCR9s2CNo&index=11) **65.** [PyTorch Conditional GAN Implementation from scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/65-Conditional-GAN-PyTorch)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=rJvGJwmVFzA&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=15) **64.** [PyTorch Wasserstein GAN (WGAN) with Gradient Penalty Implementation from scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/64-WGAN_with_Gradient_Penalty_from_Scratch_PyTorch)
