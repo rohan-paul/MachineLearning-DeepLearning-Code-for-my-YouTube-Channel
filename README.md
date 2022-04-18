@@ -21,7 +21,12 @@
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
 
-## Computer Vision & Deep Learning Algorithms Implementations
+## Computer Vision & Deep Learning Algorithms
+
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=OC5QBf6mt2A&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=19) [Detectron-2 Object Detection - Apply Bounding Boxes in 2 Minutes | Deep Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Computer_Vision/Detectron-2-on-Single-Image-Bounding_Boxes)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=yWLK8YSYhxo&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=18) [MNIST - 99.7% Accuracy with LeNet5 | TensorFlow ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/MNIST_LeNet5_Ensemble_TensorFlow_High_Accuracy.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=iCXruj3slIk&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=17) [PyTorch BiCycleGAN from scratch - Toward Multimodal Image to Image Translation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/BiCycleGAN_Toward_Multimodal_Image-to-Image_Translation.ipynb)
 
