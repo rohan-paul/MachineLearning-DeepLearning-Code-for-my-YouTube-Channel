@@ -8,3 +8,4 @@
 |  Semantic Segmentation  |
 | ------------- |
 |  <img height="400" width="600" src="https://i.ibb.co/ctxy590/42.png"/>  |
+
