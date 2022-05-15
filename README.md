@@ -23,6 +23,20 @@
 
 ## Computer Vision & Deep Learning Algorithms
 
+- [![Youtube Link][logo]]() []()
+
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=Fjw7WbFDUQI&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=26) [PyTorch | Inception-v4 (PreTrained) - Aerial Image Segmentation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Aerial-Drone-Images-Semantic-Segmentation-PyTorch-Inception-V4-Pretrained)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=7yCX7-wrXw4&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=25) [Mean-IoU (Intersection over Union) in Object Detection | Semantic Segmentation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/mean_iou.py)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=Ns9xytwfsD0&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=24) [Pixel Accuracy in Image Segmentation | Object Detection](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Computer_Vision/Pixel_Accuracy)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=vGLazsy0ekQ&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=23) [Hausdorff Distance used in Object Detection | Semantic Segmentation ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/Hausdorff_Distance.ipynb)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=X1q993i7Gic&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=22) [Unet Brain-MRI-Segmentation | TensorFlow](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Computer_Vision/Unet-Brain-MRI-Segmentation-Tensorflow-Keras)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=Pk7o3r220ik&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=20) [Dice Coefficient from Scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Computer_Vision/Dice_Coeffiecient_from_Scratch)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=OC5QBf6mt2A&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=19) [Detectron-2 Object Detection - Apply Bounding Boxes in 2 Minutes | Deep Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Computer_Vision/Detectron-2-on-Single-Image-Bounding_Boxes)
 
