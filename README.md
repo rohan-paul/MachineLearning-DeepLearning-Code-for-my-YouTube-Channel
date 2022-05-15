@@ -23,8 +23,10 @@
 
 ## Computer Vision & Deep Learning Algorithms
 
+
 - [![Youtube Link][logo]]() []()
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=LG8lbm_W380&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y&index=15) [Run Length Encoding in Image Segmentation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/run_length_encoding.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=Fjw7WbFDUQI&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=26) [PyTorch | Inception-v4 (PreTrained) - Aerial Image Segmentation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Aerial-Drone-Images-Semantic-Segmentation-PyTorch-Inception-V4-Pretrained)
 
