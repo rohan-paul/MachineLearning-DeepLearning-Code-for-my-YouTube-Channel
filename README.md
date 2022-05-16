@@ -1,6 +1,6 @@
 ## This Repo has all the codes for my [YouTube Channel](https://www.youtube.com/channel/UC0_a8SNpTFkmVv5SLMs1CIA/featured)
 
-[yt_cover]: /assets/Youtube_Cover_3.jpg
+[yt_cover]: /assets/Youtube_Cover.jpg
 
 [![Youtube Link][yt_cover]](https://www.youtube.com/channel/UC0_a8SNpTFkmVv5SLMs1CIA/videos)
 
