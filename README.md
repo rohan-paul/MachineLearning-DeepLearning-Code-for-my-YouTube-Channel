@@ -28,6 +28,11 @@
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=DpzQNQI-S3s&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=3) [Text Analytics of Tweet Emotion - EDA with Plotly](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Text%20Analytics%20of%20Tweet%20Emotion%20-%20EDA%20with%20Plotly.ipynb)
 
+- [![Youtube Link][logo]](https://bit.ly/3Nk0zRA) [Sentiment analysis using TextBlob and Vader](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/sentiment_analysis_textblob_Vader.ipynb)
+
+- [![Youtube Link][logo]]() []()
+
+
 ## Computer Vision & Deep Learning Algorithms
 
 
