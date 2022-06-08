@@ -21,10 +21,15 @@
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
 
+## Natural Language Processing | NLP
+
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=0Y03waAL4Gw&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=4) [Fine Tuning BERT-Based-Uncased Hugging Face Model on Kaggle Hate Speech Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/bert-base-uncased-fine-tuned-kaggle-hate-speech-dataset.ipynb)
+
+
+
 ## Computer Vision & Deep Learning Algorithms
 
-
-- [![Youtube Link][logo]]() []()
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=LG8lbm_W380&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y&index=15) [Run Length Encoding in Image Segmentation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/run_length_encoding.ipynb)
 
