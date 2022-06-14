@@ -23,7 +23,7 @@
 
 ## Natural Language Processing | NLP
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=zcW2HouIIQg&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=5) [](https://bit.ly/3QvJ5UH)
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=zcW2HouIIQg&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=5) [Fine-Tuning-DistilBert - Hugging Face Transformer for Poem Sentiment Prediction | NLP](https://bit.ly/3QvJ5UH)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=0Y03waAL4Gw&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=4) [Fine Tuning BERT-Based-Uncased Hugging Face Model on Kaggle Hate Speech Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/bert-base-uncased-fine-tuned-kaggle-hate-speech-dataset.ipynb)
 
