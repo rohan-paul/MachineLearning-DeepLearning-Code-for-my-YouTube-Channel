@@ -23,6 +23,8 @@
 
 ## Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=TxTxWAohW7E&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=5) [Named Entity Recognition NER using spaCy - Extracting Subject Verb Action](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Named_Entity_Recognition_NER_using_spaCy%20-%20Extracting_Subject_Verb_Action.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=zcW2HouIIQg&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=5) [Fine-Tuning-DistilBert - Hugging Face Transformer for Poem Sentiment Prediction | NLP](https://bit.ly/3QvJ5UH)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=0Y03waAL4Gw&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=4) [Fine Tuning BERT-Based-Uncased Hugging Face Model on Kaggle Hate Speech Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/bert-base-uncased-fine-tuned-kaggle-hate-speech-dataset.ipynb)
@@ -30,8 +32,6 @@
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=DpzQNQI-S3s&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=3) [Text Analytics of Tweet Emotion - EDA with Plotly](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Text%20Analytics%20of%20Tweet%20Emotion%20-%20EDA%20with%20Plotly.ipynb)
 
 - [![Youtube Link][logo]](https://bit.ly/3Nk0zRA) [Sentiment analysis using TextBlob and Vader](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/sentiment_analysis_textblob_Vader.ipynb)
-
-- [![Youtube Link][logo]]() []()
 
 
 ## Computer Vision & Deep Learning Algorithms
@@ -201,3 +201,5 @@
 - [![Youtube Link][logo]](https://youtu.be/w2WrskWX60o) **1.** [Standard Deviation in Python, Numpy and Pandas](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/tree/master/Statistics/Standard-Deviation)
 
 ---
+
+- [![Youtube Link][logo]]() []()
