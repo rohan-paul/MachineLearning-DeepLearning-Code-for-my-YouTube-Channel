@@ -23,6 +23,8 @@
 
 ## Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=_IGdekeBCoE&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=7) [Fuzzy String Matching in Natural Language Processing | NLP](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Fuzzy-String-Matching.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=SzSANHjYhfg&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=6) [Understanding Word Vectors usage with Spacy Word and Sentence Similarity](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Word-Vectors-Understanding-with-Spacy.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=TxTxWAohW7E&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=5) [Named Entity Recognition NER using spaCy - Extracting Subject Verb Action](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Named_Entity_Recognition_NER_using_spaCy%20-%20Extracting_Subject_Verb_Action.ipynb)
