@@ -59,18 +59,6 @@
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=yWLK8YSYhxo&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=18) [MNIST - 99.7% Accuracy with LeNet5 | TensorFlow ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/MNIST_LeNet5_Ensemble_TensorFlow_High_Accuracy.ipynb)
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=iCXruj3slIk&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=17) [PyTorch BiCycleGAN from scratch - Toward Multimodal Image to Image Translation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/BiCycleGAN_Toward_Multimodal_Image-to-Image_Translation.ipynb)
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=Snqb7Usrauw&list=PLxqBkZuBynVRLzYA6TYNMAXsrCR9s2CNo&index=11) **65.** [PyTorch Conditional GAN Implementation from scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/65-Conditional-GAN-PyTorch)
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=rJvGJwmVFzA&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=15) **64.** [PyTorch Wasserstein GAN (WGAN) with Gradient Penalty Implementation from scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/64-WGAN_with_Gradient_Penalty_from_Scratch_PyTorch)
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=5eVb91eQBTM&list=PLxqBkZuBynVRLzYA6TYNMAXsrCR9s2CNo&index=9) **63.** [PyTorch Wasserstein GAN (WGAN) Implementation from scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/63-WGAN_from_Scratch_PyTorch)
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=wHo4N3njxDY&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=13) **60.** [CycleGAN Paper Implementation From Scratch with PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/60_CycleGAN_From_Scratch_PyTorch)
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=yOtdN6W4O_0&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=13) **58.** [DCGAN Implementation From Scratch with PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/58-DCGAN-from-Scratch-with-PyTorch)
-
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=CZNYrkdDrmQ&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=12) **57.** [GoogLeNet / Inception v1 Paper Implementation From Scratch with PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/57-GoogLeNet_Inception-v1_From_Scratch_PyTorch)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=P8U1VL93jzA&list=PLxqBkZuBynVRX6QExfPyzRGj5Ap_zmcAJ&index=6) **56.** [ResNet Paper Implementation From Scratch with PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/56-ResNet56_From_Scratch_PyTorch.ipynb)
@@ -79,13 +67,9 @@
 
 - [![Youtube Link][logo]](https://youtu.be/WJh3diVLUcY) **42.** [EfficientNet Pre-Trained with PyTorch - Covid-19 X-Ray Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/42-EfficientNet_Pretrained_Pytorch_Covid_19_X_Rays.ipynb)
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=cFld9T5xZqo) **38.** [DCGAN's Generator Function - Understanding Filter Size and Input Shape](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset/DCGAN_Generator_Function_Understanding_Filter_Size_and_Input_Shape.ipynb)
-
 - [![Youtube Link][logo]](https://youtu.be/D0MWQ8J8lZc) **37.** [Deep Neural Network with PyTorch - FMNIST-Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/FMNIST_Deep_Neural_Netork_Base_Pytorch_Model/Deep-Neural-Network-with-PyTorch-FMNIST-Dataset.ipynb)
 
 - [![Youtube Link][logo]](https://youtu.be/CqnvNgr5050) **36.** [Why We Scale images for Neural Network](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/Why_We_Scale_images_for_Neural_Network/Why_We_Scale_images_for_Neural_Network.ipynb)
-
-- [![Youtube Link][logo]](https://youtu.be/csQj1e6Oj38) **16.** [DCGAN from Scratch with Tensorflow Keras - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
 
 ---
 
