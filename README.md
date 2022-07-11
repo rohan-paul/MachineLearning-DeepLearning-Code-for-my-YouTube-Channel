@@ -23,6 +23,8 @@
 
 ## Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=CHFiTTPeyUw&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=9) [Transformer Encoder with Scaled Dot Product from Scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Transformer_From_Scratch/Transformer_From_Scratch.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=_IGdekeBCoE&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=7) [Fuzzy String Matching in Natural Language Processing | NLP](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Fuzzy-String-Matching.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=SzSANHjYhfg&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=6) [Understanding Word Vectors usage with Spacy Word and Sentence Similarity](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Word-Vectors-Understanding-with-Spacy.ipynb)
