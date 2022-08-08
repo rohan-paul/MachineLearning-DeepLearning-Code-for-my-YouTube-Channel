@@ -23,6 +23,8 @@
 
 ## Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=FA5Vf-wuqnA&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=7) [Cross Lingual Named Entity Recognition with XLM-Roberta](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Zero_Shot_Learning_multilingual-NER.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=Hp8_Enwzdxk&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=6) [BERT from Hugging Face - Few Baseline Application | NLP](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/BERT_HuggingFace_Basic_Usages.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=CHFiTTPeyUw&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=9) [Transformer Encoder with Scaled Dot Product from Scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Transformer_From_Scratch/Transformer_From_Scratch.ipynb)
