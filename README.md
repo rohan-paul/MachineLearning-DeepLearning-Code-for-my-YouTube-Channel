@@ -23,7 +23,7 @@
 
 ## Natural Language Processing | NLP
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=FA5Vf-wuqnA&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=7) [Cross Lingual Named Entity Recognition with XLM-Roberta](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Zero_Shot_Learning_multilingual-NER.ipynb)
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=FA5Vf-wuqnA&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=7) [Zero Shot Learning - Cross Lingual Named Entity Recognition with XLM-Roberta](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Zero_Shot_Learning_multilingual-NER.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=Hp8_Enwzdxk&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=6) [BERT from Hugging Face - Few Baseline Application | NLP](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/BERT_HuggingFace_Basic_Usages.ipynb)
 
