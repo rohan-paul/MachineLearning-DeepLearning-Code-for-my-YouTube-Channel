@@ -23,8 +23,10 @@
 
 ## Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=WEAAs_0etJQ&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=9) [FinBERT Sentiment Analysis for Long Text Corpus with much more than 512 Tokens NLP | HuggingFace](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/FinBERT_Long_Text.ipynb)
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=fwDTLQDKJTE&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=8) [Cosine Similarity between sentences with Transformers HuggingFace](https://www.youtube.com/watch?v=fwDTLQDKJTE&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=8)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=fwDTLQDKJTE&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=8) [Cosine Similarity between sentences with Transformers HuggingFace](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Cosine_Similarity_between_sentences_with_Transformers.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=urMUa4Nw_B8&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=7) [Zero Shot Learning - Cross Lingual Named Entity Recognition with XLM-Roberta](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Zero_Shot_Learning_multilingual-NER.ipynb)
 
