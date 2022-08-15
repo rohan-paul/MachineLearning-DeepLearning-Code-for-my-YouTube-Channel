@@ -23,8 +23,9 @@
 
 ## Natural Language Processing | NLP
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=WEAAs_0etJQ&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=9) [FinBERT Sentiment Analysis for Long Text Corpus with much more than 512 Tokens NLP | HuggingFace](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/FinBERT_Long_Text.ipynb)
+- [![Youtube Link][logo]]() []()
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=hgg2GAgDLzA&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=10) [FinBERT Sentiment Analysis for Long Text Corpus with much more than 512 Tokens NLP | HuggingFace | PART-1](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/FinBERT_Long_Text_Part_2.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=fwDTLQDKJTE&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=8) [Cosine Similarity between sentences with Transformers HuggingFace](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Cosine_Similarity_between_sentences_with_Transformers.ipynb)
 
