@@ -16,7 +16,7 @@ Note: You may assume the string contain only lowercase letters.
 
 """
 
-
+# 1st Alternative
 def firstUniqChar(s: str) -> int:
     d = dict()
     for c in s:
@@ -41,6 +41,8 @@ def firstUniqChar(s: str) -> int:
 
 
 # 3rd Alternative
+
+
 def firstUniqChar(s: str) -> int:
     return min(
         (s.index(l) for l in "abcdefghijklmnopqrstuvwxyz" if s.count(l) == 1),
