@@ -20,12 +20,14 @@
 
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
-
 ## Natural Language Processing | NLP
 
-- [![Youtube Link][logo]]() []()
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=VrJwKdls6d4&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=12) [Fake News Classification with LSTM and Tensorflow
+  ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Fake_News_Classification_with_LSTM_Tensorflow.ipynb)
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=hgg2GAgDLzA&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=10) [FinBERT Sentiment Analysis for Long Text Corpus with much more than 512 Tokens NLP | HuggingFace | PART-1](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/FinBERT_Long_Text_Part_2.ipynb)
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=hgg2GAgDLzA&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=11) [FinBERT Sentiment Analysis for Long Text with much more than 512 Tokens NLP | HuggingFace | PART 2](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/FinBERT_Long_Text_Part_2.ipynb)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=WEAAs_0etJQ&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=9) [FinBERT Sentiment Analysis for Long Text Corpus with much more than 512 Tokens NLP | HuggingFace | PART-1](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/FinBERT_Long_Text_Part_2.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=fwDTLQDKJTE&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=8) [Cosine Similarity between sentences with Transformers HuggingFace](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Cosine_Similarity_between_sentences_with_Transformers.ipynb)
 
@@ -49,9 +51,7 @@
 
 - [![Youtube Link][logo]](https://bit.ly/3Nk0zRA) [Sentiment analysis using TextBlob and Vader](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/sentiment_analysis_textblob_Vader.ipynb)
 
-
 ## Computer Vision & Deep Learning Algorithms
-
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=LG8lbm_W380&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y&index=15) [Run Length Encoding in Image Segmentation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/run_length_encoding.ipynb)
 
@@ -84,7 +84,6 @@
 - [![Youtube Link][logo]](https://youtu.be/CqnvNgr5050) **36.** [Why We Scale images for Neural Network](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/Why_We_Scale_images_for_Neural_Network/Why_We_Scale_images_for_Neural_Network.ipynb)
 
 ---
-
 
 ## PyTorch Techniques for Deep Learning
 
@@ -203,5 +202,3 @@
 ---
 
 - [![Youtube Link][logo]]() []()
-
-
