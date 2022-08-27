@@ -173,6 +173,8 @@
 
 ## Stock Market / Crypto / Trading / Finance
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=0gXeXtL_KjY&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=16) [Bitcoin Prediction - FB-Prophet outperforms ARIMAX, XGBOOST & LSTM](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_FBPROPHET_outperform_ARIMAX_XGBOOST_LSTM.ipynb)
+
 - [![Youtube Link][logo]](https://youtu.be/r2Ee1HGs41I) **28.** [Bitcoin Price Prediction with LSTM (Tensorflow and Keras)- PART-2](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
 
 - [![Youtube Link][logo]](https://youtu.be/blOLAVz9UhQ) **25.** [Bitcoin Price Prediction with LSTM (Tensorflow and Keras)- PART-1](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
