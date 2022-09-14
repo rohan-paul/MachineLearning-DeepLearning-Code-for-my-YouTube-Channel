@@ -22,6 +22,8 @@
 
 ## Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=SmWbKiueYVU&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=12) [Topic Modeling with BERT and Automatic Cluster Labeling](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Topic_Modeling_with_BERT_and_Automatic_cluster_labeling/Topic_Modeling.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=Ua_ToM-CG5Q&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=11) [Decoding strategies while generating text with GPT-2](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Decoding_Strategies_for_text_generation/Decoding_Strategies_for_text_generation.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=VrJwKdls6d4&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=12) [Fake News Classification with LSTM and Tensorflow
