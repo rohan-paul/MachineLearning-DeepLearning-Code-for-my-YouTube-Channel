@@ -22,6 +22,8 @@
 
 ## Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=oxEXBJQG27A&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=13) [Debarta-v3-large model fine tuning for Kaggle Competition Feedback-Prize | NLP](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/debarta-v3-large-For_Kaggle_Competition_Feedback-Prize/debarta-v3-large-For_Kaggle_Competition_Feedback-Prize.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=SmWbKiueYVU&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=12) [Topic Modeling with BERT and Automatic Cluster Labeling](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Topic_Modeling_with_BERT_and_Automatic_cluster_labeling/Topic_Modeling.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=Ua_ToM-CG5Q&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=11) [Decoding strategies while generating text with GPT-2](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Decoding_Strategies_for_text_generation/Decoding_Strategies_for_text_generation.ipynb)
