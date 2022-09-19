@@ -22,6 +22,9 @@
 
 ## Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=HDSNjrxSwqw&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=14) [Text Summarization with Transformer - BART + T5 + Pegasus
+  ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Text_Summarization_%20BART%20_T5_Pegasus.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=oxEXBJQG27A&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=13) [Debarta-v3-large model fine tuning for Kaggle Competition Feedback-Prize | NLP](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/debarta-v3-large-For_Kaggle_Competition_Feedback-Prize/debarta-v3-large-For_Kaggle_Competition_Feedback-Prize.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=SmWbKiueYVU&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=12) [Topic Modeling with BERT and Automatic Cluster Labeling](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Topic_Modeling_with_BERT_and_Automatic_cluster_labeling/Topic_Modeling.ipynb)
@@ -58,6 +61,28 @@
 - [![Youtube Link][logo]](https://bit.ly/3Nk0zRA) [Sentiment analysis using TextBlob and Vader](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/sentiment_analysis_textblob_Vader.ipynb)
 
 ## Computer Vision & Deep Learning Algorithms
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=csQj1e6Oj38&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=34) [DCGAN from Scratch with Tensorflow - Create Fake Images from CELEB-A Dataset ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN%20from%20Scratch%20with%20TensorFlow%20-%20Generate%20fake%20Faces%20from%20CelebA%20Dataset/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=cFld9T5xZqo&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=33) [DCGAN's Generator Function - Understand Filter Size, Input Shape](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN%20from%20Scratch%20with%20TensorFlow%20-%20Generate%20fake%20Faces%20from%20CelebA%20Dataset/DCGAN_Generator_Function_Understanding_Filter_Size_and_Input_Shape.ipynb)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=yOtdN6W4O_0&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=32) [PyTorch DCGAN Implementation from Scratch | Deep Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Computer_Vision/DCGAN-from-Scratch-with-PyTorch)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=yeqWzw19V04&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=31) [CycleGAN Architecture and Paper Walkthrough]()
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=wHo4N3njxDY&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=30) [PyTorch CycleGAN Paper Implementation from Scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Computer_Vision/CycleGAN_From_Scratch_PyTorch)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=Jeget7bOHhI&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=29) [Wasserstein GAN (WGAN) Architecture Understanding]()
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=5eVb91eQBTM&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=28) [PyTorch Wasserstein GAN (WGAN) Implementation from scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Computer_Vision/WGAN_WITHOUT_Gradient_Penalty_from_Scratch_PyTorch)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=rJvGJwmVFzA&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=27) [PyTorch Wasserstein GAN (WGAN) with Gradient Penalty from scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Computer_Vision/WGAN_with_Gradient_Penalty_from_Scratch_PyTorch)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=Snqb7Usrauw&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=26) [PyTorch ConditionalGAN (Generative Adversarial Networks) from Scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Computer_Vision/Conditional%20GAN%20From%20Scratch%20with%20PyTorch)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=yOtdN6W4O_0&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=23) [PyTorch DCGAN Implementation from Scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Computer_Vision/DCGAN-from-Scratch-with-PyTorch)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=csQj1e6Oj38&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=22) [DCGAN from Scratch with Tensorflow - Create Fake Images from CELEB-A Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN%20from%20Scratch%20with%20TensorFlow%20-%20Generate%20fake%20Faces%20from%20CelebA%20Dataset/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=LG8lbm_W380&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y&index=15) [Run Length Encoding in Image Segmentation](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/run_length_encoding.ipynb)
 
