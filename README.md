@@ -22,6 +22,8 @@
 
 ## Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=fLqiPks4neU&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=15) [Text Summarization by Fine Tuning Transformer Model | NLP ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Fine_Tuning_Pegasus_for_Text_Summarization.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=HDSNjrxSwqw&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=14) [Text Summarization with Transformer - BART + T5 + Pegasus
   ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Text_Summarization_%20BART%20_T5_Pegasus.ipynb)
 
