@@ -20,7 +20,9 @@
 
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
-## Natural Language Processing | NLP
+# Natural Language Processing | NLP
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=dzyDHMycx_c&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=18) [Fine Tuning BERT for Named Entity Recognition (NER)](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/YT_Fine_tuning_BERT_NER_v1.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=fLqiPks4neU&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=15) [Text Summarization by Fine Tuning Transformer Model | NLP ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Fine_Tuning_Pegasus_for_Text_Summarization.ipynb)
 
@@ -62,7 +64,7 @@
 
 - [![Youtube Link][logo]](https://bit.ly/3Nk0zRA) [Sentiment analysis using TextBlob and Vader](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/sentiment_analysis_textblob_Vader.ipynb)
 
-## Computer Vision & Deep Learning Algorithms
+# Computer Vision & Deep Learning Algorithms
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=csQj1e6Oj38&list=PLxqBkZuBynVRyOJs4RWmB_fKlOVe5S8CR&index=34) [DCGAN from Scratch with Tensorflow - Create Fake Images from CELEB-A Dataset ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/DCGAN%20from%20Scratch%20with%20TensorFlow%20-%20Generate%20fake%20Faces%20from%20CelebA%20Dataset/DCGAN_with_Tensorflow_Keras_Celeb_A_Dataset.ipynb)
 
@@ -118,7 +120,7 @@
 
 ---
 
-## PyTorch Techniques for Deep Learning
+# PyTorch Techniques for Deep Learning
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=gbA9M4Ix6xw&list=PLxqBkZuBynVQqJTE9nRM2p7Tb12TDPlnq&index=12) **61.** [Learning Rate Scheduler | PyTorch | Implementing Custom Scheduler for CycleGAN](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/PyTorch-Techniques/61-Learning-Rate-Scheduler-PyTorch-including-Custom.ipynb)
 
@@ -142,7 +144,7 @@
 
 ---
 
-## Image Processing, Image Augmentation and OpenCV
+# Image Processing, Image Augmentation and OpenCV
 
 - [![Youtube Link][logo]](https://youtu.be/YLzhTG1ILaY) **40.** [Image Augmentation with Albumentation - Kaggle TensorFlow Great Barrier Reef Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Computer_Vision/40_Image_Augmentation_with_Albumentation_TensorFlow_Great_Barrier_Reef.ipynb)
 
@@ -154,13 +156,13 @@
 
 ---
 
-## Computer Vision Paper Discussion
+# Computer Vision Paper Discussion
 
 - [![Youtube Link][logo]](https://youtu.be/clkFRyecQFw?list=PLxqBkZuBynVRRf6STJ4A2Rrd-qo6oMleO) **26** 𝗣𝗮𝗽𝗲𝗿 𝗘𝘅𝗽𝗹𝗮𝗶𝗻𝗲𝗱 - 𝗘𝘆𝗲𝘀 𝗧𝗲𝗹𝗹 𝗔𝗹𝗹 - 𝗗𝗲𝘁𝗲𝗰𝘁 𝗙𝗮𝗸𝗲 𝗔𝗜 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗳𝗮𝗰𝗲𝘀 ( 𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗩𝗶𝘀𝗶𝗼𝗻 / 𝗚𝗔𝗡𝘀 )
 
 - [![Youtube Link][logo]](https://youtu.be/d9ggCKl7sNQ) **14.** GFP GAN Paper with Python code to restore resolution of old Photos
 
-## Tensorflow
+# Tensorflow
 
 - [![Youtube Link][logo]](https://youtu.be/DNjqRL4NYTU?list=PLxqBkZuBynVQLW_TF7iIUKsWVCG-hCQFz) **15** [Keras Custom Layers and Fundamental Building Blocks For Training Model](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/TensorFlow/Keras_Custom_Layers_Building_Blocks/Keras_Custom_Layers_Building_Blocks.ipynb)
 
@@ -170,7 +172,7 @@
 
 ---
 
-## Kaggle Competitions / Data Science Project
+# Kaggle Competitions / Data Science Project
 
 - [![Youtube Link][logo]](https://bit.ly/2Z2PUXl) **22.** [Predict Transaction Value of Bank Customer - Kaggle Santander Challenge](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Kaggle_Competition/Santander-Kg-Value-Prediction-Challenge/NoteBooks/Santender_v3.ipynb).
 
@@ -180,7 +182,7 @@
 
 ---
 
-## Neural Network
+# Neural Network
 
 - [![Youtube Link][logo]](https://youtu.be/arm9wLAk44A) **9.** [Chain Rule Math in Backpropagation](https://rohan-paul-ai.netlify.app/blog/post/neural-networkimplementing-backpropagation-using-the-chain-rule)
 
@@ -190,7 +192,7 @@
 
 ---
 
-## Python_Challenges
+# Python_Challenges
 
 - [![Youtube Link][logo]](https://youtu.be/41scxhCAs08) **12.** [Codewars Python Solution - 6kyu - Format words into Sentence](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/blob/master/Python_Challenges/Codewar-solutions/6kyu/format_words_into_a_sentence.py)
 
@@ -204,7 +206,7 @@
 
 ---
 
-## Stock Market / Crypto / Trading / Finance
+# Stock Market / Crypto / Trading / Finance
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=0gXeXtL_KjY&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=16) [Bitcoin Prediction - FB-Prophet outperforms ARIMAX, XGBOOST & LSTM](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_FBPROPHET_outperform_ARIMAX_XGBOOST_LSTM.ipynb)
 
@@ -218,7 +220,7 @@
 
 ---
 
-## Classical Machine Learning
+# Classical Machine Learning
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=8YJRtyx10vw&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y) **21.** [RandomizedSearchCV From Scratch without scikit-learn](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/ML_Algos_From_Scratch/RandomSearchCV_From_Scratch.ipynb)
 
@@ -226,7 +228,7 @@
 
 ---
 
-## Statistics
+# Statistics
 
 - [![Youtube Link][logo]](https://youtu.be/vQ3Bpgeo7Ik) **5.** Bayes Theorem in Probability implementation - simple Data Science Interview question
 
