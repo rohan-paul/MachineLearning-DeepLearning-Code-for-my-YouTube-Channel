@@ -22,6 +22,8 @@
 
 # Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=iCL1TmRQ0sk&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=19) [Adding a custom task-specific Layer to a HuggingFace Pretrained Model](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Add-task_specific_custom_layer_to_model.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=dzyDHMycx_c&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=18) [Fine Tuning BERT for Named Entity Recognition (NER)](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/YT_Fine_tuning_BERT_NER_v1.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=fLqiPks4neU&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=15) [Text Summarization by Fine Tuning Transformer Model | NLP ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Fine_Tuning_Pegasus_for_Text_Summarization.ipynb)
