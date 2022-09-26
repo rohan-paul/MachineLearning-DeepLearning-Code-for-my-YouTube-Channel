@@ -22,6 +22,8 @@
 
 # Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=vrDdnQfav0s&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=21) [Latent Dirichlet Allocation (LDA) for Topic Modeling](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Topic_Modeling_with_LDA.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=iCL1TmRQ0sk&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=19) [Adding a custom task-specific Layer to a HuggingFace Pretrained Model](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Add-task_specific_custom_layer_to_model.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=ZvsH09XGuZ0&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=18) [Fine Tuning DistilBERT for Multiclass Text Classification](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Multi-class-text-classifica_fine-tuning-distilbert.ipynb)
