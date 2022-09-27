@@ -22,7 +22,7 @@
 
 # Natural Language Processing | NLP
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=fl0ow-nD8FM&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=20) [](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/Topic-modeling-with-bertopic-arxiv-abstract)
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=fl0ow-nD8FM&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=20) [Topic Modeling with BERTopic | arxiv-abstract dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/Topic-modeling-with-bertopic-arxiv-abstract)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=vrDdnQfav0s&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=21) [Latent Dirichlet Allocation (LDA) for Topic Modeling](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Topic_Modeling_with_LDA.ipynb)
 
