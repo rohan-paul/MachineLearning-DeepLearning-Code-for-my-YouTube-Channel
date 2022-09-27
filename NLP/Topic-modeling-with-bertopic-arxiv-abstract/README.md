@@ -1,0 +1,5 @@
+<a href="https://www.youtube.com/watch?v=fl0ow-nD8FM&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=20"><h1 style="font-size:250%; font-family:cursive; color:#ff6666;"><b>Link YouTube Video - LDA for Topic Modeling</b></h1></a>
+
+[![IMAGE ALT TEXT](https://imgur.com/XKntgbj.png)](https://www.youtube.com/watch?v=fl0ow-nD8FM&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=20)
+
+---
