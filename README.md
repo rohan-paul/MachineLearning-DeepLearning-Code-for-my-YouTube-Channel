@@ -22,7 +22,9 @@
 
 # Natural Language Processing | NLP
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=30zPz5Xz-8g&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=21) [https://www.youtube.com/watch?v=30zPz5Xz-8g&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=21](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/Understing_BERT_Embedding_Vector)
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=CwLPglxw1WA&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=23) [Fine Tuning Transformer (BERT) for Customer Review Prediction | NLP | HuggingFace ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/Fine_Tuning_HuggingFace_Transformer_BERT_Yelp_Customer_Review_Predictions)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=30zPz5Xz-8g&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=21) [Understanding BERT Embeddings and Tokenization | NLP | HuggingFace](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/Understing_BERT_Embedding_Vector)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=fl0ow-nD8FM&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=20) [Topic Modeling with BERTopic | arxiv-abstract dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/Topic-modeling-with-bertopic-arxiv-abstract)
 
