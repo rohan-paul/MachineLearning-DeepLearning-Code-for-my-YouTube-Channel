@@ -9,12 +9,12 @@
 #### Find me here..
 
 - 🐦 TWITTER: https://twitter.com/rohanpaul_ai
-- ​👨‍🔧​ Kaggle: https://www.kaggle.com/paulrohan2020
+- ​👨‍🔧​ KAGGLE: https://www.kaggle.com/paulrohan2020
 - 👨🏻‍💼 LINKEDIN: https://www.linkedin.com/in/rohan-paul-b27285129/
 - 👨‍💻 GITHUB: https://github.com/rohan-paul
-- 🤖: My Website and Blog: https://rohan-paul-ai.netlify.app/
-- 🧑‍🦰 Facebook Page: https://www.facebook.com/rohanpaulai
-- 📸 Instagram: https://www.instagram.com/rohan_paul_2020/
+- 🤖 MY WEBSITE AND BLOG: https://rohan-paul-ai.netlify.app/
+- 🧑‍🦰 FACEBOOK: https://www.facebook.com/rohanpaulai
+- 📸 INSTAGRAM: https://www.instagram.com/rohan_paul_2020/
 
 ---
 
@@ -249,5 +249,3 @@
 - [![Youtube Link][logo]](https://youtu.be/w2WrskWX60o) **1.** [Standard Deviation in Python, Numpy and Pandas](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/tree/master/Statistics/Standard-Deviation)
 
 ---
-
-- [![Youtube Link][logo]]() []()
