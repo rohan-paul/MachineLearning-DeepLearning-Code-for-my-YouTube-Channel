@@ -22,6 +22,8 @@
 
 # Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=tvdIF1FU7fg&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=24) [Zero Shot Multilingual Sentiment Classification with PyTorch Lightning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/zero_shot_multilingual_sentiment_classification_with_USEm)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=CwLPglxw1WA&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=23) [Fine Tuning Transformer (BERT) for Customer Review Prediction | NLP | HuggingFace ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/Fine_Tuning_HuggingFace_Transformer_BERT_Yelp_Customer_Review_Predictions)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=30zPz5Xz-8g&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=21) [Understanding BERT Embeddings and Tokenization | NLP | HuggingFace](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/Understing_BERT_Embedding_Vector)
@@ -249,3 +251,5 @@
 - [![Youtube Link][logo]](https://youtu.be/w2WrskWX60o) **1.** [Standard Deviation in Python, Numpy and Pandas](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/tree/master/Statistics/Standard-Deviation)
 
 ---
+
+- [![Youtube Link][logo]]() []()
