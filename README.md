@@ -20,6 +20,20 @@
 
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
+# Finance and Trading with Machine Learning and Deep Learning
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=0gXeXtL_KjY&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=16) [Bitcoin Prediction - FB-Prophet outperforms ARIMAX, XGBOOST & LSTM](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_FBPROPHET_outperform_ARIMAX_XGBOOST_LSTM.ipynb)
+
+- [![Youtube Link][logo]](https://youtu.be/r2Ee1HGs41I) **28.** [Bitcoin Price Prediction with LSTM (Tensorflow and Keras)- PART-2](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
+
+- [![Youtube Link][logo]](https://youtu.be/blOLAVz9UhQ) **25.** [Bitcoin Price Prediction with LSTM (Tensorflow and Keras)- PART-1](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
+
+- [![Youtube Link][logo]](https://bit.ly/3mwv2kJ) **24.** [Get BitCoin and other Cryptocurrency Historic Data For Free with Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Historic_Crypto.ipynb)
+
+- [![Youtube Link][logo]](https://youtu.be/_3rIOGR-jh0?list=PLxqBkZuBynVR0Tw4dRwhpBcVBwePdLv8y) **23** [Extract Stock Market Data with yfinance for free and Tesla Stock Prediction](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/yfinance_stock_data_pulling_TESLA_price_prediction_with_Time_Series.ipynb)
+
+---
+
 # Natural Language Processing | NLP
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=tvdIF1FU7fg&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=24) [Zero Shot Multilingual Sentiment Classification with PyTorch Lightning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/zero_shot_multilingual_sentiment_classification_with_USEm)
@@ -220,21 +234,7 @@
 
 ---
 
-# Stock Market / Crypto / Trading / Finance
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=0gXeXtL_KjY&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=16) [Bitcoin Prediction - FB-Prophet outperforms ARIMAX, XGBOOST & LSTM](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_FBPROPHET_outperform_ARIMAX_XGBOOST_LSTM.ipynb)
-
-- [![Youtube Link][logo]](https://youtu.be/r2Ee1HGs41I) **28.** [Bitcoin Price Prediction with LSTM (Tensorflow and Keras)- PART-2](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
-
-- [![Youtube Link][logo]](https://youtu.be/blOLAVz9UhQ) **25.** [Bitcoin Price Prediction with LSTM (Tensorflow and Keras)- PART-1](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
-
-- [![Youtube Link][logo]](https://bit.ly/3mwv2kJ) **24.** [Get BitCoin and other Cryptocurrency Historic Data For Free with Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Historic_Crypto.ipynb)
-
-- [![Youtube Link][logo]](https://youtu.be/_3rIOGR-jh0?list=PLxqBkZuBynVR0Tw4dRwhpBcVBwePdLv8y) **23** [Extract Stock Market Data with yfinance for free and Tesla Stock Prediction](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/yfinance_stock_data_pulling_TESLA_price_prediction_with_Time_Series.ipynb)
-
----
-
-# Classical Machine Learning
+# Machine Learning Algo Implementations from Scratch with pure Python
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=8YJRtyx10vw&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y) **21.** [RandomizedSearchCV From Scratch without scikit-learn](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/ML_Algos_From_Scratch/RandomSearchCV_From_Scratch.ipynb)
 
@@ -243,6 +243,8 @@
 ---
 
 # Statistics
+
+- - [![Youtube Link][logo]](https://www.youtube.com/watch?v=M7PgCJ-5twg&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y&index=18) [Linear Regression From Scratch with Pure Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/ML_Algos_From_Scratch/Linear%20Regression%20From%20Scratch%20with%20Pure%20Python)
 
 - [![Youtube Link][logo]](https://youtu.be/vQ3Bpgeo7Ik) **5.** Bayes Theorem in Probability implementation - simple Data Science Interview question
 
