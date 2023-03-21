@@ -36,6 +36,8 @@
 
 # Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=EHtHF9Kvm0Y&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=28&ab_channel=Rohan-Paul-AI) [Longformer end to end with Kaggle NLP competition](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/Longformer%20end%20to%20end%20with%20Kaggle%20NLP%20competition)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=tvdIF1FU7fg&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=24) [Zero Shot Multilingual Sentiment Classification with PyTorch Lightning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/zero_shot_multilingual_sentiment_classification_with_USEm)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=CwLPglxw1WA&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=23) [Fine Tuning Transformer (BERT) for Customer Review Prediction | NLP | HuggingFace ](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/Fine_Tuning_HuggingFace_Transformer_BERT_Yelp_Customer_Review_Predictions)
