@@ -6,3 +6,5 @@
 ---------------------
 
 ### [Kaggle - Feedback Prize - Evaluating Student Writing](https://www.kaggle.com/competitions/feedback-prize-2021)
+
+### You can run the Notebook `Longformer.ipynb`  either Locally or in Kaggle - Just modify the 'ROOT_DIR' variable to properly refer to the dataset
