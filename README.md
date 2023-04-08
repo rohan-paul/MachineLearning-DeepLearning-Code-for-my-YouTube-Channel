@@ -12,7 +12,7 @@
 - ​👨‍🔧​ KAGGLE: https://www.kaggle.com/paulrohan2020
 - 👨🏻‍💼 LINKEDIN: https://www.linkedin.com/in/rohan-paul-b27285129/
 - 👨‍💻 GITHUB: https://github.com/rohan-paul
-- 🤖 MY WEBSITE AND BLOG: https://rohan-paul-ai.netlify.app/
+- 🤖 Substack : https://substack.com/profile/5815161-rohan-paul
 - 🧑‍🦰 FACEBOOK: https://www.facebook.com/rohanpaulai
 - 📸 INSTAGRAM: https://www.instagram.com/rohan_paul_2020/
 
@@ -250,7 +250,7 @@
 
 # Statistics
 
-- - [![Youtube Link][logo]](https://www.youtube.com/watch?v=M7PgCJ-5twg&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y&index=18) [Linear Regression From Scratch with Pure Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/ML_Algos_From_Scratch/Linear%20Regression%20From%20Scratch%20with%20Pure%20Python)
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=M7PgCJ-5twg&list=PLxqBkZuBynVRMORlFw95iNTp9aZzmmz4Y&index=18) [Linear Regression From Scratch with Pure Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/ML_Algos_From_Scratch/Linear%20Regression%20From%20Scratch%20with%20Pure%20Python)
 
 - [![Youtube Link][logo]](https://youtu.be/vQ3Bpgeo7Ik) **5.** Bayes Theorem in Probability implementation - simple Data Science Interview question
 
