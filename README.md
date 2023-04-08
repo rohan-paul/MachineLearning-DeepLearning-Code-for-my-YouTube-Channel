@@ -206,6 +206,8 @@
 
 # Kaggle Competitions / Data Science Project
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=mRUEicBk1No&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=33&ab_channel=Rohan-Paul-AI) [Bidirectional LSTM for Kaggle Competition(Ventilator Pressure Prediction) | PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Kaggle_Competition/Bidirectional%20LSTM%20for%20Kaggle%20Competition(Ventilator%20Pressure%20Prediction)).
+
 - [![Youtube Link][logo]](https://bit.ly/2Z2PUXl) **22.** [Predict Transaction Value of Bank Customer - Kaggle Santander Challenge](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Kaggle_Competition/Santander-Kg-Value-Prediction-Challenge/NoteBooks/Santender_v3.ipynb).
 
 - [![Youtube Link][logo]](https://youtu.be/QI0qjDfMtAw) **17.** [Kaggle - Microsoft Malware Detection-BIG 2015](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Kaggle_Competition/Microsoft_Malware_Classification_BIG_2015/Microsoft_Malware_BIG_2015_Kaggle.ipynb).
