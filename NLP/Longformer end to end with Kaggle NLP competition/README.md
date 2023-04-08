@@ -8,3 +8,15 @@
 ### [Kaggle - Feedback Prize - Evaluating Student Writing](https://www.kaggle.com/competitions/feedback-prize-2021)
 
 ### You can run the Notebook `Longformer.ipynb`  either Locally or in Kaggle - Just modify the 'ROOT_DIR' variable to properly refer to the dataset
+
+--------------
+
+### Connect with me here..
+
+- 🐦 TWITTER: https://twitter.com/rohanpaul_ai
+- ​👨‍🔧​ KAGGLE: https://www.kaggle.com/paulrohan2020
+- 👨🏻‍💼 LINKEDIN: https://www.linkedin.com/in/rohan-paul-b27285129/
+- 👨‍💻 GITHUB: https://github.com/rohan-paul
+- 🤖 Substack : https://substack.com/profile/5815161-rohan-paul
+- 🧑‍🦰 FACEBOOK: https://www.facebook.com/rohanpaulai
+- 📸 INSTAGRAM: https://www.instagram.com/rohan_paul_2020/
