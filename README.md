@@ -218,7 +218,7 @@
 
 # Neural Network
 
-- [![Youtube Link][logo]](https://youtu.be/arm9wLAk44A) **9.** [Chain Rule Math in Backpropagation](https://rohan-paul-ai.netlify.app/blog/post/neural-networkimplementing-backpropagation-using-the-chain-rule)
+- [![Youtube Link][logo]](https://youtu.be/arm9wLAk44A) **9.** [Chain Rule Math in Backpropagation](https://rohanpaul.substack.com/p/neural-network-implementing-backpropagation)
 
 - [![Youtube Link][logo]](https://youtu.be/QQkrIlISzP0) **13.** [Neural Network Implementation From Scratch in Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Neural_Network/13-Neural_Network_Forward_and_Back_Propagation_Implementation_From_Scratch_Sept_2021)
 
