@@ -36,6 +36,8 @@
 
 # Natural Language Processing | NLP
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=4nNbg4bWDrQ&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=32&ab_channel=Rohan-Paul-AI) [FineTuning BERT for Multi-Class Classification on custom Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/FineTuning_BERT_for_Multi_Class_Classification_Turkish)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=6X0xfXMKCjM&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=29&ab_channel=Rohan-Paul-AI) [Roberta-Large Named Entity Recognizition on Kaggle NLP Competition with PyTorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/Roberta-Large-NER-on-Kaggle-NLP%20Competition)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=EHtHF9Kvm0Y&list=PLxqBkZuBynVTn2lkHNAcw6lgm1MD5QiMK&index=28&ab_channel=Rohan-Paul-AI) [Longformer end to end with Kaggle NLP competition](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/Longformer%20end%20to%20end%20with%20Kaggle%20NLP%20competition)
