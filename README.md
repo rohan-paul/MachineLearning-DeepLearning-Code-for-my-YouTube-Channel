@@ -39,6 +39,8 @@
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=4nNbg4bWDrQ&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=32&ab_channel=Rohan-Paul-AI) [FineTuning BERT for Multi-Class Classification on custom Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/FineTuning_BERT_for_Multi_Class_Classification_Turkish)
 
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=91msLyGC-LI&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=28&ab_channel=Rohan-Paul-AI) [Document STRIDE when Tokenizing with HuggingFace Transformer for NLP Projects](https://www.youtube.com/watch?v=91msLyGC-LI&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=28&ab_channel=Rohan-Paul-AI)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=cplo2UyNw24&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=31&ab_channel=Rohan-Paul-AI) [Fine-tuning of a PreTrained Transformer model - what really happens to the weights (parameters)]()
 
 
