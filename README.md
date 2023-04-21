@@ -22,7 +22,7 @@
 
 # Finance and Trading with Machine Learning and Deep Learning
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=K_9G29R01kw&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=34&ab_channel=Rohan-Paul-AI) [XGBoost for TIme Series | Forecast Energy Consumption with Machine-Learning]()
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=K_9G29R01kw&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=34&ab_channel=Rohan-Paul-AI) [XGBoost for TIme Series | Forecast Energy Consumption with Machine-Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Time-Series/XGBoost_for_TIme_Series_Forecast_Energy_Consumption_with_Machine-Learning)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=0gXeXtL_KjY&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=16) [Bitcoin Prediction - FB-Prophet outperforms ARIMAX, XGBOOST & LSTM](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_FBPROPHET_outperform_ARIMAX_XGBOOST_LSTM.ipynb)
 
