@@ -22,6 +22,8 @@
 
 # Finance and Trading with Machine Learning and Deep Learning
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=B7XgA0OmQl8&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=39&ab_channel=Rohan-Paul-AI) [LGBM (LightGBM) Model on TimeSeries Data of Cryptocurrency Prices | Crypto with Machine Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Crypto_with_MachineLearning/LGBM%20on%20TimeSeries%20Data%20of%20Cryptocurrency%20Prices.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=mUYXhzVrDF8&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=38&ab_channel=Rohan-Paul-AI) [Feature Engineering for Bitcoin Time Series | Prediction with XGBoost](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/5f61de96dd9e06b8a022d852137891b4de59d585/Finance_Stock_Crypto_Trading/Crypto_with_MachineLearning/Feature%20Engineering%20for%20Bitcoin%20Time%20Series%20and%20Price%20Prediction%20with%20XGBoost)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=da5GNkAZO54&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=37&ab_channel=Rohan-Paul-AI) [Bitcoin Price Prediction with FB Prophet | Time Series with Machine Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin%20Price%20Prediction%20with%20FB%20Prophet.ipynb#enroll-beta)
