@@ -300,13 +300,6 @@ glove_vectors
 #**/*.png
 #/.png
 
-
-*.jpg
-/*.jpg
-*/*.jpg
-**/*.jpg
-/.jpg
-
 *.jpeg
 /*.jpeg
 */*.jpeg
