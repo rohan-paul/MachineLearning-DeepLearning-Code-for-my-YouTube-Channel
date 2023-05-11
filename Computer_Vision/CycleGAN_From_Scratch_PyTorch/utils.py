@@ -23,6 +23,16 @@ from PIL import Image
 
 
 def convert_to_rgb(image):
+    """
+    Convert an image to RGB format.
+
+    Args:
+        image (PIL.Image.Image): Input image.
+
+    Returns:
+        PIL.Image.Image: RGB converted image.
+
+    """
     rgb_image = Image.new("RGB", image.size)
     rgb_image.paste(image)
     return rgb_image
