@@ -20,7 +20,13 @@
 
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
-# Finance and Trading with Machine Learning and Deep Learning
+<br>
+
+<div style="background: linear-gradient(45deg, #FFC300, #FF5733, #C70039, #900C3F); padding: 10px; border-radius: 5px; display: flex; align-items: center;">
+    <h3 style="font-weight: bold; color: white; margin: 0 auto;"> Finance and Trading with Machine Learning and Deep Learning</h3>
+</div>
+
+<br>
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=B7XgA0OmQl8&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=39&ab_channel=Rohan-Paul-AI) [LGBM (LightGBM) Model on TimeSeries Data of Cryptocurrency Prices | Crypto with Machine Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Crypto_with_MachineLearning/LGBM%20on%20TimeSeries%20Data%20of%20Cryptocurrency%20Prices.ipynb)
 
@@ -42,9 +48,14 @@
 
 - [![Youtube Link][logo]](https://youtu.be/_3rIOGR-jh0?list=PLxqBkZuBynVR0Tw4dRwhpBcVBwePdLv8y) **23** [Extract Stock Market Data with yfinance for free and Tesla Stock Prediction](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/yfinance_stock_data_pulling_TESLA_and_price_prediction_with_Time_Series.ipynb)
 
----
+<br>
 
-# Natural Language Processing | NLP
+<div style="background: linear-gradient(45deg, #FFC300, #FF5733, #C70039, #900C3F); padding: 10px; border-radius: 5px; display: flex; align-items: center;">
+    <h3 style="font-weight: bold; color: white; margin: 0 auto;"> Natural Language Processing | NLP</h3>
+</div>
+
+<br>
+
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=4nNbg4bWDrQ&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=32&ab_channel=Rohan-Paul-AI) [FineTuning BERT for Multi-Class Classification on custom Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/FineTuning_BERT_for_Multi_Class_Classification_Turkish)
 
