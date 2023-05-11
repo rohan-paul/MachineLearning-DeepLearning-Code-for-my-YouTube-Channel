@@ -80,6 +80,17 @@ F.one_hot(x, num_classes=6)
 
 
 def concat_vectors(x, y):
+    """
+    Concatenate two tensors along the second dimension.
+
+    Args:
+        x (torch.Tensor): First input tensor.
+        y (torch.Tensor): Second input tensor.
+
+    Returns:
+        torch.Tensor: Concatenated tensor.
+
+    """
     combined = torch.cat((x.float(), y.float()), 1)
     return combined
 
