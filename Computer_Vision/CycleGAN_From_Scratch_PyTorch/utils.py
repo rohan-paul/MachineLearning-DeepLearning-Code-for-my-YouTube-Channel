@@ -221,6 +221,20 @@ class LambdaLR:
         self.decay_start_epoch = decay_start_epoch
 
     def step(self, epoch):
+        """
+        This method calculates the multiplicative factor for the learning rate based on the current epoch.
+        The learning rate decreases linearly after decay_start_epoch.
+
+        Parameters
+        ----------
+        epoch : int
+            The current training epoch.
+
+        Returns
+        -------
+        float
+            A multiplicative factor (between 1.0 and 0.0) for the learning rate.
+        """
         # Below line checks whether the current epoch has exceeded the decay epoch(which is 100)
         # e.g. if current epoch is 80 then max (0, 80 - 100) will be 0.
         # i.e. then entire numerator will be 0 - so 1 - 0 is 1
