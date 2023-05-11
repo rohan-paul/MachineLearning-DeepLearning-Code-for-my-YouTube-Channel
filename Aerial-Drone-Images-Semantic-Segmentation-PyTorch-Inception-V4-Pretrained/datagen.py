@@ -75,8 +75,22 @@ class DataGen(Dataset):
         return img_patches, mask_patches
 
 
-## Data Loading for Test Set
 class TestDataGen(Dataset):
+    """
+    Custom dataset class for loading test data.
+
+    Args:
+        img_path (str): Path to the directory containing the input images.
+        mask_path (str): Path to the directory containing the corresponding masks.
+        X (list): List of file names (without extensions) of the images and masks.
+        transform (callable, optional): Optional transformations to apply to the images and masks.
+
+    Returns:
+        img (PIL.Image): Input image.
+        mask (torch.Tensor): Corresponding mask.
+
+    """
+
     def __init__(self, img_path, mask_path, X, transform=None):
         self.img_path = img_path
         self.mask_path = mask_path
@@ -84,9 +98,27 @@ class TestDataGen(Dataset):
         self.transform = transform
 
     def __len__(self):
+        """
+        Returns the total number of samples in the dataset.
+
+        Returns:
+            int: Number of samples in the dataset.
+
+        """
         return len(self.X)
 
     def __getitem__(self, idx):
+        """
+        Retrieves the image and mask at the given index.
+
+        Args:
+            idx (int): Index of the sample to retrieve.
+
+        Returns:
+            img (PIL.Image): Input image.
+            mask (torch.Tensor): Corresponding mask.
+
+        """
         img = cv2.imread(self.img_path + self.X[idx] + ".jpg")
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         mask = cv2.imread(self.mask_path + self.X[idx] + ".png", cv2.IMREAD_GRAYSCALE)
