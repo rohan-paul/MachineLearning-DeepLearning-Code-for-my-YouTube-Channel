@@ -143,6 +143,13 @@ def plot_loss_vs_epoch(history):
     plt.show()
 
 def plot_iou_score_vs_epoch(history):
+    """
+    Plot the training and validation mean IoU scores versus epochs.
+
+    Args:
+        history (dict): Dictionary containing the training history with keys 'train_miou' and 'val_miou'.
+
+    """
     plt.plot(history["train_miou"], label="Train mIoU", marker="*")
     plt.plot(history["val_miou"], label="Val mIoU", marker="*")
     plt.title("mIoU Score per Epoch ")
@@ -152,6 +159,13 @@ def plot_iou_score_vs_epoch(history):
 
 
 def plot_accuracy_vs_epoch(history):
+    """
+    Plot the training and validation accuracy versus epochs.
+
+    Args:
+        history (dict): Dictionary containing the training history with keys 'train_acc' and 'val_acc'.
+
+    """
     plt.plot(history["train_acc"], label="Train Accuracy", marker="*")
     plt.plot(history["val_acc"], label="Val Accuracy", marker="*")
     plt.title("Accuracy vs Epoch")
@@ -164,6 +178,21 @@ def plot_accuracy_vs_epoch(history):
 def predict_image_mask_miou(
     model, image, mask, mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]
 ):
+    """
+    Predict the mask for an input image using a trained model and calculate the mean IoU score.
+
+    Args:
+        model (torch.nn.Module): Trained model.
+        image (PIL.Image.Image): Input image.
+        mask (torch.Tensor): Ground truth mask.
+        mean (list, optional): Mean values for image normalization.
+        std (list, optional): Standard deviation values for image normalization.
+
+    Returns:
+        torch.Tensor: Predicted mask.
+        float: Mean IoU score.
+
+    """
     model.eval()
     t = T.Compose([T.ToTensor(), T.Normalize(mean, std)])
     image = t(image)
