@@ -250,6 +250,19 @@ class LambdaLR:
 
 
 def initialize_conv_weights_normal(m):
+    """
+    Initializes the weights and biases of Convolutional and Batch Normalization layers
+    in a neural network model using normal distribution.
+
+    Parameters
+    ----------
+    m : torch.nn.Module
+        The module or layer in a PyTorch model, which is to be initialized.
+
+    Returns
+    -------
+    None
+    """
     classname = m.__class__.__name__
     if classname.find("Conv") != -1:
         torch.nn.init.normal_(m.weight.data, 0.0, 0.02)
