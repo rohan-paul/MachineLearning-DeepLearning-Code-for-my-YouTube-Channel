@@ -213,6 +213,21 @@ def predict_image_mask_miou(
 def predict_iamge_mask_pixel_accuracy(
     model, image, mask, mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]
 ):
+    """
+    Predict the mask for an input image using a trained model and calculate the pixel accuracy.
+
+    Args:
+        model (torch.nn.Module): Trained model.
+        image (PIL.Image.Image): Input image.
+        mask (torch.Tensor): Ground truth mask.
+        mean (list, optional): Mean values for image normalization.
+        std (list, optional): Standard deviation values for image normalization.
+
+    Returns:
+        torch.Tensor: Predicted mask.
+        float: Pixel accuracy.
+
+    """
     model.eval()
     t = T.Compose([T.ToTensor(), T.Normalize(mean, std)])
     image = t(image)
@@ -230,6 +245,17 @@ def predict_iamge_mask_pixel_accuracy(
 
 
 def miou_score_from_trained_model(model, test_set):
+    """
+    Calculate the mean IoU scores for a trained model on a test dataset.
+
+    Args:
+        model (torch.nn.Module): Trained model.
+        test_set (torch.utils.data.Dataset): Test dataset.
+
+    Returns:
+        list: List of mean IoU scores for each sample in the test dataset.
+
+    """
     score_iou = []
     for i in tqdm(range(len(test_set))):
         img, mask = test_set[i]
@@ -239,6 +265,17 @@ def miou_score_from_trained_model(model, test_set):
 
 
 def pixel_accuracy_from_trained_model(model, test_set):
+    """
+    Calculate the pixel accuracy for a trained model on a test dataset.
+
+    Args:
+        model (torch.nn.Module): Trained model.
+        test_set (torch.utils.data.Dataset): Test dataset.
+
+    Returns:
+        list: List of pixel accuracy values for each sample in the test dataset.
+
+    """
     accuracy = []
     for i in tqdm(range(len(test_set))):
         img, mask = test_set[i]
