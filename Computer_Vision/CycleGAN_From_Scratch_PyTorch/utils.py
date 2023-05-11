@@ -263,11 +263,25 @@ def initialize_conv_weights_normal(m):
     -------
     None
     """
+    # Extract the class name of the module to determine its type.
     classname = m.__class__.__name__
+
+    # Check if the module is a Convolutional layer.
     if classname.find("Conv") != -1:
+        # Initialize the weights of the Convolutional layer using a normal distribution
+        # with mean 0.0 and standard deviation 0.02.
         torch.nn.init.normal_(m.weight.data, 0.0, 0.02)
+
+        # Check if the Convolutional layer has a bias attribute and is not None.
         if hasattr(m, "bias") and m.bias is not None:
+            # Initialize the biases of the Convolutional layer as constant 0.
             torch.nn.init.constant_(m.bias.data, 0.0)
+
+    # Check if the module is a Batch Normalization layer.
     elif classname.find("BatchNorm2d") != -1:
+        # Initialize the weights of the Batch Normalization layer using a normal distribution
+        # with mean 1.0 and standard deviation 0.02.
         torch.nn.init.normal_(m.weight.data, 1.0, 0.02)
+
+        # Initialize the biases of the Batch Normalization layer as constant 0.
         torch.nn.init.constant_(m.bias.data, 0.0)
