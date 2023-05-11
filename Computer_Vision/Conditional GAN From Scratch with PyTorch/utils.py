@@ -94,9 +94,19 @@ def concat_vectors(x, y):
     combined = torch.cat((x.float(), y.float()), 1)
     return combined
 
-
 def calculate_input_dim(z_dim, mnist_shape, n_classes):
-    """mnist_shape = (1, 28, 28)
+    """
+    Calculate the input dimensions for the generator and discriminator networks.
+
+    Args:
+        z_dim (int): Dimension of the random noise vector (latent space).
+        mnist_shape (tuple): Shape of the MNIST images, e.g., (1, 28, 28).
+        n_classes (int): Number of classes in the dataset.
+
+    Returns:
+        tuple: Tuple containing the generator input dimension and discriminator image channel.
+
+    mnist_shape = (1, 28, 28)
     n_classes = 10"""
     generator_input_dim = z_dim + n_classes
 
