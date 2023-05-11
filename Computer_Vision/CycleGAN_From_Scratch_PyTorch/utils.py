@@ -103,6 +103,8 @@ class ReplayBuffer:
     """
     A class used to represent a Replay Buffer. This buffer stores a certain number of previously
     generated images for training a Generative Adversarial Network (CycleGAN).
+    This ReplayBuffer class is a useful tool in the context of CycleGAN as it can help
+    to stabilize the learning process by reusing older generated images.
 
     ...
 
@@ -178,6 +180,26 @@ class ReplayBuffer:
 
 
 class LambdaLR:
+    """
+    A class used to represent a Learning Rate Scheduler that follows a LambdaLR policy.
+    The learning rate decreases linearly after a specified epoch.
+
+    ...
+
+    Attributes
+    ----------
+    n_epochs : int
+        total number of epochs for training
+    offset : int
+        number of epochs offset to be applied
+    decay_start_epoch : int
+        epoch from which learning rate decay should start
+
+    Methods
+    -------
+    step(epoch):
+        Calculates the multiplicative factor for the learning rate based on the current epoch.
+    """
     def __init__(self, n_epochs, offset, decay_start_epoch):
         assert (
             n_epochs - decay_start_epoch
