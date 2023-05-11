@@ -201,6 +201,18 @@ class LambdaLR:
         Calculates the multiplicative factor for the learning rate based on the current epoch.
     """
     def __init__(self, n_epochs, offset, decay_start_epoch):
+        """
+        Constructs the necessary attributes for the LambdaLR object.
+
+        Parameters
+        ----------
+        n_epochs : int
+            Total number of epochs for training.
+        offset : int
+            Number of epochs offset to be applied.
+        decay_start_epoch : int
+            Epoch from which learning rate decay should start.
+        """
         assert (
             n_epochs - decay_start_epoch
         ) > 0, "Decay must start before the training session ends!"
