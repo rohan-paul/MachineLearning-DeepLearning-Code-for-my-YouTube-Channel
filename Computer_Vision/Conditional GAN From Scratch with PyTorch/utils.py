@@ -42,6 +42,13 @@ We also need to detach a tensor when we need to move the tensor from GPU to CPU.
 
 
 def weights_init(m):
+    """
+    Initialize the weights of convolutional and batch normalization layers.
+
+    Args:
+        m (torch.nn.Module): Module instance.
+
+    """
     if isinstance(m, nn.Conv2d) or isinstance(m, nn.ConvTranspose2d):
         torch.nn.init.normal_(m.weight, 0.0, 0.02)
     if isinstance(m, nn.BatchNorm2d):
