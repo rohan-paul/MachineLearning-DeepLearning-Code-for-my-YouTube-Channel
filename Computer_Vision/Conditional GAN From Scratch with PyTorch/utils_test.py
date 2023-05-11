@@ -3,6 +3,7 @@ import torch.nn as nn
 
 from utils import *
 
+####################################################
 def test_weights_init():
     # Create a sample model with Conv2d and BatchNorm2d layers
     model = nn.Sequential(
@@ -33,7 +34,7 @@ def test_weights_init():
 # Run the unit test
 # test_weights_init()
 
-
+####################################################
 def test_concat_vectors():
     # Create sample input tensors
     x = torch.tensor([[1, 2, 3], [4, 5, 6]])
@@ -54,3 +55,26 @@ def test_concat_vectors():
 
 # Run the unit test
 # test_concat_vectors()
+
+####################################################
+def test_calculate_input_dim():
+    # Set up sample inputs
+    z_dim = 100
+    mnist_shape = (1, 28, 28)
+    n_classes = 10
+
+    # Calculate input dimensions
+    generator_input_dim, discriminator_image_channel = calculate_input_dim(z_dim, mnist_shape, n_classes)
+
+    # Check the output types and values
+    assert isinstance(generator_input_dim, int)
+    assert generator_input_dim == z_dim + n_classes
+
+    assert isinstance(discriminator_image_channel, int)
+    assert discriminator_image_channel == mnist_shape[0] + n_classes
+
+    print("Unit test passed!")
+
+# Run the unit test
+# test_calculate_input_dim()
+
