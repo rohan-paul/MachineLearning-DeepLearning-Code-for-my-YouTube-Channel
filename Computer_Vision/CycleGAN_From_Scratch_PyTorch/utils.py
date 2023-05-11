@@ -156,15 +156,18 @@ class ReplayBuffer:
                 self.data.append(element)
                 to_return.append(element)
             else:
-                # Returns newly added image with a probability of 0.5.
+                # If the buffer is full, decide whether to replace an old image in the buffer with the new one,
+                # and whether to add the new image or an old image to the return batch.
                 if random.uniform(0, 1) > 0.5:
+                    # With a 50% chance, replace an old image in the buffer with the new image
+                    # and add the old image to the return batch.
                     i = random.randint(0, self.max_size - 1)
                     to_return.append(self.data[i].clone())
                     self.data[
                         i
                     ] = element  # replaces the older image with the newly generated image.
                 else:
-                    # Otherwise, it sends an older generated image and
+                    # With a 50% chance, keep the buffer as is and add the new image to the return batch.
                     to_return.append(element)
         return Variable(torch.cat(to_return))
 
