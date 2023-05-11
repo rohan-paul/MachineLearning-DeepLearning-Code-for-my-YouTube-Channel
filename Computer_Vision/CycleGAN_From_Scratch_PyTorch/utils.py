@@ -100,14 +100,55 @@ This is done to reduce model oscillation. """
 
 
 class ReplayBuffer:
+    """
+    A class used to represent a Replay Buffer. This buffer stores a certain number of previously
+    generated images for training a Generative Adversarial Network (CycleGAN).
+
+    ...
+
+    Attributes
+    ----------
+    max_size : int
+        maximum number of images that can be stored in the buffer
+    data : list
+        the list storing the images
+
+    Methods
+    -------
+    push_and_pop(data):
+        Adds new images to the buffer and returns a mixed batch of old and new images.
+    """
+
     # We keep an image buffer that stores
     # the 50 previously created images.
     def __init__(self, max_size=50):
+        """
+        Constructs the necessary attributes for the ReplayBuffer object.
+
+        Parameters
+        ----------
+            max_size : int
+                maximum number of images that can be stored in the buffer. Should be greater than 0.
+        """
         assert max_size > 0, "Empty buffer."
         self.max_size = max_size
         self.data = []
 
     def push_and_pop(self, data):
+        """
+        This method accepts a batch of images, saves them to the buffer, and returns a new batch of images.
+        The returned batch is composed of some of the new images and, when the buffer is full, possibly some older images.
+
+        Parameters
+        ----------
+            data : torch.Tensor
+                The new images to add to the buffer.
+
+        Returns
+        -------
+            torch.Tensor
+                A batch of images consisting of new images and possibly some older images from the buffer.
+        """
         to_return = []
         for element in data.data:
             element = torch.unsqueeze(element, 0)
