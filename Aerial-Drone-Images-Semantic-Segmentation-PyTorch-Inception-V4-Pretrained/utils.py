@@ -71,10 +71,25 @@ def pixel_accuracy(predicted_image, mask):
 
 
 def mean_iou(predicted_label, label, eps=1e-10, num_classes=10):
+    """
+    Calculate the mean Intersection over Union (IoU) between the predicted labels and the ground truth labels.
+
+    Args:
+        predicted_label (torch.Tensor): Predicted label tensor of shape (N, C, H, W).
+        label (torch.Tensor): Ground truth label tensor of shape (N, H, W).
+        eps (float, optional): Epsilon value for numerical stability.
+        num_classes (int, optional): Number of classes.
+
+    Returns:
+        float: Mean IoU value.
+
+    """
     with torch.no_grad():
+        # Convert predicted_label to class predictions
         predicted_label = F.softmax(predicted_label, dim=1)
         predicted_label = torch.argmax(predicted_label, dim=1)
 
+        # Reshape predicted_label and label for easier computation
         predicted_label = predicted_label.contiguous().view(-1)
         label = label.contiguous().view(-1)
 
@@ -86,6 +101,7 @@ def mean_iou(predicted_label, label, eps=1e-10, num_classes=10):
             if true_label.long().sum().item() == 0:
                 iou_single_class.append(np.nan)
             else:
+                # Calculate intersection and union
                 intersection = (
                     torch.logical_and(true_predicted_class, true_label)
                     .sum()
@@ -99,35 +115,32 @@ def mean_iou(predicted_label, label, eps=1e-10, num_classes=10):
                     .item()
                 )
 
+                # Calculate IoU for the current class
                 iou = (intersection + eps) / (union + eps)
                 iou_single_class.append(iou)
+
+        # Calculate mean IoU across all classes
         return np.nanmean(iou_single_class)
 
 
 #### Some Plotting Function ####
 
-"""  history = {
-        "train_loss": losses_train,
-        "val_loss": losses_test,
-        "train_miou": train_iou,
-        "val_iou": val_iou,
-        "train_acc": train_acc,
-        "val_acc": val_acc,
-        "lrs": lrs,
-    }
-
-"""
-
-
 def plot_loss_vs_epoch(history):
+    """
+    Plot the training and validation loss versus epochs.
+
+    Args:
+        history (dict): Dictionary containing the training history with keys 'val_loss' and 'train_loss'.
+
+    """
     plt.plot(history["val_loss"], label="val_loss", marker="o")
     plt.plot(history["train_loss"], label="Train loss", marker="o")
     plt.title("Loss per epoch")
     plt.ylabel("Loss")
     plt.xlabel("Epochs")
-    plt.legend(), plt.grid()
+    plt.legend()
+    plt.grid()
     plt.show()
-
 
 def plot_iou_score_vs_epoch(history):
     plt.plot(history["train_miou"], label="Train mIoU", marker="*")
