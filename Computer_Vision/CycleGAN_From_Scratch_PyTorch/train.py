@@ -94,11 +94,49 @@ plt.imshow(pytorch_tensor_image.permute(1, 2, 0))
 
 
 def to_img(x):
+    """
+    This function reshapes the input tensor to match the expected dimensions of an image.
+
+    Parameters
+    ----------
+    x : torch.Tensor
+        The input tensor to be reshaped.
+
+    Returns
+    -------
+    torch.Tensor
+        The reshaped tensor.
+
+    Note
+    ----
+    The reshaped tensor has the dimensions:
+    (batch_size * 2, num_channels, height, width)
+    where 'num_channels' is the number of color channels in the image (e.g., 3 for RGB),
+    and 'height' and 'width' are the dimensions of the image in pixels.
+    """
+    # Reshape the input tensor to have the dimensions:
+    # (batch_size * 2, num_channels, height, width)
     x = x.view(x.size(0) * 2, hp.channels, hp.img_size, hp.img_size)
     return x
 
 
 def plot_output(path, x, y):
+    """
+    This function reads an image from the specified path and plots it with matplotlib.
+
+    Parameters
+    ----------
+    path : str
+        The path of the image file to be read and displayed.
+    x : int or float
+        The width (in inches) of the output plot.
+    y : int or float
+        The height (in inches) of the output plot.
+
+    Returns
+    -------
+    None
+    """
     img = mpimg.imread(path)
     plt.figure(figsize=(x, y))
     plt.imshow(img)
