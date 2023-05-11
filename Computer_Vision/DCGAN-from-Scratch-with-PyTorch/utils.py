@@ -14,7 +14,23 @@ from glob import glob
 
 
 def get_data_loader(batch_size):
-    # MNIST Dataset
+    """
+    This function creates a PyTorch DataLoader for the MNIST dataset.
+
+    Parameters
+    ----------
+    batch_size : int
+        The batch size to be used in the DataLoader.
+
+    Returns
+    -------
+    DataLoader
+        A DataLoader for the MNIST dataset.
+
+    Note
+    ----
+    The DataLoader will shuffle and batch the data.
+    """
     transform = transforms.Compose(
         [transforms.ToTensor(), transforms.Normalize(mean=(0.1307,), std=(0.3081,))]
     )
