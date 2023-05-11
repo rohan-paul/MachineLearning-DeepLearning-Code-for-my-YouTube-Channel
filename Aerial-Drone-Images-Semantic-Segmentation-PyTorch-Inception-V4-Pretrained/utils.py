@@ -26,8 +26,17 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 n_classes = 23
 
-# Return a df containing the image ids
 def get_image_id_df(root_img_path):
+    """
+    Generate a DataFrame containing the image IDs.
+
+    Args:
+        root_img_path (str): Path to the directory containing the images.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing the image IDs.
+
+    """
     name = []
     filenames = [f for f in listdir(root_img_path) if isfile(join(root_img_path, f))]
     for filename in filenames:
@@ -35,13 +44,29 @@ def get_image_id_df(root_img_path):
     return pd.DataFrame({"id": name}, index=np.arange(0, len(name)))
 
 
+
 def pixel_accuracy(predicted_image, mask):
-    """pixel_accuracy =
-    Correctly predicted pixels divided by total number of pixels"""
+    """
+    Calculate the pixel accuracy between the predicted image and the ground truth mask.
+
+    Args:
+        predicted_image (torch.Tensor): Predicted image tensor of shape (N, C, H, W).
+        mask (torch.Tensor): Ground truth mask tensor of shape (N, H, W).
+
+    Returns:
+        float: Pixel accuracy between the predicted image and the ground truth mask.
+
+    """
     with torch.no_grad():
+        # Convert predicted_image to class predictions
         predicted_image = torch.argmax(F.softmax(predicted_image, dim=1), dim=1)
+
+        # Compare predicted_image with mask to get pixel-wise correctness
         correct = torch.eq(predicted_image, mask).int()
+
+        # Calculate pixel accuracy
         accuracy = float(correct.sum()) / float(correct.numel())
+
     return accuracy
 
 
