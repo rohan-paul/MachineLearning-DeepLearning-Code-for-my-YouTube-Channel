@@ -31,4 +31,26 @@ def test_weights_init():
     print("Unit test passed!")
 
 # Run the unit test
-test_weights_init()
+# test_weights_init()
+
+
+def test_concat_vectors():
+    # Create sample input tensors
+    x = torch.tensor([[1, 2, 3], [4, 5, 6]])
+    y = torch.tensor([[7, 8, 9], [10, 11, 12]])
+
+    # Perform concatenation
+    combined = concat_vectors(x, y)
+
+    # Check the output type and shape
+    assert isinstance(combined, torch.Tensor)
+    assert combined.shape == (2, 6)  # Expected shape after concatenation
+
+    # Check the values in the concatenated tensor
+    expected_combined = torch.tensor([[1, 2, 3, 7, 8, 9], [4, 5, 6, 10, 11, 12]])
+    assert torch.allclose(combined, expected_combined)
+
+    print("Unit test passed!")
+
+# Run the unit test
+# test_concat_vectors()
