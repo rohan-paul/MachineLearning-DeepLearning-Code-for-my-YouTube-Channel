@@ -38,6 +38,21 @@ def generate_clusters(
     min_samples=None,
     random_state=None,
 ):
+    """
+    Generate clusters using UMAP and HDBSCAN algorithms.
+
+    Args:
+        message_embeddings (np.ndarray): Array of message embeddings.
+        n_neighbors (int): Number of neighbors for UMAP algorithm.
+        n_components (int): Number of dimensions for UMAP algorithm.
+        min_cluster_size (int): Minimum number of samples in a cluster for HDBSCAN algorithm.
+        min_samples (int, optional): Minimum number of samples for HDBSCAN algorithm.
+        random_state (int, optional): Random seed for reproducibility.
+
+    Returns:
+        hdbscan.HDBSCAN: Clustering model.
+
+    """
     umap_embeddings = (
         umap.UMAP(
             n_neighbors=n_neighbors,
@@ -62,6 +77,19 @@ def generate_clusters(
 
 
 def score_clusters(clusters, prob_thresh0ld=0.05):
+    """
+    Score the clusters based on their labels and probabilities.
+
+    Args:
+        clusters (hdbscan.HDBSCAN): Clustering model.
+        prob_threshold (float, optional): Probability threshold for considering a sample as an outlier.
+            Default is 0.05.
+
+    Returns:
+        int: Number of unique cluster labels.
+        float: Cost score representing the fraction of samples with probabilities below the threshold.
+
+    """
     cluster_labels = clusters.labels_
 
     label_count = len(np.unique(cluster_labels))
@@ -73,6 +101,19 @@ def score_clusters(clusters, prob_thresh0ld=0.05):
 
 
 def objective(params, embeddings, label_lower, label_upper):
+    """
+    Objective function for hyperparameter optimization.
+
+    Args:
+        params (dict): Dictionary of hyperparameters.
+        embeddings (np.ndarray): Array of message embeddings.
+        label_lower (int): Lower bound for the number of unique cluster labels.
+        label_upper (int): Upper bound for the number of unique cluster labels.
+
+    Returns:
+        dict: Dictionary containing the loss value, number of unique cluster labels, and status.
+
+    """
     clusters = generate_clusters(
         embeddings,
         n_neighbors=params["n_neighbors"],
