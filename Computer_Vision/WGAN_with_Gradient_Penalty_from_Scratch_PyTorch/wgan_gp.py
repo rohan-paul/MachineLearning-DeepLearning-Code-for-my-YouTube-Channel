@@ -9,6 +9,13 @@ torch.manual_seed(0)
 
 
 class Generator(nn.Module):
+    """ The Generator class for the Wasserstein Generative Adversarial Network (WGAN) with gradient penalty.
+    This class represents the generator component of the WGAN, which generates images from random noise.
+
+    Args:
+    z_dim (int): The dimension of the random noise vector, default is 10.
+    im_chan (int): The number of channels in the output images, default is 1.
+    hidden_dim (int): The inner dimension, default is 64. """
     def __init__(self, z_dim=10, im_chan=1, hidden_dim=64):
         super(Generator, self).__init__()
         self.z_dim = z_dim
@@ -59,6 +66,15 @@ class Generator(nn.Module):
             )
 
     def forward(self, noise):
+        """
+        Forward pass of the generator.
+
+        Args:
+        noise (torch.Tensor): A noise tensor with dimensions (n_samples, z_dim).
+
+        Returns:
+        torch.Tensor: The generated images.
+        """
         x = noise.view(len(noise), self.z_dim, 1, 1)
         """ view(dim1,dim2,...) returns a view of the same underlying information,
         but reshaped to a tensor of shape dim1 x dim2 x ... """
