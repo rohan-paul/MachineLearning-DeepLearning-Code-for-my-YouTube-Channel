@@ -100,6 +100,17 @@ class Model(pl.LightningModule):
         return loss, preds, y
 
     def training_step(self, batch, batch_idx):
+        """
+        Performs a single training step, calculating the loss and other metrics.
+
+        Args:
+            batch (Dict[str, torch.Tensor]): The input data for this batch, which includes
+            the sentences and their labels.
+            batch_idx (int): The index of this batch.
+
+        Returns:
+            torch.Tensor: The loss for this batch.
+        """
         loss, preds, y = self.__compute_loss(batch)
         self.train_acc.add_batch(predictions=preds, references=y)
         acc = self.train_acc.compute()["accuracy"] # type: ignore
@@ -110,6 +121,17 @@ class Model(pl.LightningModule):
     ''' on_epoch argument in log_dict automatically accumulates and logs at the end of the epoch.  '''
 
     def validation_step(self, batch, batch_idx):
+        """
+        Performs a single validation step, calculating the loss and other metrics.
+
+        Args:
+            batch (Dict[str, torch.Tensor]): The input data for this batch, which includes
+            the sentences and their labels.
+            batch_idx (int): The index of this batch.
+
+        Returns:
+            torch.Tensor: The loss for this batch.
+        """
         loss, preds, y = self.__compute_loss(batch)
         self.val_acc.add_batch(predictions=preds, references=y)
         acc = self.val_acc.compute()["accuracy"]    # type: ignore
@@ -120,6 +142,17 @@ class Model(pl.LightningModule):
 
 
     def test_step(self, batch, batch_idx):
+        """
+        Performs a single test step, calculating the loss and other metrics.
+
+        Args:
+            batch (Dict[str, torch.Tensor]): The input data for this batch, which includes
+            the sentences and their labels.
+            batch_idx (int): The index of this batch.
+
+        Returns:
+            torch.Tensor: The loss for this batch.
+        """
         loss, preds, y = self.__compute_loss(batch)
         self.test_acc.add_batch(predictions=preds, references=y)
         acc = self.test_acc.compute()["accuracy"]   # type: ignore
