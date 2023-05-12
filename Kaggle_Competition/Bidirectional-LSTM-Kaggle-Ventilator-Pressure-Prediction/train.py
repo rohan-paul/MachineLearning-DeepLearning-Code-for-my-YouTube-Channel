@@ -32,7 +32,16 @@ import utils as utils
 ####################################################
 
 class VentilatorDataset(Dataset):
+    """
+    Custom dataset class for the ventilator dataset.
+    """
     def __init__(self, df):
+        """
+        Initialize the VentilatorDataset.
+
+        Args:
+            df (pandas.DataFrame): The input DataFrame containing the ventilator data.
+        """
         if "pressure" not in df.columns:
             df['pressure'] = 0
 
@@ -50,9 +59,18 @@ class VentilatorDataset(Dataset):
         self.data_preprocess()
 
     def __len__(self):
+        """
+        Get the length of the dataset.
+
+        Returns:
+            int: The length of the dataset.
+        """
         return self.df.shape[0]
 
     def data_preprocess(self):
+        """
+        Preprocess the data and prepare input features for the PyTorch model.
+        """
         self.pressures = np.array(self.df['pressure'].values.tolist())
 
         """  below block is responsible for preparing the input features for the PyTorch model. It reshapes and concatenates several NumPy arrays, calculates the cumulative sum of one of the arrays, and transposes the resulting concatenated array to match the expected input shape of the PyTorch model. """
@@ -82,6 +100,15 @@ class VentilatorDataset(Dataset):
         """
 
     def __getitem__(self, idx):
+        """
+        Get an item from the dataset at the specified index.
+
+        Args:
+            idx (int): The index of the item.
+
+        Returns:
+            dict: A dictionary containing the input, u_out, and p tensors.
+        """
         data = {
             "input": torch.tensor(self.inputs[idx], dtype=torch.float),
             "u_out": torch.tensor(self.u_outs[idx], dtype=torch.float),
