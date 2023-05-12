@@ -16,6 +16,22 @@ from tensorflow.keras import backend as K
 
 
 def unet(input_size=(256, 256, 3)):
+    """
+    This function creates and returns a U-Net model. U-Net is a type of convolutional neural network
+    designed for fast and precise segmentation of images. It consists of a contracting (downsampling)
+    path and an expansive (upsampling) path, which gives it a U-shaped architecture.
+
+    Parameters:
+    -----------
+    input_size : tuple of int
+        The size of the input images. It is a 3-tuple for (height, width, channels).
+        Default is (256, 256, 3).
+
+    Returns:
+    --------
+    model : keras.models.Model
+        The constructed U-Net model.
+    """
     inputs = Input(input_size)
 
     # First DownConvolution / Encoder Leg will begin, so start with Conv2D
