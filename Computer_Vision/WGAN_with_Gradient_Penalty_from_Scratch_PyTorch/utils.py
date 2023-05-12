@@ -7,14 +7,36 @@ torch.manual_seed(0)  # Set for testing purposes, please do not change!
 
 
 def plot_images_from_tensor(image_tensor, num_images=25, size=(1, 28, 28)):
+    """
+    Plots a grid of images from a given tensor.
+
+    The function first scales the image tensor to the range [0, 1]. It then detaches the tensor from the computation
+    graph and moves it to the CPU if it's not already there. After that, it creates a grid of images and plots the grid.
+
+    Args:
+        image_tensor (torch.Tensor): A 4D tensor containing the images.
+            The tensor is expected to be in the shape (batch_size, channels, height, width).
+        num_images (int, optional): The number of images to include in the grid. Default is 25.
+        size (tuple, optional): The size of a single image in the form of (channels, height, width). Default is (1, 28, 28).
+
+    Returns:
+        None. The function outputs a plot of a grid of images.
+    """
+
+    # Normalize the image tensor to [0, 1]
     image_tensor = (image_tensor + 1) / 2
+
+    # Detach the tensor from its computation graph and move it to the CPU
     img_detached = image_tensor.detach().cpu()
-    # The cpu() operation transfers the tensor to the CPU (if not already there),
-    # while detach() cuts the computation graph.
+
+    # Create a grid of images using the make_grid function from torchvision.utils
     image_grid = make_grid(img_detached[:num_images], nrow=5)
-    # make_grid() returns a tensor which contains the grid of images.
+
+    # Plot the grid of images
+    # The permute() function is used to rearrange the dimensions of the grid for plotting
     plt.imshow(image_grid.permute(1, 2, 0).squeeze())
     plt.show()
+
 
 
 """ The reason for doing "image_grid.permute(1, 2, 0)"
