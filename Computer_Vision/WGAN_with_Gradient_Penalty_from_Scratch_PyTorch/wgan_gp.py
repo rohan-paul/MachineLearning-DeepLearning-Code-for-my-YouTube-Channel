@@ -84,35 +84,66 @@ class Generator(nn.Module):
 ##############################
 # Critic
 ##############################
+
 class Critic(nn.Module):
+    """
+    The Critic class for the Wasserstein Generative Adversarial Network (WGAN) with gradient penalty.
+    This class represents the critic component of the WGAN, which assesses the quality of images produced by the Generator.
+
+    Args:
+    im_chan (int): The number of channels in the input images, default is 1.
+    hidden_dim (int): The inner dimension, default is 64.
+    """
     def __init__(self, im_chan=1, hidden_dim=64):
         super(Critic, self).__init__()
+
+        # Define the critic network architecture.
+        # The critic is designed to assess the quality of images produced by the generator.
+        # This critic uses several blocks of convolution, batch normalization, and activation.
         self.critic = nn.Sequential(
-            self.make_crit_block(im_chan, hidden_dim),
-            self.make_crit_block(hidden_dim, hidden_dim * 2),
-            self.make_crit_block(hidden_dim * 2, 1, final_layer=True),
+            self.make_crit_block(im_chan, hidden_dim), # initial block using image as input
+            self.make_crit_block(hidden_dim, hidden_dim * 2), # intermediate block
+            self.make_crit_block(hidden_dim * 2, 1, final_layer=True), # final block outputs a single value (quality score)
         )
 
-    def make_crit_block(
-        self,
-        input_channels,
-        output_channels,
-        kernel_size=4,
-        stride=2,
-        final_layer=False,
-    ):
+    def make_crit_block(self, input_channels, output_channels, kernel_size=4, stride=2, final_layer=False):
+        """
+        Returns a sequence of operations for a critic block: a convolution,
+        a batch normalization (except in the final layer), and a leaky ReLU activation.
 
+        Args:
+        input_channels (int): The number of input channels.
+        output_channels (int): The number of output channels.
+        kernel_size (int, optional): The size of the convolutional kernels. Default is 4.
+        stride (int, optional): The stride for the convolutional layer. Default is 2.
+        final_layer (bool, optional): Whether this block is the final layer. Default is False.
+
+        Returns:
+        torch.nn.Sequential: The block as a sequence of operations.
+        """
         if not final_layer:
+            # For non-final layers, use leaky ReLU activation and batch normalization
             return nn.Sequential(
-                nn.Conv2d(input_channels, output_channels, kernel_size, stride),
-                nn.BatchNorm2d(output_channels),
-                nn.LeakyReLU(0.2, inplace=True),
+                nn.Conv2d(input_channels, output_channels, kernel_size, stride), # Convolution
+                nn.BatchNorm2d(output_channels), # Batch normalization
+                nn.LeakyReLU(0.2, inplace=True), # Leaky ReLU activation
             )
         else:
+            # For the final layer, use no activation and no batch normalization
             return nn.Sequential(
-                nn.Conv2d(input_channels, output_channels, kernel_size, stride),
+                nn.Conv2d(input_channels, output_channels, kernel_size, stride), # Convolution
             )
 
     def forward(self, image):
-        crit_pred = self.critic(image)
-        return crit_pred.view(len(crit_pred), -1)
+        """
+        Forward pass of the critic.
+
+        Args:
+        image (torch.Tensor): An image tensor with dimensions (n_samples, im_chan, width, height).
+
+        Returns:
+        torch.Tensor: The critic's quality assessment of the image.
+        """
+        crit_pred = self.critic(image) # Pass the image through the critic
+        return crit_pred.view(len(crit_pred), -1) # Flatten the output
+
