@@ -1,8 +1,18 @@
 from tkinter import Y
 import numpy as np
 
-
 def r2_score(y_true, y_pred):
+    """
+    Calculate the coefficient of determination (R-squared) for regression.
+
+    Args:
+        y_true (numpy.ndarray): True target values.
+        y_pred (numpy.ndarray): Predicted target values.
+
+    Returns:
+        float: R-squared score.
+
+    """
     corr_matrix = np.corrcoef(y_true, y_pred)
     corr = corr_matrix[0, 1]
     return corr ** 2
@@ -10,12 +20,28 @@ def r2_score(y_true, y_pred):
 
 class LinearRegression:
     def __init__(self, learning_rate = 0.0001, n_iter = 1000 ):
+        """
+        Linear regression model.
+
+        Args:
+            learning_rate (float): Learning rate for gradient descent. Default is 0.0001.
+            n_iter (int): Number of iterations for gradient descent. Default is 1000.
+
+        """
         self.lr = learning_rate
         self.n_iter = n_iter
         self.weights = None
         self.bias = None
 
     def fit(self, X, y):
+        """
+        Fit the linear regression model to the training data.
+
+        Args:
+            X (numpy.ndarray): Training input features.
+            y (numpy.ndarray): Training target values.
+
+        """
         n_samples, n_features = X.shape
 
         # initialize the parameters
@@ -37,6 +63,16 @@ class LinearRegression:
             self.bias -= self.lr * db
 
     def predict(self, X):
+        """
+        Generate predictions for the input data.
+
+        Args:
+            X (numpy.ndarray): Input features.
+
+        Returns:
+            numpy.ndarray: Predicted target values.
+
+        """
         y_approx = np.dot(X, self.weights) + self.bias
         return y_approx
 
