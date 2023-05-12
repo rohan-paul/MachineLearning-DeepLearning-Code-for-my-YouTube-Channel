@@ -7,15 +7,42 @@ import torch.nn.functional as F
 torch.manual_seed(0)  # Set for our testing purposes, please do not change!
 
 
-def plot_images_from_tensor(
-    image_tensor, num_images=25, size=(1, 28, 28), nrow=5, show=True
-):
+def plot_images_from_tensor(image_tensor, num_images=25, size=(1, 28, 28), nrow=5, show=True):
+    """
+    Plots a grid of images from a given tensor.
+
+    The function first scales the image tensor to the range [0, 1]. It then detaches the tensor from the computation
+    graph and moves it to the CPU if it's not already there. After that, it creates a grid of images and plots the grid.
+
+    Args:
+        image_tensor (torch.Tensor): A 4D tensor containing the images.
+            The tensor is expected to be in the shape (batch_size, channels, height, width).
+        num_images (int, optional): The number of images to include in the grid. Default is 25.
+        size (tuple, optional): The size of a single image in the form of (channels, height, width). Default is (1, 28, 28).
+        nrow (int, optional): Number of images displayed in each row of the grid. The final grid size is (num_images // nrow, nrow). Default is 5.
+        show (bool, optional): Determines if the plot should be shown. Default is True.
+
+    Returns:
+        None. The function outputs a plot of a grid of images.
+    """
+
+    # Normalize the image tensor to [0, 1]
     image_tensor = (image_tensor + 1) / 2
+
+    # Detach the tensor from its computation graph and move it to the CPU
     image_unflat = image_tensor.detach().cpu()
+
+    # Create a grid of images using the make_grid function from torchvision.utils
     image_grid = make_grid(image_unflat[:num_images], nrow=nrow)
+
+    # Plot the grid of images
+    # The permute() function is used to rearrange the dimensions of the grid for plotting
     plt.imshow(image_grid.permute(1, 2, 0).squeeze())
+
+    # Show the plot if the 'show' parameter is True
     if show:
         plt.show()
+
 
 
 """ The reason for doing "image_grid.permute(1, 2, 0)"
