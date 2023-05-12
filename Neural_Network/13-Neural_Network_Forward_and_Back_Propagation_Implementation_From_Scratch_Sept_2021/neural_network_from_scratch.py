@@ -13,6 +13,18 @@ import matplotlib.pyplot as plt
 
 
 def forward_propagation(inputs, outputs, weights):
+    """
+    Perform feedforward propagation to compute the mean squared error loss.
+
+    Args:
+        inputs (ndarray): Input data of shape (batch_size, input_size).
+        outputs (ndarray): Output data of shape (batch_size, output_size).
+        weights (list): List of weights for the neural network.
+
+    Returns:
+        float: Mean squared error loss.
+
+    """
     pre_activation_hidden_layer_value = np.dot(inputs, weights[0]) + weights[1]
 
     # invoke sigmoid
@@ -28,6 +40,17 @@ def forward_propagation(inputs, outputs, weights):
 
 
 def train_weights_gradient_descent(inputs, outputs, weights, lr):
+    """ Train the weights of a neural network using gradient descent.
+
+    Args:
+        inputs (ndarray): Input data of shape (batch_size, input_size).
+        outputs (ndarray): Output data of shape (batch_size, output_size).
+        weights (list): List of weights for the neural network.
+        lr (float): Learning rate for gradient descent.
+
+    Returns:
+        tuple: Updated weights and original loss. """
+
     weights_original = deepcopy(weights)
     weights_temp = deepcopy(weights)
     weights_updated = deepcopy(weights)
