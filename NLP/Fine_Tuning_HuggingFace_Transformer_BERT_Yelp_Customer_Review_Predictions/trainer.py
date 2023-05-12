@@ -22,10 +22,28 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 
 def train_model(model, data_loader, loss_fn, optimizer, device, scheduler, n_examples):
+    """
+    Trains the given model using the provided data loader and optimizer.
+
+    Args:
+        model (torch.nn.Module): Model to train.
+        data_loader (DataLoader): DataLoader providing the training data.
+        loss_fn: Loss function to optimize.
+        optimizer: Optimizer for updating the model's parameters.
+        device: Device to use for training.
+        scheduler: Learning rate scheduler.
+        n_examples (int): Total number of training examples.
+
+    Returns:
+        float: Accuracy of the model on the training data.
+        float: Average training loss.
+
+    """
     model=model.train()
     losses = []
     correct_predictions = 0
 
+    """  iterate over the batches provided by the data loader. Within each iteration, the batch tensors are moved to the appropriate device. The model performs a forward pass on the input tensors, and the predicted labels are obtained by taking the maximum value along the appropriate dimension. """
     for d in data_loader:
         input_ids = d["input_ids"].to(device)
         attention_mask = d["attention_mask"].to(device)
