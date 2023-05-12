@@ -18,6 +18,17 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 
 def build_model(MODEL_NAME, MAX_LEN):
+    """
+    Builds a model for NLP tasks using a pre-trained language model.
+
+    Args:
+        MODEL_NAME (str): Name of the pre-trained language model.
+        MAX_LEN (int): Maximum length of input sequences.
+
+    Returns:
+        tf.keras.Model: Built model for NLP tasks.
+
+    """
 
     tokens = tf.keras.layers.Input(
         shape=(MAX_LEN,), name='tokens', dtype=tf.int32)
