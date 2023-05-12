@@ -8,10 +8,32 @@ import numpy as np
 
 
 class Generator(nn.Module):
+    """ Generator module for a Wasserstein GAN (WGAN).
+
+    Parameters:
+    - img_shape (tuple): Shape of the output images (e.g., (channels, height, width)).
+    - latent_dim (int): Dimensionality of the latent space.
+
+    Forward Args:
+    - z (torch.Tensor): Input tensor of shape (batch_size, latent_dim).
+
+    Forward Returns:
+    - img (torch.Tensor): Generated output images of shape (batch_size, *img_shape). """
     def __init__(self, img_shape, latent_dim):
         super(Generator, self).__init__()
 
         def block(in_features, out_features, normalize=True):
+            """
+            Helper function to create a generator block.
+
+            Parameters:
+            - in_features (int): Number of input features.
+            - out_features (int): Number of output features.
+            - normalize (bool): Whether to apply batch normalization.
+
+            Returns:
+            - layers (list): List of layers for the generator block.
+            """
             layers = [nn.Linear(in_features, out_features)]
             if normalize:
                 layers.append(nn.BatchNorm1d(out_features, 0.8))
@@ -38,15 +60,35 @@ class Generator(nn.Module):
         )
 
     def forward(self, img_shape, z):
+        """
+        Forward pass of the generator.
+
+        Parameters:
+        - z (torch.Tensor): Input tensor of shape (batch_size, latent_dim).
+
+        Returns:
+        - img (torch.Tensor): Generated output images of shape (batch_size, *img_shape).
+        """
         img = self.model(z)
         img = img.view(img.shape[0], *img_shape)
         return img
-
 
 ##############################
 # Critic
 ##############################
 class Critic(nn.Module):
+    """
+    Critic module for a Wasserstein GAN (WGAN).
+
+    Parameters:
+    - img_shape (tuple): Shape of the input images (e.g., (channels, height, width)).
+
+    Forward Args:
+    - img (torch.Tensor): Input tensor of shape (batch_size, *img_shape).
+
+    Forward Returns:
+    - validity (torch.Tensor): Output tensor indicating the critic's assessment of the input images.
+    """
     def __init__(self, img_shape):
         super(Critic, self).__init__()
 
@@ -65,6 +107,15 @@ class Critic(nn.Module):
         )
 
     def forward(self, img):
+        """
+        Forward pass of the critic.
+
+        Parameters:
+        - img (torch.Tensor): Input tensor of shape (batch_size, *img_shape).
+
+        Returns:
+        - validity (torch.Tensor): Output tensor indicating the critic's assessment of the input images.
+        """
         img_flat = img.view(img.shape[0], -1)
         validity = self.model(img_flat)
         return validity
