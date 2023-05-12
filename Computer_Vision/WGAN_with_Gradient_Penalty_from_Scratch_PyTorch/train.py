@@ -107,28 +107,42 @@ So, in essence, the line is generating the interpolated images at which the crit
 # Unit Test for above Method
 ###############################################################################
 def test_gradient_of_critic_score(image_shape):
+    """
+    Test the gradient_of_critic_score function by creating real and fake images and a random epsilon.
+
+    This function checks that the gradient has the correct shape and contains both positive and negative values.
+
+    Args:
+    image_shape (tuple): The shape of the images in the form of (batch_size, channels, height, width).
+
+    Returns:
+    gradient (tensor): The gradient calculated by the gradient_of_critic_score function.
+    """
+
+    # Create real and fake images by adding and subtracting 1 to and from random numbers, respectively
     real = torch.randn(*image_shape, device=device) + 1
     fake = torch.randn(*image_shape, device=device) - 1
 
+    # Define the shape of epsilon, which should be the same as image_shape but with all dimensions except the first set to 1
     epsilon_shape = [1 for _ in image_shape]  # [1, 1, 1, 1]
-
     epsilon_shape[0] = image_shape[0]
+
+    # Create a random epsilon tensor that requires gradient
     epsilon = torch.rand(epsilon_shape, device=device).requires_grad_()
 
-    """ epsilon will be a tensor like below
-
-    tensor([[[[0.4260]]],
-            [[[0.5640]]],
-            [[[0.2338]]],
-            [[[0.3583]]]], requires_grad=True)
-    """
-
+    # Compute the gradient of the critic score using the function gradient_of_critic_score
     gradient = gradient_of_critic_score(critic, real, fake, epsilon)
 
+    # Check that the shape of the gradient matches image_shape
     assert tuple(gradient.shape) == image_shape
+
+    # Check that the gradient contains both positive and negative values
     assert gradient.max() > 0
     assert gradient.min() < 0
+
+    # Return the gradient for potential further analysis or use
     return gradient
+
 
 
 gradient = test_gradient_of_critic_score((256, 1, 28, 28))
