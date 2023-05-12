@@ -164,28 +164,44 @@ def gradient_penalty_l2_norm(gradient):
 # Unit Test for above Method
 ###############################################################################
 def test_gradient_penalty_l2_norm(image_shape):
+    """
+    Test the gradient_penalty_l2_norm function with different gradients.
 
+    This function creates gradients that are known to be bad, good, and random, and checks that the gradient penalty is high, low, and close to 1, respectively.
+
+    Args:
+    image_shape (tuple): The shape of the images in the form of (batch_size, channels, height, width).
+    """
+    # Create a gradient of all zeros - this is a "bad" gradient because the norm is 0, not 1
     bad_gradient = torch.zeros(*image_shape)
     print(bad_gradient)
 
+    # Calculate the penalty for the bad gradient, should be high (1 in this case because (0-1)^2 = 1)
     bad_gradient_penalty = gradient_penalty_l2_norm(bad_gradient)
     assert torch.isclose(bad_gradient_penalty, torch.tensor(1.0))
 
+    # Calculate the size of an image in the batch
     image_size = torch.prod(torch.Tensor(image_shape[1:]))  # 28 * 28 => 784
 
     print("torch.sqrt(image_size) ", torch.sqrt(image_size))
 
+    # Create a gradient of all ones divided by the square root of the image size
+    # This is a "good" gradient because the norm is 1
     good_gradient = torch.ones(*image_shape) / torch.sqrt(image_size)  # => tensor(28.)
 
+    # Calculate the penalty for the good gradient, should be low (0 in this case because (1-1)^2 = 0)
     good_gradient_penalty = gradient_penalty_l2_norm(good_gradient)
 
     assert torch.isclose(good_gradient_penalty, torch.tensor(0.0))
 
+    # Create a random gradient by calling the gradient_of_critic_score function
     random_gradient = test_gradient_of_critic_score(image_shape)
 
+    # Calculate the penalty for the random gradient, should be close to 1 if gradient_of_critic_score is working correctly
     random_gradient_penalty = gradient_penalty_l2_norm(random_gradient)
 
     assert torch.abs(random_gradient_penalty - 1) < 0.1
+
 
 
 test_gradient_penalty_l2_norm((256, 1, 28, 28))
