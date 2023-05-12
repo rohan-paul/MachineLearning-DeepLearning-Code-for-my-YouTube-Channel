@@ -156,7 +156,18 @@ class VentilatorLoss(nn.Module):
     optimizes the competition metric
     """
     def __call__(self, preds, actual_pressure_vector, u_out):
-        """ In below line I am dropping out u_out=1 data, as is done by most of the top public LB notebooks which use weight=0 while computing the loss for samples at u_out=1.
+        """
+        Compute the loss between the predicted and actual pressure vectors.
+
+        Args:
+            preds (torch.Tensor): The predicted pressure vectors.
+            actual_pressure_vector (torch.Tensor): The actual pressure vectors.
+            u_out (torch.Tensor): The u_out values.
+
+        Returns:
+            torch.Tensor: The computed loss.
+
+        In below line I am dropping out u_out=1 data, as is done by most of the top public LB notebooks which use weight=0 while computing the loss for samples at u_out=1.
         So below line will produce zero for u_out = 1 """
         weights = 1 - u_out
         mae = weights * (actual_pressure_vector - preds).abs()
