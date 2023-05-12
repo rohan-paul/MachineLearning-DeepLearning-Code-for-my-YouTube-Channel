@@ -90,6 +90,32 @@ def dice_coefficients(y_true, y_pred, smooth=100):
 
 
 def dice_coefficients_loss(y_true, y_pred, smooth=100):
+    """
+    The Dice loss function for image segmentation models.
+
+    The Dice loss is a measure of the overlap between the prediction (y_pred)
+    and the ground truth (y_true). It ranges from 0 to 1, where a Dice loss
+    of 1 indicates perfect overlap (i.e., a perfect segmentation), while a Dice
+    loss of 0 indicates no overlap.
+
+    The 'smooth' parameter is a small constant added to the numerator and
+    denominator of the Dice coefficient to avoid division by zero errors
+    and to stabilize the training.
+
+    Parameters:
+    y_true (tf.Tensor): Ground truth. Tensor of the same shape as y_pred.
+    y_pred (tf.Tensor): Model prediction. Tensor output from the model.
+    smooth (float, optional): A smoothing constant to avoid division by zero errors. Default is 100.
+
+    Returns:
+    float: The computed Dice loss.
+
+    Why the negative sign here i.e. -dice_coefficients
+
+    most optimization algorithms are designed to minimize a function rather than maximize it. Therefore, to convert the maximization problem to a minimization problem, we take the negative of the Dice coefficient. As a result, when the Dice coefficient is high (which is good), the loss is low, and when the Dice coefficient is low (which is bad), the loss is high. This allows the model to use standard optimization techniques to find the best parameters.
+
+    """
+
     return -dice_coefficients(y_true, y_pred, smooth)
 
 
