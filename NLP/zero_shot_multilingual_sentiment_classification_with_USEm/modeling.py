@@ -15,6 +15,15 @@ from typing import List, Dict
 import dataloading
 
 class Model(pl.LightningModule):
+    """
+    A PyTorch Lightning module that encapsulates a multilayer perceptron model.
+
+    Args:
+        hidden_dims (List[int], optional): A list of integers representing the number of hidden units
+            in each layer. Defaults to [768, 128].
+        dropout_prob (float, optional): The dropout probability for regularization. Defaults to 0.5.
+        learning_rate (float, optional): The learning rate for the optimizer. Defaults to 1e-3.
+    """
     def __init__(self,
                  hidden_dims: List[int] = [768, 128],
                  dropout_prob: float = 0.5,
@@ -49,15 +58,41 @@ class Model(pl.LightningModule):
         self.layers = nn.Sequential(*layers)
 
     def forward(self, x):
+        """
+        Forward pass through the model.
+
+        Args:
+            x (torch.Tensor): A batch of input embeddings.
+
+        Returns:
+            torch.Tensor: Output logits.
+        """
         # x will be a batch of USEm vectors
         logits = self.layers(x)
         return logits
 
     def configure_optimizers(self):
+        """
+        Configure the Adam optimizer for the model.
+
+        Returns:
+            torch.optim.Optimizer: The configured optimizer.
+        """
         optimizer = torch.optim.Adam(self.parameters(), lr=self.learning_rate)  # type: ignore
         return optimizer
 
     def __compute_loss(self, batch):
+        """
+        Compute the cross-entropy loss and predictions for a batch.
+
+        Args:
+            batch (Dict[str, torch.Tensor]): A dictionary containing a batch of data.
+                Expected keys are "embedding" and "label".
+
+        Returns:
+            Tuple[torch.Tensor, torch.Tensor, torch.Tensor]: The computed loss,
+                predictions and true labels.
+        """
         x, y = batch["embedding"], batch["label"]
         logits = self(x)
         preds = torch.argmax(logits, dim=1).detach().cpu().numpy()
