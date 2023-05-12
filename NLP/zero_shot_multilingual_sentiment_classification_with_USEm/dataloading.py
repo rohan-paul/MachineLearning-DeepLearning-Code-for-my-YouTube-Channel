@@ -18,13 +18,42 @@ encoder = hub.load(model_URL)
 
 
 def embed_text(text: List[str]) -> List[np.ndarray]:
+    """
+    Embeds a list of text strings using a pre-defined 'encoder' and converts them into numpy arrays.
+
+    Args:
+        text (List[str]): List of text strings to be embedded.
+
+    Returns:
+        List[np.ndarray]: List of numpy arrays representing the embedded texts.
+    """
     vectors = encoder(text)
     return [vector.numpy() for vector in vectors]
 ''' Want the vectors to be numpy arrays, not Tensorflow tensors, b/c they'll be used in PyTorch. '''
 
 
 def encoder_factory(label2int: Dict[str, int]):
+    """
+    Creates a function to encode a batch of data.
+
+    Args:
+        label2int (Dict[str, int]): A dictionary that maps class labels to integers.
+
+    Returns:
+        Function: A function that takes a batch of data and returns the batch with
+                  text data embedded and labels encoded to integers.
+    """
     def encode(batch):
+        """
+        Encode a batch of data.
+
+        Args:
+            batch (Dict[str, Union[List[str], List[int]]]): A dictionary containing a batch of data.
+                Expected keys are "text" and "label".
+
+        Returns:
+            Dict[str, Union[List[np.ndarray], List[int]]]: The input batch with text data embedded and labels encoded.
+        """
         batch["embedding"] = embed_text(batch["text"])
         batch["label"] = [label2int[str(x)] for x in batch["label"]]
         return batch
