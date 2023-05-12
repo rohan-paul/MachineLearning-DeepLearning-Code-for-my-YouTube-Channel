@@ -13,6 +13,23 @@ from detectron2.utils.visualizer import Visualizer, VisImage
 
 
 def parse_argument() -> argparse.Namespace:
+    """
+    Parses command line arguments for the image processing script.
+    Returns an argparse.Namespace object containing the arguments provided by the user.
+
+    The following command line arguments are expected:
+    --base_model: Specifies the base model to be used for the training. The default model is
+    'COCO-InstanceSegmentation/mask_rcnn_R_101_FPN_3x.yaml'.
+    --images: A list of space-separated image file paths for which processing should be done.
+    The processed images will be saved in the same location as the original image, with '_processed_'
+    appended to the original file name.
+
+    Returns:
+    --------
+    argparse.Namespace
+        An object that holds the values of the parsed command line arguments.
+    """
+    # Instantiate the argument parser
     parser = argparse.ArgumentParser(description="For single image demo on Detectron2")
     parser.add_argument(
         "--base_model",
