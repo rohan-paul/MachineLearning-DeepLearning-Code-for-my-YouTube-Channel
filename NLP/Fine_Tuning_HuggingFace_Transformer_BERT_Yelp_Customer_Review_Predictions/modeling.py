@@ -24,6 +24,13 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 pre_trained_model_ckpt = 'bert-base-uncased'
 
 class SentimentClassifier(nn.Module):
+    """
+    Sentiment classification model based on BERT.
+
+    Args:
+        n_classes (int): Number of classes for sentiment classification.
+
+    """
     def __init__(self, n_classes):
         super(SentimentClassifier, self).__init__()
         self.bert = BertModel.from_pretrained(pre_trained_model_ckpt,return_dict=False)
@@ -31,6 +38,17 @@ class SentimentClassifier(nn.Module):
         self.out = nn.Linear(self.bert.config.hidden_size, n_classes)
 
     def forward(self, input_ids, attention_mask):
+        """
+        Forward pass of the sentiment classifier model.
+
+        Args:
+            input_ids (torch.Tensor): Input tensor of shape (batch_size, sequence_length).
+            attention_mask (torch.Tensor): Attention mask tensor of shape (batch_size, sequence_length).
+
+        Returns:
+            torch.Tensor: Output tensor of shape (batch_size, n_classes).
+
+        """
         _, pooled_output = self.bert(
             input_ids = input_ids,
             attention_mask= attention_mask
