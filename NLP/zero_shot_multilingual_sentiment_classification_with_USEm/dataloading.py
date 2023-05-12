@@ -19,6 +19,7 @@ encoder = hub.load(model_URL)
 
 def embed_text(text: List[str]) -> List[np.ndarray]:
     """
+    Used to generate vector representations of text using an encoder
     Embeds a list of text strings using a pre-defined 'encoder' and converts them into numpy arrays.
 
     Args:
@@ -34,7 +35,7 @@ def embed_text(text: List[str]) -> List[np.ndarray]:
 
 def encoder_factory(label2int: Dict[str, int]):
     """
-    Creates a function to encode a batch of data.
+    creates a custom function to process a batch of data. The returned function, encode, transforms a batch by embedding its text and encoding its labels according to the provided mapping label2int.
 
     Args:
         label2int (Dict[str, int]): A dictionary that maps class labels to integers.
@@ -61,9 +62,18 @@ def encoder_factory(label2int: Dict[str, int]):
     return encode
 
 class YelpDataLoader(pl.LightningDataModule):
+    """
+    YelpDataLoader is a PyTorch Lightning DataModule for the Yelp Polarity Dataset.
+    It loads the dataset, applies preprocessing steps, and creates DataLoaders for training, validation, and test sets.
+    """
     def __init__(self,
                  batch_size: int = 32,
                  num_workers: int = 2):
+        """
+        Args:
+            batch_size (int, optional): Size of the mini-batches. Defaults to 32.
+            num_workers (int, optional): How many subprocesses to use for data loading. 0 means that the data will be loaded in the main process. Defaults to 2.
+        """
         super().__init__()
         self.batch_size = batch_size
         self.num_workers = num_workers
@@ -84,6 +94,11 @@ class YelpDataLoader(pl.LightningDataModule):
         self.encoder = encoder_factory(label2int)
 
     def setup(self):
+        """
+        This method is called on every GPU when using DDP (Distributed Data Parallelism) and it's the right place to define
+        transformations and dataset splits.
+        Here, it applies the encoder to the train, validation and test datasets and sets the dataset format to PyTorch.
+        """
         # Compute embeddings in batches, so that they fit in the GPU's RAM.
         self.train = self.train_ds.map(self.encoder, batched=True, batch_size=self.batch_size)
         self.train.set_format(type="torch", columns=["embedding", "label"],                     # type: ignore
@@ -98,6 +113,11 @@ class YelpDataLoader(pl.LightningDataModule):
                              output_all_columns=True)
 
     def train_dataloader(self):
+        """
+        DataLoader for the training set.
+        Returns:
+            DataLoader: DataLoader for the training set.
+        """
         return DataLoader(self.train,                                                           # type: ignore
                           batch_size=self.batch_size,
                           num_workers=self.num_workers,
@@ -105,6 +125,11 @@ class YelpDataLoader(pl.LightningDataModule):
                           shuffle=True)
 
     def val_dataloader(self):
+        """
+        DataLoader for the validation set.
+        Returns:
+            DataLoader: DataLoader for the validation set.
+        """
         return DataLoader(self.val,
                           batch_size=self.batch_size,
                           num_workers=self.num_workers,
