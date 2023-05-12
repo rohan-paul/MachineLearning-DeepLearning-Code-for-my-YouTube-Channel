@@ -130,6 +130,15 @@ def iou(y_true, y_pred, smooth=100):
     iou = (intersection + smooth) / (sum - intersection + smooth)
     return iou
 
+""" Why intersection = K.sum(y_true * y_pred) in above
+
+This is done by performing an element-wise multiplication between the true values (y_true) and the predicted values (y_pred). In the context of binary masks, this operation essentially counts the number of pixels where both the true and predicted masks are 1 (indicating a positive class).
+
+This is because in a binary mask, a pixel value of 1 denotes the presence of the object of interest (in a segmentation task, for instance), and a pixel value of 0 denotes the background or absence of the object. Thus, when both y_true and y_pred are 1, it means that both the ground truth and the prediction agree that there is an object at that particular pixel location.
+
+The K.sum() operation then sums up all these overlapping '1's to give a single number representing the total intersection, or overlap, between the true and predicted values.
+"""
+
 
 def jaccard_distance(y_true, y_pred):
     y_true_flatten = K.flatten(y_true)
