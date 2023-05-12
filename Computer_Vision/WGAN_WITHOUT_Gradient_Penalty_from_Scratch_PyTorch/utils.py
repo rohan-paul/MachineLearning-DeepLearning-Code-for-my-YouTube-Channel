@@ -39,20 +39,6 @@ def to_img(x):
 ########################################################
 # Methods for Image Visualization
 ########################################################
-def visualise_output(images, x, y):
-    with torch.no_grad():
-        images = images.cpu()
-        images = to_img(images)
-        np_imagegrid = make_grid(images, x, y).numpy()
-        figure(figsize=(20, 20))
-        plt.imshow(np.transpose(np_imagegrid, (1, 2, 0)))
-        plt.show()
-
-
-import torch
-import numpy as np
-import matplotlib.pyplot as plt
-from torchvision.utils import make_grid
 
 def visualise_output(images, x, y):
     """
