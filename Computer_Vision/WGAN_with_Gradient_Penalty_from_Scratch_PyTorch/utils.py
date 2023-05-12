@@ -102,11 +102,33 @@ def make_grad_hook():
 
 
 def weights_init(m):
+    """
+    Initialize the weights and biases of the Conv2d, ConvTranspose2d, and BatchNorm2d layers of a model.
+
+    If the passed module 'm' is an instance of Conv2d or ConvTranspose2d, the function initializes the weights of the
+    module with a normal distribution with mean 0.0 and standard deviation 0.02.
+
+    If the module 'm' is an instance of BatchNorm2d, the function initializes the weights of the module with a normal
+    distribution with mean 0.0 and standard deviation 0.02, and the biases of the module with a constant value of 0.
+
+    Args:
+        m (nn.Module): The module to be initialized.
+
+    Returns:
+        None. The function operates in-place on 'm'.
+    """
+    # Check if the module 'm' is an instance of Conv2d or ConvTranspose2d
     if isinstance(m, nn.Conv2d) or isinstance(m, nn.ConvTranspose2d):
+        # Initialize the weights with a normal distribution with mean 0.0 and standard deviation 0.02
         torch.nn.init.normal_(m.weight, 0.0, 0.02)
+
+    # Check if the module 'm' is an instance of BatchNorm2d
     if isinstance(m, nn.BatchNorm2d):
+        # Initialize the weights with a normal distribution with mean 0.0 and standard deviation 0.02
         torch.nn.init.normal_(m.weight, 0.0, 0.02)
+        # Initialize the biases with a constant value of 0
         torch.nn.init.constant_(m.bias, 0)
+
 
 
 def get_noise(n_samples, z_dim, device="cpu"):
