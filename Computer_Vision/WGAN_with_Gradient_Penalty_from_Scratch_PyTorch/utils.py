@@ -61,17 +61,44 @@ We also need to detach a tensor when we need to move the tensor from GPU to CPU.
 
 """
 
-
+""" The make_grad_hook function creates and returns a hook function grad_hook that will append the gradient of the weights of any nn.Conv2d or nn.ConvTranspose2d layer it is applied to a list gradients_list. This can be used to keep track of the gradients of these layers during the training of a model. """
 def make_grad_hook():
+    """
+    Constructs a gradient hook for Conv2d and ConvTranspose2d layers in a model.
+
+    The hook function 'grad_hook' checks if the passed module 'm' is an instance of nn.Conv2d or nn.ConvTranspose2d.
+    If it is, the function appends the gradient of the module's weights to the 'gradients_list' list.
+
+    The function 'make_grad_hook' returns this list along with the hook function.
+
+    Returns:
+        gradients_list (list): A list to store the gradients of the weights of the Conv2d and ConvTranspose2d layers.
+        grad_hook (function): A function that, when called with a module as an argument, checks if the module is an
+                              instance of Conv2d or ConvTranspose2d and, if so, appends the gradient of the module's
+                              weights to 'gradients_list'.
+    """
+
+    # List to store the gradients
     gradients_list = []
 
     def grad_hook(m):
-        """isinstance(object, type)
-        The isinstance() function returns True if the specified object is of the specified type, otherwise False."""
+        """
+        The hook function that is applied on each module 'm'. If the module is an instance of Conv2d or
+        ConvTranspose2d, the function appends the gradient of the module's weights to the 'gradients_list' list.
+
+        Args:
+            m (nn.Module): The module on which the hook function is applied.
+
+        Returns:
+            None. The function operates in-place on 'gradients_list'.
+        """
+        # Check if the module 'm' is an instance of Conv2d or ConvTranspose2d
         if isinstance(m, nn.Conv2d) or isinstance(m, nn.ConvTranspose2d):
+            # If it is, append the gradient of the module's weights to 'gradients_list'
             gradients_list.append(m.weight.grad)
 
     return gradients_list, grad_hook
+
 
 
 def weights_init(m):
