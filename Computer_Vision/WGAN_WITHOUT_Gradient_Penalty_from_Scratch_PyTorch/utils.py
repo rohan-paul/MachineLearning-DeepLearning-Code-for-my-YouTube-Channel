@@ -8,14 +8,27 @@ from tqdm import tqdm
 
 plt.ion()
 
-
 def weights_init_normal(m):
+    """
+    Function to initialize the weights of the neural network layers with normal distribution.
+
+    Parameters:
+    - m (torch.nn.Module): The module to initialize the weights for.
+
+    Returns:
+    None
+    """
     classname = m.__class__.__name__
+
+    # Initialize Convolutional layer weights with normal distribution (mean=0, std=0.02)
     if classname.find("Conv") != -1:
         torch.nn.init.normal_(m.weight.data, 0.0, 0.02)
+
+    # Initialize Batch Normalization layer weights with normal distribution (mean=1, std=0.02)
     elif classname.find("BatchNorm2d") != -1:
         torch.nn.init.normal_(m.weight.data, 1.0, 0.02)
         torch.nn.init.constant_(m.bias.data, 0.0)
+
 
 
 def to_img(x):
