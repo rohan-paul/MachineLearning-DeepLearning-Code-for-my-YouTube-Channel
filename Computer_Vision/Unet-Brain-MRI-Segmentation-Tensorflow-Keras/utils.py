@@ -132,15 +132,49 @@ def iou(y_true, y_pred, smooth=100):
 
 """ Why intersection = K.sum(y_true * y_pred) in above
 
+The line intersection = K.sum(y_true * y_pred) is calculating the intersection of two sets, where the sets are represented as binary masks (for a segmentation problem). The intersection is basically the overlapping region of the two sets.
+
 This is done by performing an element-wise multiplication between the true values (y_true) and the predicted values (y_pred). In the context of binary masks, this operation essentially counts the number of pixels where both the true and predicted masks are 1 (indicating a positive class).
 
 This is because in a binary mask, a pixel value of 1 denotes the presence of the object of interest (in a segmentation task, for instance), and a pixel value of 0 denotes the background or absence of the object. Thus, when both y_true and y_pred are 1, it means that both the ground truth and the prediction agree that there is an object at that particular pixel location.
+
+In the context of binary masks for a segmentation problem, the masks represent the region of interest in an image, where '1' denotes the presence of an object (or class) and '0' denotes the absence of that object (or background).
+
+When we multiply these masks element-wise (y_true * y_pred), we are looking for places where both masks agree that there is an object of interest. If both y_true and y_pred are 1 at a given pixel, then the product is 1, indicating an intersection at that pixel. If either of them is 0 at a given pixel, then the product is 0, indicating no intersection.
+
+By summing up all these products (K.sum(y_true * y_pred)), we are effectively counting the number of pixels where both the ground truth (y_true) and the prediction (y_pred) agree that there is an object of interest. This is the intersection of the ground truth and prediction.
+
 
 The K.sum() operation then sums up all these overlapping '1's to give a single number representing the total intersection, or overlap, between the true and predicted values.
 """
 
 
 def jaccard_distance(y_true, y_pred):
+    """
+    Function to compute the Jaccard distance between the true labels and the predicted labels.
+
+    The Jaccard distance, which is a measure of dissimilarity between sets, is computed as one minus
+    the intersection over union (IoU) of the sets. A lower Jaccard distance between the predicted labels
+    and the true labels indicates a better model fit.
+
+    Parameters:
+    y_true (np.array): The ground truth label array (binary mask).
+    y_pred (np.array): The predicted label array (binary mask).
+
+    Returns:
+    float: The Jaccard distance between the ground truth labels and the predicted labels.
+    """
+
     y_true_flatten = K.flatten(y_true)
     y_pred_flatten = K.flatten(y_pred)
     return -iou(y_true_flatten, y_pred_flatten)
+
+""" Why flatten in jaccard_distance
+
+In the context of image segmentation tasks, the ground truth y_true and the predicted output y_pred are typically 2D arrays (for grayscale images) or 3D arrays (for color images). Each element in these arrays corresponds to a pixel in the image, and the value of the element indicates the class or label of that pixel.
+
+However, when calculating metrics such as the Jaccard distance or intersection over union (IoU), we're typically interested in comparing the sets of pixels that belong to each class, without considering their spatial arrangement in the image. Therefore, it's common to flatten the arrays to 1D before performing these calculations.
+
+Flattening the arrays essentially transforms them into long lists of pixel values, disregarding the original spatial structure of the image. This allows us to treat the problem as a simple set comparison, where we're only interested in whether each pixel belongs to each class, not where the pixel is located in the image.
+
+To summarize, flattening the arrays in this context simplifies the calculation of set-based metrics and focuses the evaluation on the pixel-wise accuracy of the segmentation, rather than the spatial accuracy. """
