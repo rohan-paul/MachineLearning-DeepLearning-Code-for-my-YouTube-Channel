@@ -138,11 +138,23 @@ print("Success!")
 # Gradient Penalty Calculation - Calculate the Penalty on The Norm of Gradient
 ###############################################################################
 def gradient_penalty_l2_norm(gradient):
+    """
+    Calculate the L2 norm of the gradient for enforcing the 1-Lipschitz constraint in Wasserstein GAN with Gradient Penalty (WGAN-GP).
 
+    The gradient penalty is calculated as the mean square error of the gradient norms from 1. The gradient penalty encourages the gradients of the critic to be unit norm, which is a key property of 1-Lipschitz functions.
+
+    Args:
+    gradient (torch.Tensor): The gradients of the critic's scores with respect to the interpolated images.
+
+    Returns:
+    torch.Tensor: The gradient penalty.
+    """
+    # Reshape each image in the batch into a 1D tensor (flatten the images)
     gradient = gradient.view(len(gradient), -1)
 
     gradient_norm = gradient.norm(2, dim=1)
 
+    # Calculate the penalty as the mean squared distance of the norms from 1.
     penalty = torch.mean((gradient_norm - 1) ** 2)
 
     return penalty
