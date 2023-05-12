@@ -370,6 +370,16 @@ class LSTMModel(nn.Module):
         logit_dim=256,
         num_classes=1,
     ):
+        """
+        Initialize the LSTMModel.
+
+        Args:
+            input_dim (int): The input dimension.
+            lstm_dim (int): The dimension of the LSTM hidden states.
+            dense_dim (int): The dimension of the dense layers.
+            logit_dim (int): The dimension of the logit layers.
+            num_classes (int): The number of output classes.
+        """
         super().__init__()
 
         self.mlp = nn.Sequential(
@@ -388,6 +398,15 @@ class LSTMModel(nn.Module):
         )
 
     def forward(self, x):
+        """
+        Forward pass of the LSTMModel.
+
+        Args:
+            x (torch.Tensor): The input tensor.
+
+        Returns:
+            torch.Tensor: The predicted output tensor.
+        """
         features = self.mlp(x)
         features, _ = self.lstm(features)
         pred = self.logits(features)
