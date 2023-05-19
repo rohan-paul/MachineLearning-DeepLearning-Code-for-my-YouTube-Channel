@@ -59,6 +59,19 @@ def mean_iou(predicted_label, label, eps=1e-10, num_classes=10):
 # Second Alternative Mean IoU Calculations
 ############################################
 def meanIoU(target, predicted):
+    """
+    Calculates the mean Intersection over Union (IoU) between target and predicted tensors.
+
+    The mean IoU is a commonly used evaluation metric for semantic segmentation tasks.
+    It measures the average overlap between the predicted and target tensors.
+
+    Args:
+        target (Tensor): Target tensor containing true labels or ground truth values.
+        predicted (Tensor): Predicted tensor containing predicted labels.
+
+    Returns:
+        float: Mean IoU value.
+    """
     if target.shape != predicted.shape:
         print(
             "target has dimension",
