@@ -281,6 +281,19 @@ def iou_coef(y_true, y_pred, smooth):
 
 
 def bce_dice_loss(y_true, y_pred):
+    """
+    Calculates the binary cross-entropy (BCE) Dice loss between the true labels and predicted labels.
+
+    The BCE Dice loss is a combination of the binary cross-entropy loss and the Dice loss.
+    It is commonly used in image segmentation tasks to optimize for both accuracy and overlap.
+
+    Args:
+        y_true (array-like): True labels or ground truth values.
+        y_pred (array-like): Predicted labels.
+
+    Returns:
+        float: BCE Dice loss value.
+    """
     return binary_crossentropy(tf.cast(y_true, tf.float32), y_pred) + 0.5 * dice_loss(
         tf.cast(y_true, tf.float32), y_pred
     )
