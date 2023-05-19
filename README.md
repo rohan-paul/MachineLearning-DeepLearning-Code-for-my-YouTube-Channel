@@ -275,7 +275,7 @@
 
 # Machine Learning Algo Implementations from Scratch with pure Python
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=_9qyOWSlss4&list=PLxqBkZuBynVRX6QExfPyzRGj5Ap_zmcAJ&index=22&ab_channel=Rohan-Paul-AI) [Lasso Regression from Scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/ML_Algos_From_Scratch/Lasso%20Regression%20from%20Scratch)
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=TO193TEfRRc&list=PLxqBkZuBynVRX6QExfPyzRGj5Ap_zmcAJ&index=23&ab_channel=Rohan-Paul-AI) [Lasso Regression from Scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/ML_Algos_From_Scratch/Lasso%20Regression%20from%20Scratch)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=sXYUhT1SflI&list=PLxqBkZuBynVRX6QExfPyzRGj5Ap_zmcAJ&index=21&ab_channel=Rohan-Paul-AI) [Polynomial Regression From Scratch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/ML_Algos_From_Scratch/Polynomial_Regression_from_scratch.ipynb)
 
