@@ -156,6 +156,19 @@ def df_rearrange_for_3_segmentation_classes(df, subset="train"):
 # For the below rle_encode() method referring
 # https://www.kaggle.com/code/paulorzp/rle-functions-run-lenght-encode-decode/script
 def rle_encode(masked_image):
+    """
+    Encodes a masked image into a run-length encoded (RLE) string.
+
+    This function takes a binary masked image represented as a numpy array and encodes it into a run-length
+    encoded (RLE) string.
+
+    Args:
+        masked_image (numpy.ndarray): Binary masked image.
+
+    Returns:
+        str: Run-length encoded (RLE) string.
+
+    """
     pixel = masked_image.flatten()
 
     pixel = np.concatenate([0], pixel, [0])
