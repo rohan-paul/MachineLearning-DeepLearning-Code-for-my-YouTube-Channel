@@ -236,6 +236,19 @@ def dice_coef(y_true, y_pred, smooth=1):
 
 
 def dice_loss(y_true, y_pred):
+    """
+    Calculates the Dice loss between the true labels and predicted labels.
+
+    The Dice loss measures the similarity between two sets by computing the Dice coefficient.
+    It is commonly used in image segmentation tasks.
+
+    Args:
+        y_true (array-like): True labels or ground truth values.
+        y_pred (array-like): Predicted labels.
+
+    Returns:
+        float: Dice loss value.
+    """
     smooth = 1
     y_true_flattened = y_true.flatten()
     y_pred_flattened = y_pred.flatten()
