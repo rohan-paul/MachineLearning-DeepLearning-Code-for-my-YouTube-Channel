@@ -110,6 +110,19 @@ from sklearn.metrics import confusion_matrix
 
 
 def mean_iou(y_pred, y_true):
+    """
+    Calculates the mean Intersection over Union (IoU) between predicted labels and true labels.
+
+    The mean IoU is a common evaluation metric for semantic segmentation tasks.
+    It measures the average overlap between the predicted and true labels.
+
+    Args:
+        y_pred (array-like): Predicted labels.
+        y_true (array-like): True labels or ground truth values.
+
+    Returns:
+        float: Mean IoU value.
+    """
     y_pred = y_pred.flatten()
     y_true = y_true.flatten()
 
