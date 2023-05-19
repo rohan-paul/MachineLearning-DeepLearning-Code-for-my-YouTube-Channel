@@ -212,6 +212,22 @@ def rle_decode(mask_rle, shape, color=1):
 
 
 def dice_coef(y_true, y_pred, smooth=1):
+    """
+    Calculates the Dice coefficient between two tensors.
+
+    This function calculates the Dice coefficient, a commonly used metric for evaluating the similarity between
+    two binary tensors or masks. The Dice coefficient is defined as the ratio of twice the intersection of the
+    tensors to the sum of their sizes.
+
+    Args:
+        y_true (tensor): True binary tensor.
+        y_pred (tensor): Predicted binary tensor.
+        smooth (float, optional): Smoothing factor. Defaults to 1.
+
+    Returns:
+        float: Dice coefficient between the two tensors.
+
+    """
     y_true_flattened = K.flatten(y_true)
     y_pred_flatten = K.flatten(y_pred)
     intersection = K.sum(y_true_flattened * y_pred_flatten)
