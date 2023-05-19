@@ -38,7 +38,7 @@
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=gSla-OiUjVo&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=35&ab_channel=Rohan-Paul-AI) [FB Prophet - Analyze How Holidays affect a Time Series Forecast | Time Series with Machine Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Time-Series/FB%20Prophet-Analyze-Holidays)
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=K_9G29R01kw&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=34&ab_channel=Rohan-Paul-AI) [XGBoost for TIme Series | Forecast Energy Consumption with Machine-Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Time-Series/XGBoost_for_TIme_Series_Dataset_Demand_Forecasting)
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=K_9G29R01kw&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=34&ab_channel=Rohan-Paul-AI) [XGBoost for Time Series | Forecast Consumption Demand with Machine-Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Time-Series/XGBoost_for_TIme_Series_Dataset_Demand_Forecasting)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=0gXeXtL_KjY&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=16) [Bitcoin Prediction - FB-Prophet outperforms ARIMAX, XGBOOST & LSTM](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_FBPROPHET_outperform_ARIMAX_XGBOOST_LSTM.ipynb)
 
