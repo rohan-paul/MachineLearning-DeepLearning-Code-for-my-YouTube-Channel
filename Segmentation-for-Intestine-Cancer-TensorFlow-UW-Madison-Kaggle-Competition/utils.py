@@ -260,6 +260,20 @@ def dice_loss(y_true, y_pred):
 
 
 def iou_coef(y_true, y_pred, smooth):
+    """
+    Calculates the Intersection over Union (IoU) coefficient between the true labels and predicted labels.
+
+    The IoU coefficient is a common evaluation metric for image segmentation tasks.
+    It measures the overlap between two sets by computing the ratio of the intersection to the union of the sets.
+
+    Args:
+        y_true (array-like): True labels or ground truth values.
+        y_pred (array-like): Predicted labels.
+        smooth (float, optional): Smoothing parameter to avoid division by zero. Default is 1.
+
+    Returns:
+        float: IoU coefficient value.
+    """
     intersection = K.sum(K.abs(y_true, *y_pred), axis=[1, 2, 3])
     union = K.sum(y_true, [1, 2, 3] + K.sum(y_pred, [1, 2, 3])) - intersection
     iou = K.mean((intersection) + smooth / (union + smooth), axis=0)
