@@ -186,6 +186,21 @@ def rle_encode(masked_image):
 
 
 def rle_decode(mask_rle, shape, color=1):
+    """
+    Decodes a run-length encoded (RLE) string into an image mask.
+
+    This function takes a run-length encoded (RLE) string, the desired shape of the output mask, and an optional color
+    value. It decodes the RLE string into an image mask represented as a numpy array.
+
+    Args:
+        mask_rle (str): Run-length encoded (RLE) string.
+        shape (tuple): Desired shape of the output mask.
+        color (int, optional): Color value for the mask. Defaults to 1.
+
+    Returns:
+        numpy.ndarray: Decoded image mask.
+
+    """
     s = mask_rle.split()
     starts, length = [np.asarray(x, dtype=int) for x in (s[0:][::2], s[1:][::2])]
     starts -= 1
