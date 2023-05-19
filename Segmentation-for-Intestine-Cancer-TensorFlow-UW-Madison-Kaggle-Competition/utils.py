@@ -115,6 +115,20 @@ In train.csv, for each id, we have 3 associated row representing the segmentatio
 
 
 def df_rearrange_for_3_segmentation_classes(df, subset="train"):
+    """
+    Rearranges a DataFrame for three segmentation classes.
+
+    This function takes a DataFrame `df` and rearranges it to have three segmentation classes: 'large_bowel',
+    'small_bowel', and 'stomach'. The rearrangement is done based on the 'subset' parameter.
+
+    Args:
+        df (pandas.DataFrame): The input DataFrame.
+        subset (str, optional): The subset to rearrange. Defaults to 'train'.
+
+    Returns:
+        pandas.DataFrame: The rearranged DataFrame.
+
+    """
     df_restructured = pd.DataFrame({"id": df["id"][::3]})
 
     if subset == "train":
