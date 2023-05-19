@@ -7,6 +7,21 @@ import numpy as np
 # First Alternative Mean IoU Calculations with PyTorch
 ########################################################
 def mean_iou(predicted_label, label, eps=1e-10, num_classes=10):
+    """
+    Calculates the mean Intersection over Union (IoU) for multiple classes between predicted labels and true labels.
+
+    The mean IoU is a common evaluation metric for semantic segmentation tasks.
+    It measures the average overlap between the predicted and true labels for each class.
+
+    Args:
+        predicted_label (Tensor): Predicted labels from the model.
+        label (Tensor): True labels or ground truth values.
+        eps (float, optional): Smoothing parameter to avoid division by zero. Default is 1e-10.
+        num_classes (int, optional): Number of classes. Default is 10.
+
+    Returns:
+        float: Mean IoU value.
+    """
     with torch.no_grad():
         predicted_label = F.softmax(predicted_label, dim=1)
         predicted_label = torch.argmax(predicted_label, dim=1)
