@@ -58,6 +58,8 @@
 
 <br>
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=-rqmj_tfQLo&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=34&ab_channel=Rohan-Paul-AI) [DeBERTa Fine Tuning for Amazon Review Dataset Pytorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/DeBERTa%20Fine%20Tuning-for%20Amazon%20Review%20Dataset%20Pytorch.ipynb)
+
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=4nNbg4bWDrQ&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=32&ab_channel=Rohan-Paul-AI) [FineTuning BERT for Multi-Class Classification on custom Dataset](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/NLP/FineTuning_BERT_for_Multi_Class_Classification_Turkish)
 
