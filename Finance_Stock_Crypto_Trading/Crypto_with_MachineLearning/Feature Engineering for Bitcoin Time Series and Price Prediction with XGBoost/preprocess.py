@@ -151,7 +151,6 @@ def impute_missing_data(btc_df: pd.DataFrame) -> pd.DataFrame:
 
 ## In above method why the 60 is added with btc_df.index[-1]
 
-
 The reason why 60 is added to btc_df.index[-1] is because the reindex method is being used to create a new index for the dataframe with a minute-by-minute frequency.
 
 In the range function, the start parameter is set to btc_df.index[0], which is the first timestamp in the original index. The end parameter is set to btc_df.index[-1]+60, which is the last timestamp in the original index plus 60 seconds. This creates a new index that starts from the first timestamp in the original index and ends at the last timestamp plus 60 seconds, with a step of 1 minute (i.e., 60 seconds).
