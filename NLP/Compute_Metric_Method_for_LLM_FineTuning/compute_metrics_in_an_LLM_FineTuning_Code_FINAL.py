@@ -25,7 +25,6 @@ def compute_metrics(eval_preds):
 
     if isinstance(preds, tuple):
         preds = preds[0]
-#########################
     for idx in range(len(preds)):
         for idx2 in range(len(preds[idx])):
             if preds[idx][idx2]==-100:
@@ -35,6 +34,7 @@ def compute_metrics(eval_preds):
 
     # Replace -100 in the labels as we can't decode them.
     labels = np.where(labels != pad_tok, labels, tokenizer.pad_token_id)
+
     decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
 
     # Some simple post-processing
