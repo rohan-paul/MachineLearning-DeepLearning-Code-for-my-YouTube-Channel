@@ -26,7 +26,7 @@ from os import listdir
 from utils import *
 from datagen import *
 
-device = torch.device("cuda" if torch.cuda.is_available else "cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 def get_lr(optimizer):
