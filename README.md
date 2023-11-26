@@ -20,43 +20,17 @@
 
 [logo]: https://raw.githubusercontent.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-Youtube-Channel/master/assets/yt_logo.png
 
-<br>
-
-<div style="background: linear-gradient(45deg, #FFC300, #FF5733, #C70039, #900C3F); padding: 10px; border-radius: 5px; display: flex; align-items: center;">
-    <h1 style="font-weight: bold; color: white; margin: 0 auto;"> Finance and Trading with Machine Learning and Deep Learning</h1>
-</div>
 
 <br>
 
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=G7jYn3dlYKw&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=42&ab_channel=Rohan-Paul-AI) [Feature-Engineering-with-Stock-Exchange-Dataset | and LGBM Model to get Most Important Features Set](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Feature-Engineering-with-Stock-Exchange-Dataset-LGBM_Kaggle_Tokeyo-SE.ipynb)
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=B7XgA0OmQl8&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=39&ab_channel=Rohan-Paul-AI) [LGBM (LightGBM) Model on TimeSeries Data of Cryptocurrency Prices | Crypto with Machine Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Crypto_with_MachineLearning/LGBM%20on%20TimeSeries%20Data%20of%20Cryptocurrency%20Prices.ipynb)
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=mUYXhzVrDF8&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=38&ab_channel=Rohan-Paul-AI) [Feature Engineering for Bitcoin Time Series | Prediction with XGBoost](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/5f61de96dd9e06b8a022d852137891b4de59d585/Finance_Stock_Crypto_Trading/Crypto_with_MachineLearning/Feature%20Engineering%20for%20Bitcoin%20Time%20Series%20and%20Price%20Prediction%20with%20XGBoost)
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=da5GNkAZO54&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=37&ab_channel=Rohan-Paul-AI) [Bitcoin Price Prediction with FB Prophet | Time Series with Machine Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin%20Price%20Prediction%20with%20FB%20Prophet.ipynb#enroll-beta)
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=gSla-OiUjVo&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=35&ab_channel=Rohan-Paul-AI) [FB Prophet - Analyze How Holidays affect a Time Series Forecast | Time Series with Machine Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Time-Series/FB%20Prophet-Analyze-Holidays)
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=K_9G29R01kw&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=34&ab_channel=Rohan-Paul-AI) [XGBoost for Time Series | Forecast Consumption Demand with Machine-Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Time-Series/XGBoost_for_TIme_Series_Dataset_Demand_Forecasting)
-
-- [![Youtube Link][logo]](https://www.youtube.com/watch?v=0gXeXtL_KjY&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=16) [Bitcoin Prediction - FB-Prophet outperforms ARIMAX, XGBOOST & LSTM](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_FBPROPHET_outperform_ARIMAX_XGBOOST_LSTM.ipynb)
-
-- [![Youtube Link][logo]](https://youtu.be/r2Ee1HGs41I) **28.** [Bitcoin Price Prediction with LSTM (Tensorflow and Keras)- PART-2](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
-
-- [![Youtube Link][logo]](https://youtu.be/blOLAVz9UhQ) **25.** [Bitcoin Price Prediction with LSTM (Tensorflow and Keras)- PART-1](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
-
-- [![Youtube Link][logo]](https://bit.ly/3mwv2kJ) **24.** [Get BitCoin and other Cryptocurrency Historic Data For Free with Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Historic_Crypto.ipynb)
-
-- [![Youtube Link][logo]](https://youtu.be/_3rIOGR-jh0?list=PLxqBkZuBynVR0Tw4dRwhpBcVBwePdLv8y) **23** [Extract Stock Market Data with yfinance for free and Tesla Stock Prediction](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/yfinance_stock_data_pulling_TESLA_and_price_prediction_with_Time_Series.ipynb)
-
-<br>
 
 <div style="background: linear-gradient(45deg, #FFC300, #FF5733, #C70039, #900C3F); padding: 10px; border-radius: 5px; display: flex; align-items: center;">
     <h1 style="font-weight: bold; color: white; margin: 0 auto;"> Natural Language Processing | NLP</h1>
 </div>
 
 <br>
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=J0RbOtLrJhQ&list=PLxqBkZuBynVTzqUQCQFgetR97y1X_1uCI&index=10&ab_channel=Rohan-Paul-AI) [Fine Tuning Phi 1_5 with PEFT and QLoRA](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/LLMs/FineTuning_phi-1_5_with_PRFT_LoRA.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=-rqmj_tfQLo&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=34&ab_channel=Rohan-Paul-AI) [DeBERTa Fine Tuning for Amazon Review Dataset Pytorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/DeBERTa%20Fine%20Tuning-for%20Amazon%20Review%20Dataset%20Pytorch.ipynb)
 
@@ -130,6 +104,40 @@
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=DpzQNQI-S3s&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=3) [Text Analytics of Tweet Emotion - EDA with Plotly](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/Text%20Analytics%20of%20Tweet%20Emotion%20-%20EDA%20with%20Plotly.ipynb)
 
 - [![Youtube Link][logo]](https://bit.ly/3Nk0zRA) [Sentiment analysis using TextBlob and Vader](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/sentiment_analysis_textblob_Vader.ipynb)
+
+
+<br>
+
+<div style="background: linear-gradient(45deg, #FFC300, #FF5733, #C70039, #900C3F); padding: 10px; border-radius: 5px; display: flex; align-items: center;">
+    <h1 style="font-weight: bold; color: white; margin: 0 auto;"> Finance and Trading with Machine Learning and Deep Learning</h1>
+</div>
+
+<br>
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=G7jYn3dlYKw&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=42&ab_channel=Rohan-Paul-AI) [Feature-Engineering-with-Stock-Exchange-Dataset | and LGBM Model to get Most Important Features Set](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Feature-Engineering-with-Stock-Exchange-Dataset-LGBM_Kaggle_Tokeyo-SE.ipynb)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=B7XgA0OmQl8&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=39&ab_channel=Rohan-Paul-AI) [LGBM (LightGBM) Model on TimeSeries Data of Cryptocurrency Prices | Crypto with Machine Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Crypto_with_MachineLearning/LGBM%20on%20TimeSeries%20Data%20of%20Cryptocurrency%20Prices.ipynb)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=mUYXhzVrDF8&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=38&ab_channel=Rohan-Paul-AI) [Feature Engineering for Bitcoin Time Series | Prediction with XGBoost](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/5f61de96dd9e06b8a022d852137891b4de59d585/Finance_Stock_Crypto_Trading/Crypto_with_MachineLearning/Feature%20Engineering%20for%20Bitcoin%20Time%20Series%20and%20Price%20Prediction%20with%20XGBoost)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=da5GNkAZO54&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=37&ab_channel=Rohan-Paul-AI) [Bitcoin Price Prediction with FB Prophet | Time Series with Machine Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin%20Price%20Prediction%20with%20FB%20Prophet.ipynb#enroll-beta)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=gSla-OiUjVo&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=35&ab_channel=Rohan-Paul-AI) [FB Prophet - Analyze How Holidays affect a Time Series Forecast | Time Series with Machine Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Time-Series/FB%20Prophet-Analyze-Holidays)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=K_9G29R01kw&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=34&ab_channel=Rohan-Paul-AI) [XGBoost for Time Series | Forecast Consumption Demand with Machine-Learning](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Time-Series/XGBoost_for_TIme_Series_Dataset_Demand_Forecasting)
+
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=0gXeXtL_KjY&list=PLxqBkZuBynVS8mDTc8ZGermXiS-32pR2y&index=16) [Bitcoin Prediction - FB-Prophet outperforms ARIMAX, XGBOOST & LSTM](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_FBPROPHET_outperform_ARIMAX_XGBOOST_LSTM.ipynb)
+
+- [![Youtube Link][logo]](https://youtu.be/r2Ee1HGs41I) **28.** [Bitcoin Price Prediction with LSTM (Tensorflow and Keras)- PART-2](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
+
+- [![Youtube Link][logo]](https://youtu.be/blOLAVz9UhQ) **25.** [Bitcoin Price Prediction with LSTM (Tensorflow and Keras)- PART-1](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Bitcoin_Price_Prediction_with_LSTM.ipynb)
+
+- [![Youtube Link][logo]](https://bit.ly/3mwv2kJ) **24.** [Get BitCoin and other Cryptocurrency Historic Data For Free with Python](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/Historic_Crypto.ipynb)
+
+- [![Youtube Link][logo]](https://youtu.be/_3rIOGR-jh0?list=PLxqBkZuBynVR0Tw4dRwhpBcVBwePdLv8y) **23** [Extract Stock Market Data with yfinance for free and Tesla Stock Prediction](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/Finance_Stock_Crypto_Trading/yfinance_stock_data_pulling_TESLA_and_price_prediction_with_Time_Series.ipynb)
+
+<br>
+
 
 # Computer Vision & Deep Learning Algorithms
 
