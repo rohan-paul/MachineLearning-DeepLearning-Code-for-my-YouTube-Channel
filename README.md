@@ -30,6 +30,8 @@
 
 <br>
 
+- [![Youtube Link][logo]](https://www.youtube.com/watch?v=6DGYj1EEWOw&list=PLxqBkZuBynVTzqUQCQFgetR97y1X_1uCI&index=13&ab_channel=Rohan-Paul-AI) [Mistral 7B FineTuning with_PEFT and QLORA](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/LLMs/Mistral_FineTuning_with_PEFT_and_QLORA.ipynb)
+
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=J0RbOtLrJhQ&list=PLxqBkZuBynVTzqUQCQFgetR97y1X_1uCI&index=10&ab_channel=Rohan-Paul-AI) [Fine Tuning Phi 1_5 with PEFT and QLoRA](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/LLMs/FineTuning_phi-1_5_with_PRFT_LoRA.ipynb)
 
 - [![Youtube Link][logo]](https://www.youtube.com/watch?v=-rqmj_tfQLo&list=PLxqBkZuBynVQEvXfJpq3smfuKq3AiNW-N&index=34&ab_channel=Rohan-Paul-AI) [DeBERTa Fine Tuning for Amazon Review Dataset Pytorch](https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/blob/master/NLP/DeBERTa%20Fine%20Tuning-for%20Amazon%20Review%20Dataset%20Pytorch.ipynb)
